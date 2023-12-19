@@ -4,14 +4,26 @@
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./docinfo.ptx" />
 
-  <book xml:id="my-great-book">
-    <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+  <book xml:id="my-taxicab-book">
+    <title>Taxicab Geometry</title>
+    <subtitle>A Maths Enrichment Topic</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include chapters -->
+    <part xml:id="enrichment-modules">
+      <title> Enrichment Modules </title>
+      <xi:include href="/.module-introduction.ptx" />
+      <xi:include href="/.module-conics.ptx" />
+  <!--
+      <xi:include href="ModuleTriangles.ptx" />
+      <xi:include href="ModuleCircles.ptx" />
+      <xi:include href="ModuleTrigonometry.ptx" />
+      <xi:include href="ModuleCalculus.ptx" />
+      <xi:include href="ModuleRandomWalks.ptx" />
+      <xi:include href="ModuleFireSimulation.ptx" /> -->
+  </part>
     <xi:include href="./ch-chapter-title.ptx" />
 
 
