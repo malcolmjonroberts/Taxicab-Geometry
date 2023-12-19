@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="mod-introduction" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introducing Taxicab Geometry</title>
+
+  <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+  <section> <title> Module Outline </title>
+		<p> 
+			<ul>
+				<li> Where does taxicab geometry fit into the overall idea of geometry? </li>
+				<li> What is taxicab geometry? </li>
+				<li> 
+					<p> First explorations in taxicab geometry
+						<ol>
+							<li> The taxicab metric </li>
+							<li> Some shapes defined by distance </li>
+						</ol>
+					</p>
+				</li>
+				<li> A simple application in urban geography </li>
+			</ul>
+		</p>
+
+		<p> Note that the ideas and problems in this module are taken directly
+        from the book by Eugene F. Krause, Taxicab Geometry: An Adventure in Non-Euclidean Geometry
+        (Dover Books on Mathematics) Revised Edition 1986 </p>
+	</section>
+
+</chapter>

@@ -11,11 +11,11 @@
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
-    <!-- Include chapters -->
-    <part xml:id="enrichment-modules">
+    <!-- Include parts and their chapters -->
+    <part xml:id="modules">
       <title> Enrichment Modules </title>
-      <xi:include href="/.module-introduction.ptx" />
-      <xi:include href="/.module-conics.ptx" />
+      <xi:include href="/.mod-introduction.ptx" />
+      <xi:include href="/.mod-conics.ptx" />
   <!--
       <xi:include href="ModuleTriangles.ptx" />
       <xi:include href="ModuleCircles.ptx" />
@@ -24,8 +24,18 @@
       <xi:include href="ModuleRandomWalks.ptx" />
       <xi:include href="ModuleFireSimulation.ptx" /> -->
   </part>
-    <xi:include href="./ch-chapter-title.ptx" />
 
+  <part xml:id="investigations">
+    <title> Investigations </title>
+    <xi:include href="/.investigation-conics.ptx" />
+  <!--
+    <xi:include href="InvestigationTriangles.ptx" />
+    <xi:include href="InvestigationCircles.ptx" />
+    <xi:include href="InvestigationTrigonometry.ptx" />
+    <xi:include href="InvestigationCalculus.ptx" />
+    <xi:include href="InvestigationRandomWalks.ptx" />
+    <xi:include href="InvestigationFireSimulation.ptx" /> -->
+  </part>
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
