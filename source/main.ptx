@@ -27,7 +27,7 @@
 
   <part xml:id="investigations">
     <title> Investigations </title>
-    <xi:include href="/.investigation-conics.ptx" />
+    <xi:include href="/.inv-conics.ptx" />
   <!--
     <xi:include href="InvestigationTriangles.ptx" />
     <xi:include href="InvestigationCircles.ptx" />
