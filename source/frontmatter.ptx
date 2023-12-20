@@ -4,11 +4,10 @@
 <!-- works. -->
 
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
+
   <titlepage>
     <author>
-      <personname>You</personname>
-      <department>Your department</department>
-      <institution>Your institution</institution>
+      <personname>Malcolm Roberts</personname>
     </author>
     <date>
       <today />
@@ -16,17 +15,50 @@
   </titlepage>
 
   <colophon>
-
-    <website>
-      <url href="https://pretextbook.org">My Website</url>
-    </website>
-
     <copyright>
       <year>2020<ndash />2023</year>
       <holder>You</holder>
-      <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
+      <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
+        To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
       </shortlicense>
     </copyright>
   </colophon>
+
+  <preface xml:id="front-preface-1"> <title> To The Reader </title>
+
+    <p> I actually wrote this book just for me <ellipses /> as a way of collecting together and organising the ideas from taxicab geometry that I used over a number of years of being involved with mathematics enrichment programs at the The University of Newcastle, NSW, Australia. As such this book is not aimed at anyone in particular! However, I can imagine that it might be useful for a teacher       thinking about conducting mathematics enrichment activities or for a student wanting to pursue, out of curiosity, some mathematics on their own.
+    </p>
+
+    <p> The mathematics enrichment activities outlined in this book were aimed at senior high school mathematicians but there is much that not so experienced mathematicians can tackle and also plenty to keep those who have progressed further busy as well. </p>
+     
+    <p> I found taxicab geometry to be an excellent topic for a mathematics enrichment series for a number of reasons.
+      <ul>
+        <li>
+          <p> Over many years of running extension activities for high school mathematics students, (and professional development activities for high school mathematics teachers), I noticed that a number of the ideas in the high school mathematics syllabus (at least for NSW, Australia) could be revisited, in an accessible way, from the perspective of taxicab geometry. My hope was that revisiting ideas in the curriculum might make the extension activities a bit more of a direct benefit (in terms or their school mathematics) to those attending while looking at those ideas from a different perspective might also get the participants thinking a little more about the nature of mathematics. 
+          </p>
+        </li>
+        <li>
+          <p> As a topic, taxicab geometry has a "low enough floor" for most students to make progress from the very beginning while also having a "high enough ceiling" that every student will find something that is interesting and challenging.
+          </p>
+        </li>
+        <li>
+          <p> Taxicab geometry seems to naturally encourage students to use many of the 21st century mathematical tools, such as dynamic    geometry and computer algebra systems. I hasten to add that I would include pen and paper, or their digital equivalent, in the   list of 21st century mathematical tools. 
+          </p>
+        </li>
+        <li>
+          <p> Finally, because there doesn't seem to be an extensive amount written about taxicab geometry (beyond basic overviews) that can be easily found on the Internet the topic also steers students toward posing, and then pursuing to some extent, their own questions.
+          </p>
+        </li>
+      </ul> 
+    </p>
+
+</preface>
+
+<preface xml:id="front-preface-2"> <title> The Structure Of The Book </title>
+</preface>
+
+<preface xml:id="front-preface-3"> <title> My Approach To Mathematics Enrichment </title>
+</preface>
+
 </frontmatter>
 
