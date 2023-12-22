@@ -54,10 +54,35 @@
 
 </preface>
 
-<preface xml:id="front-preface-2"> <title> The Structure Of The Book </title>
+<preface xml:id="front-preface-3"> <title> My Approach To Mathematics Enrichment </title>
 </preface>
 
-<preface xml:id="front-preface-3"> <title> My Approach To Mathematics Enrichment </title>
+<preface xml:id="front-preface-2"> <title> The Structure Of The Book </title>
+
+  <p> The book is divided into two parts, Enrichment Modules and Investigations. In the Enrichment Modules part each chapter is meant to correspond to one, (two hour say), mathematics outreach, or even a professional development, session. Each chapter is divided into the following sections.
+    <ul>
+      <li>
+        <p> A Module Outline: A brief overview of the module.
+        </p>
+      </li>
+      <li>
+        <p> Preliminary Ideas: A brief discussion of the mathematical ideas that the module is going to explore. Usually this review will cover the ideas from a Euclidean geometry perspective. The discussion might be a review for some students but it might be an introduction to the ideas for other students. Hopefully, both types of students will still find areas of the module where they can make progress.
+        </p>
+      </li>
+      <li>
+        <p> Investigations: A series of questions is given that would hopefully act as prompts for students to begin to investigate the mathematical ideas from a taxicab geometry perspective.
+        </p>
+      </li>
+      <li>
+        <p> Answers or Hints: These are provided so that students can get some external confirmation of whether what they are doing is legitimate. 
+        </p>
+      </li>
+    </ul> 
+  </p>
+
+  <p> The Investigations part is less structured in that each chapter describes in some detail one (or more) investigation that my students and I completed in those mathematics enrichment classes. Really, I put this part of the book together just for a sense of completion on my part but it will give anyone who bothers to read this book an idea of the scope of the mathematics that could come out of any active engagement with the first part of the book.
+    
+  </p>
 </preface>
 
 </frontmatter>
