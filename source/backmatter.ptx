@@ -8,6 +8,15 @@
 <backmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="backmatter">
   <title>Backmatter</title>
 
+  <appendix>
+    <title> Some GeoGebra Tools </title>
+    <xi:include href="./app-geogebratools.ptx" />
+  </appendix> 
+
+  <index>
+    <title>Index</title>
+    <index-list />
+  </index>
   <!-- <solutions divisional="hint"> <title>Selected Hints</title> </solutions> -->
 
   <!-- <solutions divisional="solution"> <title>Selected Solutions</title> </solutions> -->
@@ -19,5 +28,6 @@
   <colophon>
     <p> This book was authored in <pretext />. </p>
   </colophon>
+
 </backmatter>
 
