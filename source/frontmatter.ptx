@@ -46,7 +46,7 @@
           </p>
         </li>
         <li>
-          <p> Finally, because there doesn't seem to be an extensive amount written about taxicab geometry (beyond basic overviews) that can be easily found on the Internet the topic also steers students toward posing, and then pursuing to some extent, their own questions.
+          <p> Finally, because there didn't seem (at the time at least), to be an extensive amount written about taxicab geometry (beyond basic overviews) that can be easily found on the Internet the topic also steers students toward posing, and then pursuing to some extent, their own questions.
           </p>
         </li>
       </ul> 
@@ -54,15 +54,12 @@
 
 </preface>
 
-<preface xml:id="front-preface-3"> <title> My Approach To Mathematics Enrichment </title>
-</preface>
-
 <preface xml:id="front-preface-2"> <title> The Structure Of The Book </title>
 
   <p> The book is divided into two parts, Enrichment Modules and Investigations. In the Enrichment Modules part each chapter is meant to correspond to one, (two hour say), mathematics outreach, or even a professional development, session. Each chapter is divided into the following sections.
     <ul>
       <li>
-        <p> A Module Outline: A brief overview of the module.
+        <p> Module Outline: A brief overview of the module.
         </p>
       </li>
       <li>
@@ -70,18 +67,25 @@
         </p>
       </li>
       <li>
-        <p> Investigations: A series of questions is given that would hopefully act as prompts for students to begin to investigate the mathematical ideas from a taxicab geometry perspective.
+        <p> Investigations: A series of questions is given that, hopefully, act as prompts for students to begin to investigate the mathematical ideas from a taxicab geometry perspective.
         </p>
       </li>
       <li>
         <p> Answers or Hints: These are provided so that students can get some external confirmation of whether what they are doing is legitimate. 
         </p>
       </li>
+      <p> Sources and Further Reading: These are provided for those students and/or teachers who may be interested.
+      </p>
     </ul> 
   </p>
 
-  <p> The Investigations part is less structured in that each chapter describes in some detail one (or more) investigation that my students and I completed in those mathematics enrichment classes. Really, I put this part of the book together just for a sense of completion on my part but it will give anyone who bothers to read this book an idea of the scope of the mathematics that could come out of any active engagement with the first part of the book.
-    
+  <p> The Investigations part is less structured in that each chapter describes in some detail one (or more) investigation(s) that my students and I worked on in those mathematics enrichment classes. Sometimes the work continued on outside the classes. Really, I put this part of the book together just for a sense of completion on my part but it should give the reader an idea of the scope of the mathematics that could come out of any active engagement with the first part of the book.
+  </p>
+</preface>
+
+<preface xml:id="front-preface-3"> <title> My Approach To Mathematics Enrichment </title>
+
+  <p> What is mathematics enrichment, who is it for, what does it aim to achieve, is it successful and worthwhile? Such questions, I think, are worth thinking about for anyone involved in putting together a mathematics enrichment program. Indeed, there is a growing academic research literature devoted to probing such questions. See for example "references". What this literature shows, I feel, is that these questions, like any questions concerning human activity and motivation, are subtly nuanced, multi-faceted and surprisingly complex. So, in the following paragraphs I will briefly outline the mathematical enrichment sessions that I was involved in and how the structure and operation of those sessions was informed by my views on the above questions. Hopefully this will give some context and insight into to the contents of this book.
   </p>
 </preface>
 
