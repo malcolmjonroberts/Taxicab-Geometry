@@ -13,6 +13,11 @@
     <xi:include href="./app-geogebratools.ptx" />
   </appendix> 
 
+  <appendix>
+    <title> Some Thoughts On Mathematics Enrichment </title>
+    <xi:include href="./app-whymathsenrich.ptx" />
+  </appendix> 
+
   <index>
     <title>Index</title>
     <index-list />
