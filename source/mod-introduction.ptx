@@ -3,11 +3,7 @@
 <chapter xml:id="mod-introduction" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Introducing Taxicab Geometry</title>
 
-  <introduction>
-    <p> Text before the first section. </p>
-  </introduction>
-
-  <section> <title> Module Outline </title>
+    <section> <title> Module Outline </title>
 		<p> 
 			<ul>
 				<li> Where does taxicab geometry fit into the overall idea of geometry? </li>
@@ -28,5 +24,176 @@
         from the book by Eugene F. Krause, Taxicab Geometry: An Adventure in Non-Euclidean Geometry
         (Dover Books on Mathematics) Revised Edition 1986 </p>
 	</section>
+
+	<section> <title> Preliminary Ideas </title>
+	
+		<subsection> <title> Euclidean Geometry </title>
+
+    		<p> In most schools the geometry topics that are taught come from a branch of geometry called Euclidean Geometry. In simple terms, <em> Plane Euclidean Geometry </em> is the study of the properties of figures that can be drawn on piece of paper (i.e. can be drawn in the plane). Lines, triangles, circles and so on are examples of the kind of figures typically investigated in school geometry courses. Here are a couple of examples of the kind of properties of these figures that are considered to be results from Euclidean geometry.
+    		</p>
+
+    		<theorem>
+    			<statement>
+    				<p> The area <m> A </m> of a triangle whose base has length <m> b </m> and whose perpendicular height is <m> h </m>  is
+    				<me> A=\frac{1}{2}bh</me>.
+    				</p>
+    			</statement>
+    		</theorem>
+
+			<theorem xml:id="thm_cpbt">
+    			<statement>
+    				<p> The perpendicular bisector of a chord of a circle passes through the centre of the circle.
+    				</p>
+    			</statement>
+    		</theorem>
+
+    		<p> <xref ref="thm_cpbt" /> is illustrated in <xref ref="fig_cpbt" />. In this figure you can drag points <m> C </m> and <m> D </m> to move the chord of the circle around or you can drag points <m> A </m> and <m> B </m> to change the circle. As you can see, the perpendicular bisector of the chord, <ie /> the line that passes through the mid-point of <m> C </m> and <m> D </m> and is at right angles to the chord <m> CD </m>, always passes through the centre of the circle.
+    		</p>
+
+
+    		<figure xml:id="fig_cpbt">
+    			<caption> </caption>
+    			<interactive geogebra="xphbvmue" width="95%"/>
+    		</figure>
+
+    		<p> It is called Euclidean geometry because of the enormous contribution that the ancient Greek mathematician Euclid of Alexandria (who lived around 300BC) made to this field of study. If you would like to know more about Euclid and his contribution to geometry you could start with the Encyclopedia Britannica article <url href="https://www.britannica.com/biography/Euclid-Greek-mathematician"> Euclid (Greek Mathematician) </url> or the Wikipedia article <url href="https://en.wikipedia.org/wiki/Euclid"> Euclid </url>.
+    		</p>
+    	</subsection>
+
+		<subsection> <title> Geometric figures defined by locus </title>
+
+    		<p> Some geometric figures are readily described as the locus of points that obey some rule.
+    		</p>
+    	</subsection>
+
+		<subsection> <title> Coordinate Geometry </title>
+
+    		<p> The idea of using coordinates (set up by placing a set of coordinate axes on the plane) to study geometric objects can be traced back to the work <url href="https://en.wikipedia.org/wiki/La_G%C3%A9om%C3%A9trie"> La Geometrie </url> by Rene Descartes published in 1637. This way of studying geometry is called <term> coordinate geometry </term>. </p>
+
+    		<p> In this module it would definitely be an advantage if you were already familiar with a some (Euclidean) coordinate geometry in the plane. In particular, given two points <m> P=(x_1,y_1) </m> and <m> Q=(x_2,y_2) </m> could you:
+
+	    		<ul>
+	    			<li> Determine the coordinates of the point half-way between <m> P </m> and <m> Q </m>, <ie /> the mid-point of <m> P </m> and <m> Q </m>? </li>
+	    			<li> Determine the distance between <m> P </m> and <m> Q </m>? </li>
+	    			<li> Find the equation of the line that passes through <m> P </m> and <m> Q </m>? </li>
+	    			<li> Find the equation of the circle with centre <m> P </m> and passing through <m> Q </m> ? </li>
+	    		</ul>
+    		</p>
+
+    		<example> <title> Some Coordinate Geometry </title>
+
+    			<statement>
+    				<p> Consider the points <m> P=(1,1) </m> and <m> Q=(6,4) </m>. For these points find:
+    					<ol>
+    						<li> The mid-point of <m> P </m> and <m> Q </m>. </li>
+    						<li> The distance between <m> P </m> and <m> Q </m>. </li>
+    						<li> The equation of the line that passes through <m> P </m> and <m> Q </m>. </li>
+    						<li> The equation of the circle with centre <m> P </m> and passing through <m> Q </m>. </li>
+    					</ol>
+    				</p>
+    			</statement>
+
+    			<solution>
+    				<p> There are many ways in which we could go about finding the results asked for. One way might be to use the formulas that are listed at the end of this section. The methods outlined below, however, are ones that try to give some small insight into where those general formulas might come from. </p>
+
+    				<p> <xref ref="fig_scg" /> show points <m> P </m> and <m> Q </m> plotted in the plane. In this figure we have also constructed a right angled triangle with the interval <m> PQ </m> as the hypotenuse. Note that, while it is not directly relevant to the example, in this figure you can drag the points <m> P </m> and <m> Q </m> to different locations in the plane. This would be useful if you were looking for results that might be more generally applicable than just for the points <m> P=(1,1) </m> and <m> Q=(6,4) </m>. </p>
+
+    				<figure xml:id="fig_scg">
+    					<caption> </caption>
+    					<interactive geogebra="vp7yyf8h" width="95%"/>
+    				</figure>
+
+    				<p> 
+    					<ol>
+    						<li>
+    							<p> The <m> x </m> -coordinate of the midpoint, <m> M </m>, of <m> P </m> and <m> Q </m> will be halfway between the <m> x </m> -coordinate <m> P </m> and the <m> x </m> -coordinate <m> Q </m>, <ie /> the average of <m> x </m> -coordinate <m> P </m> and the <m> x </m> -coordinate <m> Q </m>. Similarly for the <m> y </m> -coordinate of the midpoint. So,
+    							<me> M = \left( \frac{1+6}{2},\frac{1+4}{2} \right) = \left( \frac{7}{2},\frac{5}{2} \right) </me>.
+    							</p>
+    						</li>
+    						<li>
+    							<p> The distance, <m> d </m>, between <m> P </m> and <m> Q </m> is the length of the hypotenuse in the triangle <m> \triangle PQR </m>. In this triangle, side <m> PR </m> has length 5 and side <m> QR </m> has length 3. Thus, using Pythagoras' Theorem
+    							<me> d=\sqrt{5^2+3^2}=\sqrt{34} \approx 5.83 </me>.
+    							</p>
+    						</li>
+    						<li>
+    							<p> If <m> T=(x,y) </m> is some unspecified point on the line passing through <m> P </m> and <m> Q </m> then triangles <m> \triangle PQR </m> and <m> \triangle QTU </m> will be similar. In similar triangles the ratio of corresponding sides are equal. So
+    							<md>
+    								<mrow> \frac{TU}{QR} \amp =\frac{QU}{PR} </mrow>
+    								<mrow> \frac{y-4}{3} \amp =\frac{x-6}{5} </mrow>
+    							</md>,
+    							which on rearranging gives
+    							<me> 3x-5y+2=0 </me>.
+    							Note here that this argument isn't really complete. Does the argument hold if the point <m> T </m> is between the points <m> P </m> and <m> Q </m>? This should be checked, as well as other placements of <m> T </m>.
+    							</p>
+    						</li>
+    						<li>
+    							<p> If <m> S=(x,y) </m> is some unspecified point on the circle with centre <m> P </m> and passing through <m> Q </m> then the distance of <m> S </m> from <m> P </m> will be equal to the distance of <m> Q </m> from <m> P </m>. Thus
+    							<me> \sqrt{(x-1)^2+(y-1)^2}=\sqrt{34} </me>,
+    							which on squaring both sides becomes
+    							<me> (x-1)^2+(y-1)^2=34 </me>
+    							</p>
+    						</li>
+    					</ol>
+    				</p>
+    			</solution>
+    		</example>
+    		
+    		<p> Even if you haven't come across much coordinate geometry before I would still encourage you to have a go at least at the early taxicab geometry activities since you can make progress in these activities just using common sense. Of course, the activities may take you a little longer and/or you may approach them in different ways but that is nothing to worry about. 
+    		</p>
+
+    		<p> To finish off this very brief discussion of coordinate geometry I have listed a few basic results from coordinate geometry. Use this list as you see fit, maybe just as a reminder of these results or maybe as a reference for later on or even as a list of material that you might want to investigate further yourself. It would be good if you could explain why these results hold.
+    		</p>
+
+    		<exercise> <title> The Mid Point Formula</title>
+    			<statement>
+    				<p> The mid-point, <m> M </m>, of <m> P=(x_1,y_1) </m> and <m> Q=(x_2,y_2) </m> has the coordinates
+    				<me> M = \left( \frac{x_1+x_2}{2},\frac{y_1+y_2}{2} \right) </me>.
+    				</p>
+    			</statement>
+    		</exercise>
+
+			<exercise xml:id="exe_dist_form"> <title> The Distance Formula</title>
+    			<statement>
+    				<p> The distance, <m> d </m> between the points <m> P=(x_1,y_1) </m> and <m> Q=(x_2,y_2) </m> is 
+    				<me> d = \sqrt{(x_2-x_1)^2+(y_2-y_1)^2} </me>. </p>
+    			</statement>
+    		</exercise>
+
+			<exercise> <title> The Equation of the Line </title>
+    			<statement>
+    				<p> The equation of the line that passes through the points <m> P=(x_1,y_1) </m> and <m> Q=(x_2,y_2) </m> is
+    				<me> (y-y_1) = \left( \frac{y_2-y_1}{x_2-x_1} \right) (x-x_1) </me>.
+    				</p>
+    			</statement>
+    		</exercise>
+
+			<exercise> <title> The Equation of the Circle</title>
+    			<statement>
+    				<p> The equation of the circle with centre <m> P=(x_1,y_1) </m> and passing through <m> Q=(x_2,y_2)</m> is
+    				<me> (x-x_1)^2+(y-y_1)^2 = (x_2-x_1)^2+(y_2-y_1)^2 </me>. </p>
+    			</statement>
+    		</exercise>
+    	</subsection>
+
+		<subsection> <title> Taxicab Geometry </title>
+
+    		<p> Taxicab Geometry is the same as plane (Euclidean) Coordinate Geometry except that in taxicab geometry distances are calculated, not as the crow flies, but as the (honest) taxicab driver would drive, i.e. taking the shortest path while staying on the "streets". </p>
+
+    		<p> Given two points, <m> P </m> and <m> Q </m>, in the plane we are going to use the notation <m> d_E(P,Q) </m> to denote the Euclidean distance between the points and <m> d_T(P,Q) </m> to denote the taxicab distance <idx> Taxicab distance </idx> between the points. </p>
+
+    		<example> <title> Calculating a Taxicab Distance </title>
+
+    			<p> Consider the points <m> A=(-3,1) </m> and <m> B=(2,4) </m>. </p>
+    			<p> For these points we can see (for example by using the formula given in <xref ref="exe_dist_form" />) that <m> d_E(A,B)=\sqrt{34} </m>. </p>
+    			<p> Now look at <xref ref="fig_taxi_path" />. As you can see, there are many possible paths that the honest taxicab driver could take from <m> A </m> to <m> B </m>, (the figure shows just two of these). However all of these paths have the same length, i.e. 8. Thus <m> d_T(A,B)=8 </m>. </p>
+
+    			<figure xml:id="fig_taxi_path">
+    				<image source="taxicab-paths.gif" width="75%"/>
+    				<caption> Two possible Taxicab Paths from <m> A </m> to <m> B </m> </caption>
+    			</figure>
+    		</example>
+    	</subsection>
+    </section>
+
 
 </chapter>
