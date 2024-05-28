@@ -148,15 +148,24 @@ var ptx_lunr_docs = [
   "id": "backmatter-3",
   "level": "1",
   "url": "backmatter-3.html",
+  "type": "Appendix",
+  "number": "B",
+  "title": "Some Thoughts On Mathematics Enrichment",
+  "body": " Some Thoughts On Mathematics Enrichment   My Approach To Mathematics Enrichment   What is mathematics enrichment, who is it for, what does it aim to achieve, is it worthwhile? Such questions, I think, are worth thinking about for anyone involved in putting together a mathematics enrichment program. Furthermore, I would encourage the reader to seek out the academic literature devoted to probing such questions. For example, two references that influenced me were Renzulli and Reis (2014) (talking about enrichment in general) and Piggott (2011) (talking about mathematics enrichment in general).     Structure Of The Mathematics Enrichment Program  When I was in charge of the mathematics outreach (as we called it) at the University of Newcastle, we ran three mathematics enrichment programs, one aimed at Years 7, 8 students (i.e. junior high school), one aimed at Year 9 and 10 students (i.e. middle high school) and one aimed at Year 11 students, (i.e. senior high school). We called this the University of Newcastle Young Mathematicians Program, (UoNYMP). In the junior high school program the sessions were based on topics that students don't get to see in the standard school curricululm. In the middle high school program the sessions were based on the idea of thinking and working mathematically. In the senior high program we covered just one topic outside of the school curriculum but we looked at the topic in depth. The topic was, of course, taxicab geometry. Figure ? shows the front page of a small flyer that we used to promote our outreach. We were somewhat flexible in letting students attend whichever program they wanted. A number of students, having already attended one program, would come back the next year to attend the next program up even though they weren't in the target years. Other students attended a program up just so that they could be with friends.  The senior high school program had six 2-hour face-to-face sessions run at the University's Newcastle campus (from 4pm to 6pm) every second week over the course of one school term (i.e 12 weeks). Invitations were sent to all high schools within the region and the schools responded if they had students that wanted to attend. The sessions were free but we had a limit of 40 students. So, the students had to not only be sufficiently interested to self select (or to say yes when encouraged by their teachers) but also had to have the ability to not only get to the University but to get to there at the designated time. Not surprisingly then, I feel, we never had the problem of having to turn students away! On the other hand, we also never had the problem of not having enough students attend that we felt that the effort was not worth it. Teachers were also welcome to attend.  Within the sessions themselves, the structure was usually a mixture of a presenter talking, students working together in groups and whole-class discussions mediated by the presenter. As mentioned above, we used taxicab geometry as the topic for all six sessions but, apart from the first session, the sessions were essentially independent. The sessions were somewhat informal in that attendance wasn't policed, although we did keep track of numbers for program review purposes. We also had a web presence where students could obtain materials if they missed a session. We also tried to encourage the students to write up some of their own investigations for \"publication\" on the website but, invariably, this was never taken up. The students, it seemed, had too many other activities\/pressures that took precedence.    What Is Mathematics Enrichment?      "
+},
+{
+  "id": "backmatter-4",
+  "level": "1",
+  "url": "backmatter-4.html",
   "type": "Index",
   "number": "",
   "title": "Index",
   "body": " Index   "
 },
 {
-  "id": "backmatter-4",
+  "id": "backmatter-5",
   "level": "1",
-  "url": "backmatter-4.html",
+  "url": "backmatter-5.html",
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
