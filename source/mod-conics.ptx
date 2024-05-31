@@ -6,7 +6,7 @@
   <section> <title> Module Outline </title>
 		<p> 
 			<ul>
-				<li> A brief summary of the conics in Euclidean geometry discussing:</li>
+				<li> A brief summary of the conics in Euclidean geometry discussing:
 					<p>
 						<ol>
 							<li> A geometric definition </li>
@@ -15,6 +15,7 @@
 							<li> A locus definition </li>
 						</ol>
 					</p>
+        </li>
 				<li> 
 					<p> First explorations of conics in taxicab geometry using the focus/directrix definition.
 					</p>
