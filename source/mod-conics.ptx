@@ -3,9 +3,25 @@
 <chapter xml:id="mod-conics" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Conics</title>
 
-  <introduction>
-    <p> Text before the first section. </p>
-  </introduction>
+  <section> <title> Module Outline </title>
+		<p> 
+			<ul>
+				<li> A brief summary of the conics in Euclidean geometry discussing:</li>
+					<p>
+						<ol>
+							<li> A geometric definition </li>
+							<li> An algebraic definition </li>
+							<li> A focus-directrix definition </li>
+							<li> A locus definition </li>
+						</ol>
+					</p>
+				<li> 
+					<p> First explorations of conics in taxicab geometry using the focus/directrix definition.
+					</p>
+				</li>
+			</ul>
+		</p>
+	</section>
 
 
 </chapter>
