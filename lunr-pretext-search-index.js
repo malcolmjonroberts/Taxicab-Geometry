@@ -124,7 +124,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "2",
   "title": "Conics",
-  "body": " Conics   Text before the first section.   "
+  "body": " Conics   Module Outline    A brief summary of the conics in Euclidean geometry discussing:    A geometric definition  An algebraic definition  A focus-directrix definition  A locus definition     First explorations of conics in taxicab geometry using the focus\/directrix definition.      "
 },
 {
   "id": "inv-conics",
