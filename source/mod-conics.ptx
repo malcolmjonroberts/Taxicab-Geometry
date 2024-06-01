@@ -6,23 +6,84 @@
   <section> <title> Module Outline </title>
 		<p> 
 			<ul>
-				<li> A brief summary of the conics in Euclidean geometry discussing:
+				<li> Preliminary Ideas:
 					<p>
 						<ol>
-							<li> A geometric definition </li>
-							<li> An algebraic definition </li>
-							<li> A focus-directrix definition </li>
-							<li> A locus definition </li>
+							<li> A brief discussion of what the conics are </li>
+							<li> A brief discussion of ways of defining the conics </li>
 						</ol>
 					</p>
-        </li>
-				<li> 
+        		</li> 
+				<li> Investigtions:
 					<p> First explorations of conics in taxicab geometry using the focus/directrix definition.
+						<ol>
+							<li> The ellipse </li>
+							<li> The parabola </li>
+							<li> The hyperbola </li>
 					</p>
 				</li>
 			</ul>
 		</p>
 	</section>
 
+	<section> <title> Preliminary Ideas </title>
+	
+		<subsection> <title> The Conics in Euclidean Geometry </title>
 
+    		<p> In Euclidean geometry the “conics” are a family of curves in the plane. They can
+				be defined in a number of different ways.
+    		</p>
+
+    		<definition> <title> A Geometric Definition </title>
+				<p> A conic section (or simply conic) is a curve obtained as the intersection of a plane and the
+					surface of a cone (or two cones placed apex to apex). The four types
+					of (non-degenerate) conics are the hyperbola, the parabola, the ellipse and the
+					circle. See figure ?.
+				</p>
+			</definition>
+
+			<definition> <title> An Algebraic Definition </title>
+				<p> A conic section is a curve associated with the equation </p>
+				<p> where A, B, C, D, E, F are real numbers and A, B and C are not all 0.
+					<ol>
+						<li>
+							<p> If B-4AC0 then the equation represents an ellipse, a circle, a point or no curve. For the equation to represent a circle A=C and B=0.
+							</p>
+						</li>
+						<li>
+							<p> If B-4AC=0 then the equation represents an parabola, two parallel lines, one line or no curve. 
+							</p>
+						</li>
+						<li>
+							<p> If B-4AC0 then the equation represents a hyperbola or two intersecting lines. If also A+C=0 then the equation represents a rectangular hyperbola.
+							</p>
+						</li>
+					</ol>
+				</p>
+			</definition>
+
+			<definition> <title> A Focus-Directrix Definition </title>
+				<p> A conic section is a curve associated with the equation </p>
+				<p> where A, B, C, D, E, F are real numbers and A, B and C are not all 0.
+					<ol>
+						<li>
+							<p> If B-4AC0 then the equation represents an ellipse, a circle, a point or no curve. For the equation to represent a circle A=C and B=0.
+							</p>
+						</li>
+						<li>
+							<p> If B-4AC=0 then the equation represents an parabola, two parallel lines, one line or no curve. 
+							</p>
+						</li>
+						<li>
+							<p> If B-4AC0 then the equation represents a hyperbola or two intersecting lines. If also A+C=0 then the equation represents a rectangular hyperbola.
+							</p>
+						</li>
+					</ol>
+				</p>
+			</definition>
+
+    	</subsection>
+
+		
+    </section>
 </chapter>
