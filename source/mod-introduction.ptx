@@ -6,17 +6,20 @@
     <section> <title> Module Outline </title>
 		<p> 
 			<ul>
-				<li> Where does taxicab geometry fit into the overall idea of geometry? </li>
-				<li> What is taxicab geometry? </li>
-				<li> 
-					<p> First explorations in taxicab geometry
+				<li> Preliminary Ideas
+					<ol>
+						<li> Where does taxicab geometry fit into the overall idea of geometry? </li>
+						<li> What is taxicab geometry? </li>
+					</ol>
+				</li>
+				
+				<li> Investigations
 						<ol>
 							<li> The taxicab metric </li>
 							<li> Some shapes defined by distance </li>
+							<li> A simple application in urban geography </li>
 						</ol>
-					</p>
 				</li>
-				<li> A simple application in urban geography </li>
 			</ul>
 		</p>
 

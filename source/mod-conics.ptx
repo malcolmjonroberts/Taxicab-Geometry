@@ -15,11 +15,12 @@
 					</p>
         		</li> 
 				<li> Investigtions:
-					<p> First explorations of conics in taxicab geometry using the focus/directrix definition.
+					<p> Conics in taxicab geometry via the focus/directrix definition.
 						<ol>
 							<li> The ellipse </li>
 							<li> The parabola </li>
 							<li> The hyperbola </li>
+						</ol>
 					</p>
 				</li>
 			</ul>
@@ -77,6 +78,22 @@
 						<li>
 							<p> If B-4AC0 then the equation represents a hyperbola or two intersecting lines. If also A+C=0 then the equation represents a rectangular hyperbola.
 							</p>
+						</li>
+					</ol>
+				</p>
+			</definition>
+
+			<definition> <title> A Locus Definition </title>
+				<p>
+					<ol>
+						<li>
+							<p> A circle is the locus of a point P that moves such that its distance from a given point C remains constant, </ie> such that d(P,C)=r. </p>
+						</li>
+						<li> A parabola is lthe locus of a point P that moves such that its distance from a given point F and a given line l remains equal, such that d(P,F)=d(P,l)
+						</li>
+						<li> An ellipse is the locus of a point P that moves such that the sum of its distances from two given points F1 and F2 remains equal, such that d(P,F1)+d(P,F2)=k
+						</li>
+						<li> A hyperbola is the locus of a point P that moves such that the difference of its distances from two given points F1 and F2 remains constant, such that d(P,F1)-d(P,F2)=k
 						</li>
 					</ol>
 				</p>
