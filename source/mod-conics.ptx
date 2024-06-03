@@ -6,23 +6,25 @@
   <section> <title> Module Outline </title>
 		<p> 
 			<ul>
-				<li> Preliminary Ideas:
-					<p>
-						<ol>
-							<li> A brief discussion of what the conics are </li>
-							<li> A brief discussion of ways of defining the conics </li>
-						</ol>
-					</p>
-        		</li> 
-				<li> Investigtions:
-					<p> Conics in taxicab geometry via the focus/directrix definition.
-						<ol>
-							<li> The ellipse </li>
-							<li> The parabola </li>
-							<li> The hyperbola </li>
-						</ol>
-					</p>
-				</li>
+				<p>
+					<li> Preliminary Ideas:
+						<p>
+							<ol>
+								<li> A brief discussion of what the conics are </li>
+								<li> A brief discussion of ways of defining the conics </li>
+							</ol>
+						</p>
+        			</li> 
+					<li> Investigtions:
+						<p> Conics in taxicab geometry via the focus/directrix definition.
+							<ol>
+								<li> The ellipse </li>
+								<li> The parabola </li>
+								<li> The hyperbola </li>
+							</ol>
+						</p>
+					</li>
+				</p>
 			</ul>
 		</p>
 	</section>
@@ -31,7 +33,7 @@
 	
 		<subsection> <title> The Conics in Euclidean Geometry </title>
 
-    		<p> In Euclidean geometry the “conics” are a family of curves in the plane. They can
+    		<p> In Euclidean geometry the <term> conics </term> are a family of curves in the plane. They can
 				be defined in a number of different ways.
     		</p>
 
@@ -44,19 +46,20 @@
 			</definition>
 
 			<definition> <title> An Algebraic Definition </title>
-				<p> A conic section is a curve associated with the equation </p>
-				<p> where A, B, C, D, E, F are real numbers and A, B and C are not all 0.
+				<p> A conic section is a curve associated with the equation
+					<me> Ax^2+Bxy+Cy^2+dx+Ey+F=0 </me>
+				where <m> A, B, C, D, E, F </m> are real numbers and <m> A </m>, <m> B </m> and <m> C </m> are not all 0.
 					<ol>
 						<li>
-							<p> If B-4AC0 then the equation represents an ellipse, a circle, a point or no curve. For the equation to represent a circle A=C and B=0.
+							<p> If <m> B-4AC /lt 0 </m> then the equation represents an ellipse, a circle, a point or no curve. For the equation to represent a circle <m> A=C </m> and <m> B=0 </m>.
 							</p>
 						</li>
 						<li>
-							<p> If B-4AC=0 then the equation represents an parabola, two parallel lines, one line or no curve. 
+							<p> If <m> B-4AC=0 </m> then the equation represents an parabola, two parallel lines, one line or no curve. 
 							</p>
 						</li>
 						<li>
-							<p> If B-4AC0 then the equation represents a hyperbola or two intersecting lines. If also A+C=0 then the equation represents a rectangular hyperbola.
+							<p> If <m> B-4AC/gt 0 </m> then the equation represents a hyperbola or two intersecting lines. If also <m> A+C= 0 </m> then the equation represents a rectangular hyperbola.
 							</p>
 						</li>
 					</ol>
@@ -87,13 +90,20 @@
 				<p>
 					<ol>
 						<li>
-							<p> A circle is the locus of a point P that moves such that its distance from a given point C remains constant,  such that d(P,C)=r. </p>
+							<p> A circle is the locus of a point <m> P </m> that moves such that its distance from a given point <m> C </m> remains constant, <ie /> such that
+								<me> d(P,C)=r. </me>. </p>
 						</li>
-						<li> A parabola is lthe locus of a point P that moves such that its distance from a given point F and a given line l remains equal, such that d(P,F)=d(P,l)
+						<li>
+							<p> A parabola is lthe locus of a point P that moves such that its distance from a given point F and a given line l remains equal, <ie /> such that 
+								<me> d(P,F)=d(P,l) </me>. </p>
 						</li>
-						<li> An ellipse is the locus of a point P that moves such that the sum of its distances from two given points F1 and F2 remains equal, such that d(P,F1)+d(P,F2)=k
+						<li>
+							<p> An ellipse is the locus of a point <m> P </m> that moves such that the sum of its distances from two given points <m> F_1 </m> and <m> F_2 </m> remains equal, <ie /> such that
+								<me> d(P,F_1)+d(P,F_2)=k </me>. </p>
 						</li>
-						<li> A hyperbola is the locus of a point P that moves such that the difference of its distances from two given points F1 and F2 remains constant, such that d(P,F1)-d(P,F2)=k
+						<li>
+							<p> A hyperbola is the locus of a point <m> P  </m> that moves such that the difference of its distances from two given points <m> F_1 </m> and <m> F_2 </m> remains constant, <ie /> such that
+								<me> d(P,F_1)-d(P,F_2)=k </me>. </p>
 						</li>
 					</ol>
 				</p>
