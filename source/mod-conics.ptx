@@ -87,7 +87,7 @@
 				<p>
 					<ol>
 						<li>
-							<p> A circle is the locus of a point P that moves such that its distance from a given point C remains constant, </ie> such that d(P,C)=r. </p>
+							<p> A circle is the locus of a point P that moves such that its distance from a given point C remains constant,  such that d(P,C)=r. </p>
 						</li>
 						<li> A parabola is lthe locus of a point P that moves such that its distance from a given point F and a given line l remains equal, such that d(P,F)=d(P,l)
 						</li>
