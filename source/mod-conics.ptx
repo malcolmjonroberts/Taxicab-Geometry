@@ -4,22 +4,17 @@
   <title>Conics</title>
 
   <section> <title> Module Outline </title>
-		<subsection> <title> Preliminary Ideas </title>
-			<p>
-				A brief discussion of the conics in Euclidean geometry, primarily by looking at the different ways in which the conics can be defined.
-			</p>
-		</subsection>
-
-		<subsection> <title> Investigations </title>
-			<p>
-				Conics in taxicab geometry via the focus/directrix definition.
-					<ul>
-						<li> The ellipse </li>
-						<li> The parabola </li>
-						<li> The hyperbola </li>
-					</ul>
-			</p>
-		</subsection>
+		<p>
+			<dl> Preliminary Ideas.			A brief discussion of the conics in Euclidean geometry, primarily by looking at the different ways in which the conics can be defined.
+			</dl>
+			<dl> Investigations. Conics in taxicab geometry via the focus/directrix definition.
+				<ul>
+					<li> The ellipse </li>
+					<li> The parabola </li>
+					<li> The hyperbola </li>
+				</ul>
+			</dl>
+		</p>
 					
 	</section>
 
