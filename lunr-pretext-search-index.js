@@ -124,7 +124,16 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "2",
   "title": "Conics",
-  "body": " Conics   Module Outline    Preliminary Ideas:   A brief discussion of what the conics are  A brief discussion of ways of defining the conics     Investigtions: Conics in taxicab geometry via the focus\/directrix definition.  The ellipse  The parabola  The hyperbola         Preliminary Ideas   The Conics in Euclidean Geometry  In Euclidean geometry the “conics” are a family of curves in the plane. They can be defined in a number of different ways.   A Geometric Definition  A conic section (or simply conic) is a curve obtained as the intersection of a plane and the surface of a cone (or two cones placed apex to apex). The four types of (non-degenerate) conics are the hyperbola, the parabola, the ellipse and the circle. See figure ?.    An Algebraic Definition  A conic section is a curve associated with the equation  where A, B, C, D, E, F are real numbers and A, B and C are not all 0.   If B-4AC0 then the equation represents an ellipse, a circle, a point or no curve. For the equation to represent a circle A=C and B=0.    If B-4AC=0 then the equation represents an parabola, two parallel lines, one line or no curve.    If B-4AC0 then the equation represents a hyperbola or two intersecting lines. If also A+C=0 then the equation represents a rectangular hyperbola.       A Focus-Directrix Definition  A conic section is a curve associated with the equation  where A, B, C, D, E, F are real numbers and A, B and C are not all 0.   If B-4AC0 then the equation represents an ellipse, a circle, a point or no curve. For the equation to represent a circle A=C and B=0.    If B-4AC=0 then the equation represents an parabola, two parallel lines, one line or no curve.    If B-4AC0 then the equation represents a hyperbola or two intersecting lines. If also A+C=0 then the equation represents a rectangular hyperbola.       A Locus Definition     A circle is the locus of a point P that moves such that its distance from a given point C remains constant, such that d(P,C)=r.   A parabola is lthe locus of a point P that moves such that its distance from a given point F and a given line l remains equal, such that d(P,F)=d(P,l)  An ellipse is the locus of a point P that moves such that the sum of its distances from two given points F1 and F2 remains equal, such that d(P,F1)+d(P,F2)=k  A hyperbola is the locus of a point P that moves such that the difference of its distances from two given points F1 and F2 remains constant, such that d(P,F1)-d(P,F2)=k       "
+  "body": " Conics   Module Outline     Preliminary Ideas A brief discussion of the conics in Euclidean geometry, primarily by looking at the different ways in which the conics can be defined.   Investigtions Conics in taxicab geometry via the focus\/directrix definition.  The ellipse  The parabola  The hyperbola          Preliminary Ideas   The Conics in Euclidean Geometry  In Euclidean geometry the conics are a family of curves in the plane. They can be defined in a number of different ways.   A Geometric Definition  A conic ) is a curve obtained as the intersection of a plane and the surface of a cone (or two cones placed apex to apex). The four types of (non-degenerate) conics are the hyperbola, the parabola, the ellipse and the circle, as illustrated in figure ?   From figure ? you can why a this family of curves is also sometimes referred to as the conic sections, (rather than simply the conics).   An Algebraic Definition  A conic is a curve associated with the equation where are real numbers and , and are not all 0.   If then the equation represents an ellipse, a circle, a point or no curve. For the equation to represent a circle and .    If then the equation represents an parabola, two parallel lines, one line or no curve.    If then the equation represents a hyperbola or two intersecting lines. If also then the equation represents a rectangular hyperbola.      Add a couple of examples here.   A Focus-Directrix Definition  A non-circular conic is the set of points, , whose distances to a given point , called the focus, and a given line , called the directrix, are in a fixed ration, , called the eccentricity, for which .   If then the conic is an ellipse.    If then the conice is a parabola.    If then the conic is a hyperbola.      Add a couple of examples here too.   A Locus Definition     A circle is the locus of a point that moves such that its distance from a given point remains constant, such that .    A parabola is lthe locus of a point P that moves such that its distance from a given point F and a given line l remains equal, such that .    An ellipse is the locus of a point that moves such that the sum of its distances from two given points and remains equal, such that .    A hyperbola is the locus of a point that moves such that the difference of its distances from two given points and remains constant, such that .      Add a couple of examples here too.    Further Information     Investigations   "
+},
+{
+  "id": "mod-conics-3-2-2",
+  "level": "2",
+  "url": "mod-conics.html#mod-conics-3-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "conics "
 },
 {
   "id": "mod-conics-3-2-3",
@@ -133,34 +142,34 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "2.1",
   "title": "A Geometric Definition.",
-  "body": " A Geometric Definition  A conic section (or simply conic) is a curve obtained as the intersection of a plane and the surface of a cone (or two cones placed apex to apex). The four types of (non-degenerate) conics are the hyperbola, the parabola, the ellipse and the circle. See figure ?.  "
-},
-{
-  "id": "mod-conics-3-2-4",
-  "level": "2",
-  "url": "mod-conics.html#mod-conics-3-2-4",
-  "type": "Definition",
-  "number": "2.2",
-  "title": "An Algebraic Definition.",
-  "body": " An Algebraic Definition  A conic section is a curve associated with the equation  where A, B, C, D, E, F are real numbers and A, B and C are not all 0.   If B-4AC0 then the equation represents an ellipse, a circle, a point or no curve. For the equation to represent a circle A=C and B=0.    If B-4AC=0 then the equation represents an parabola, two parallel lines, one line or no curve.    If B-4AC0 then the equation represents a hyperbola or two intersecting lines. If also A+C=0 then the equation represents a rectangular hyperbola.     "
+  "body": " A Geometric Definition  A conic ) is a curve obtained as the intersection of a plane and the surface of a cone (or two cones placed apex to apex). The four types of (non-degenerate) conics are the hyperbola, the parabola, the ellipse and the circle, as illustrated in figure ?  "
 },
 {
   "id": "mod-conics-3-2-5",
   "level": "2",
   "url": "mod-conics.html#mod-conics-3-2-5",
   "type": "Definition",
-  "number": "2.3",
-  "title": "A Focus-Directrix Definition.",
-  "body": " A Focus-Directrix Definition  A conic section is a curve associated with the equation  where A, B, C, D, E, F are real numbers and A, B and C are not all 0.   If B-4AC0 then the equation represents an ellipse, a circle, a point or no curve. For the equation to represent a circle A=C and B=0.    If B-4AC=0 then the equation represents an parabola, two parallel lines, one line or no curve.    If B-4AC0 then the equation represents a hyperbola or two intersecting lines. If also A+C=0 then the equation represents a rectangular hyperbola.     "
+  "number": "2.2",
+  "title": "An Algebraic Definition.",
+  "body": " An Algebraic Definition  A conic is a curve associated with the equation where are real numbers and , and are not all 0.   If then the equation represents an ellipse, a circle, a point or no curve. For the equation to represent a circle and .    If then the equation represents an parabola, two parallel lines, one line or no curve.    If then the equation represents a hyperbola or two intersecting lines. If also then the equation represents a rectangular hyperbola.     "
 },
 {
-  "id": "mod-conics-3-2-6",
+  "id": "mod-conics-3-2-7",
   "level": "2",
-  "url": "mod-conics.html#mod-conics-3-2-6",
+  "url": "mod-conics.html#mod-conics-3-2-7",
+  "type": "Definition",
+  "number": "2.3",
+  "title": "A Focus-Directrix Definition.",
+  "body": " A Focus-Directrix Definition  A non-circular conic is the set of points, , whose distances to a given point , called the focus, and a given line , called the directrix, are in a fixed ration, , called the eccentricity, for which .   If then the conic is an ellipse.    If then the conice is a parabola.    If then the conic is a hyperbola.     "
+},
+{
+  "id": "mod-conics-3-2-9",
+  "level": "2",
+  "url": "mod-conics.html#mod-conics-3-2-9",
   "type": "Definition",
   "number": "2.4",
   "title": "A Locus Definition.",
-  "body": " A Locus Definition     A circle is the locus of a point P that moves such that its distance from a given point C remains constant, such that d(P,C)=r.   A parabola is lthe locus of a point P that moves such that its distance from a given point F and a given line l remains equal, such that d(P,F)=d(P,l)  An ellipse is the locus of a point P that moves such that the sum of its distances from two given points F1 and F2 remains equal, such that d(P,F1)+d(P,F2)=k  A hyperbola is the locus of a point P that moves such that the difference of its distances from two given points F1 and F2 remains constant, such that d(P,F1)-d(P,F2)=k    "
+  "body": " A Locus Definition     A circle is the locus of a point that moves such that its distance from a given point remains constant, such that .    A parabola is lthe locus of a point P that moves such that its distance from a given point F and a given line l remains equal, such that .    An ellipse is the locus of a point that moves such that the sum of its distances from two given points and remains equal, such that .    A hyperbola is the locus of a point that moves such that the difference of its distances from two given points and remains constant, such that .     "
 },
 {
   "id": "inv-conics",
