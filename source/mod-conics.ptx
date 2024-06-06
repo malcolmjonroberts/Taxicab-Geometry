@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="mod-conics" xmlns:xi="http://www.w3.org/2001/XInclude">
-	<title>Conics</title>
+<chapter xml:id="mod-conics" xmlns:xi="http://www.w3.org/2001/XInclude"> <title> Conics </title>
 
   <section> <title> Module Outline </title>
 
-	<p>
-		This is attempt 2
-	</p>
-
-	<paragraphs> <title> Preliminary Ideas </title>
 		<p>
-			A brief discussion of the conics in Euclidean geometry, primarily by looking at the different ways in which the conics can be defined.
+			This is attempt 2
 		</p>
-	</paragraphs>
 
-	<paragraphs> <title> Investigations </title>
-		<p>
-			Conics in taxicab geometry via the focus/directrix definition.
-			<ul>
-				<li> The ellipse </li>
-				<li> The parabola </li>
-				<li> The hyperbola </li>
-			</ul>
-		</p>
+		<paragraphs> <title> Preliminary Ideas </title>
+			<p>
+				A brief discussion of the conics in Euclidean geometry, primarily by looking at the different ways in which the conics can be defined.
+			</p>
+		</paragraphs>
+
+		<paragraphs> <title> Investigations </title>
+			<p>
+				Conics in taxicab geometry via the focus/directrix definition.
+				<ul>
+					<li> The ellipse </li>
+					<li> The parabola </li>
+					<li> The hyperbola </li>
+				</ul>
+			</p>
+		</paragraphs>
 					
 	</section>
 
