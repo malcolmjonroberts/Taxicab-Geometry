@@ -46,20 +46,24 @@
 			</p>
 
 			<definition> <title> An Algebraic Definition </title>
-				<p> A <term> conic </term> is a curve associated with the equation
+				<p> 
+					A <term> conic </term> is a curve associated with the equation
 					<me> Ax^2+Bxy+Cy^2+Dx+Ey+F=0 </me>
-				where <m> A, B, C, D, E, F </m> are real numbers and <m> A </m>, <m> B </m> and <m> C </m> are not all 0.
+					where <m> A, B, C, D, E, F </m> are real numbers and <m> A </m>, <m> B </m> and <m> C </m> are not all 0.
 					<ol>
 						<li>
-							<p> If <m> B-4AC \lt 0 </m> then the equation represents an ellipse, a circle, a point or no curve. For the equation to represent a circle <m> A=C </m> and <m> B=0 </m>.
+							<p> 
+								If <m> B-4AC \lt 0 </m> then the equation represents an ellipse, a circle, a point or no curve. For the equation to represent a circle <m> A=C </m> and <m> B=0 </m>.
 							</p>
 						</li>
 						<li>
-							<p> If <m> B-4AC = 0 </m> then the equation represents an parabola, two parallel lines, one line or no curve. 
+							<p> 
+								If <m> B-4AC = 0 </m> then the equation represents an parabola, two parallel lines, one line or no curve. 
 							</p>
 						</li>
 						<li>
-							<p> If <m> B-4AC \gt 0 </m> then the equation represents a hyperbola or two intersecting lines. If also <m> A+C= 0 </m> then the equation represents a rectangular hyperbola.
+							<p> 
+								If <m> B-4AC \gt 0 </m> then the equation represents a hyperbola or two intersecting lines. If also <m> A+C= 0 </m> then the equation represents a rectangular hyperbola.
 							</p>
 						</li>
 					</ol>
@@ -69,7 +73,8 @@
 			<p> Add a couple of examples here. </p>
 
 			<definition> <title> A Focus-Directrix Definition </title>
-				<p> A non-circular <term> conic </term> is the set of points, <m> P </m>, whose distances to a given point <m> F </m>, called the focus, and a given line <m> l </m>, called the directrix, are in a fixed ratio, <m> e </m>, called the eccentricity, <ie /> for which
+				<p> 
+					A non-circular <term> conic </term> is the set of points, <m> P </m>, whose distances to a given point <m> F </m>, called the focus, and a given line <m> l </m>, called the directrix, are in a fixed ratio, <m> e </m>, called the eccentricity, <ie /> for which
 					<me> \frac{d(P,F)}{d(P,l)} = e </me>.
 					<ol>
 						<li>
@@ -91,19 +96,23 @@
 				<p>
 					<ol>
 						<li>
-							<p> A circle is the locus of a point <m> P </m> that moves such that its distance from a given point <m> C </m> remains constant, <ie /> such that
+							<p> 
+								A circle is the locus of a point <m> P </m> that moves such that its distance from a given point <m> C </m> remains constant, <ie /> such that
 								<me> d(P,C)=r </me>. </p>
 						</li>
 						<li>
-							<p> A parabola is the locus of a point <m> P  </m> that moves such that its distance from a given point <m> F </m> and a given line <m> l </m> remains equal, <ie /> such that 
+							<p> 
+								A parabola is the locus of a point <m> P  </m> that moves such that its distance from a given point <m> F </m> and a given line <m> l </m> remains equal, <ie /> such that 
 								<me> d(P,F)=d(P,l) </me>. </p>
 						</li>
 						<li>
-							<p> An ellipse is the locus of a point <m> P </m> that moves such that the sum of its distances from two given points <m> F_1 </m> and <m> F_2 </m> remains equal, <ie /> such that
+							<p> 
+								An ellipse is the locus of a point <m> P </m> that moves such that the sum of its distances from two given points <m> F_1 </m> and <m> F_2 </m> remains equal, <ie /> such that
 								<me> d(P,F_1)+d(P,F_2)=k </me>. </p>
 						</li>
 						<li>
-							<p> A hyperbola is the locus of a point <m> P  </m> that moves such that the difference of its distances from two given points <m> F_1 </m> and <m> F_2 </m> remains constant, <ie /> such that
+							<p> 
+								A hyperbola is the locus of a point <m> P  </m> that moves such that the difference of its distances from two given points <m> F_1 </m> and <m> F_2 </m> remains constant, <ie /> such that
 								<me> d(P,F_1)-d(P,F_2)=k </me>. </p>
 						</li>
 					</ol>
