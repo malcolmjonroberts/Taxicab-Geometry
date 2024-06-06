@@ -7,15 +7,12 @@
 		<p> 
 			<ul>
 				<p>
-					<li> Preliminary Ideas:
+					<li> Preliminary Ideas
 						<p>
-							<ol>
-								<li> A brief discussion of what the conics are </li>
-								<li> A brief discussion of ways of defining the conics </li>
-							</ol>
+							A brief discussion of the conics in Euclidean geometry, primarily by looking at the different ways in which the conics can be defined.
 						</p>
         			</li> 
-					<li> Investigtions:
+					<li> Investigtions
 						<p> Conics in taxicab geometry via the focus/directrix definition.
 							<ol>
 								<li> The ellipse </li>
@@ -33,20 +30,22 @@
 	
 		<subsection> <title> The Conics in Euclidean Geometry </title>
 
-    		<p> In Euclidean geometry the <term> conics </term> are a family of curves in the plane. They can
-				be defined in a number of different ways.
+    		<p>
+				In Euclidean geometry the <term> conics </term> are a family of curves in the plane. They can be defined in a number of different ways.
     		</p>
 
     		<definition> <title> A Geometric Definition </title>
-				<p> A conic section (or simply conic) is a curve obtained as the intersection of a plane and the
-					surface of a cone (or two cones placed apex to apex). The four types
-					of (non-degenerate) conics are the hyperbola, the parabola, the ellipse and the
-					circle. See figure ?.
+				<p> 
+					A <term> conic </term>) is a curve obtained as the intersection of a plane and the surface of a cone (or two cones placed apex to apex). The four types of (non-degenerate) conics are the hyperbola, the parabola, the ellipse and the circle, as illustrated in figure ?
 				</p>
 			</definition>
 
+			<p>
+				From figure ? you can why a this family of curves is also sometimes referred to as the conic sections, (rather than simply the conics).
+			</p>
+
 			<definition> <title> An Algebraic Definition </title>
-				<p> A conic section is a curve associated with the equation
+				<p> A <term> conic </term> is a curve associated with the equation
 					<me> Ax^2+Bxy+Cy^2+dx+Ey+F=0 </me>
 				where <m> A, B, C, D, E, F </m> are real numbers and <m> A </m>, <m> B </m> and <m> C </m> are not all 0.
 					<ol>
@@ -55,36 +54,37 @@
 							</p>
 						</li>
 						<li>
-							<p> If <m> B-4AC=0 </m> then the equation represents an parabola, two parallel lines, one line or no curve. 
+							<p> If <m> B-4AC = 0 </m> then the equation represents an parabola, two parallel lines, one line or no curve. 
 							</p>
 						</li>
 						<li>
-							<p> If <m> B-4AC/gt 0 </m> then the equation represents a hyperbola or two intersecting lines. If also <m> A+C= 0 </m> then the equation represents a rectangular hyperbola.
+							<p> If <m> B-4AC /gt 0 </m> then the equation represents a hyperbola or two intersecting lines. If also <m> A+C= 0 </m> then the equation represents a rectangular hyperbola.
 							</p>
 						</li>
 					</ol>
 				</p>
 			</definition>
 
+			<p> Add a couple of examples here. </p>
+
 			<definition> <title> A Focus-Directrix Definition </title>
-				<p> A conic section is a curve associated with the equation </p>
-				<p> where A, B, C, D, E, F are real numbers and A, B and C are not all 0.
+				<p> A non-circular <term> conic </term> is the set of points, <m> P </m>, whose distances to a given point <m> F </m>, called the focus, and a given line <m> l </m>, called the directrix, are in a fixed ration, <m> e </m>, called the eccentricity, <ie /> for which
+					<me> /frac{d(P,F)}{d(P,l)} = e </me>.
 					<ol>
 						<li>
-							<p> If B-4AC0 then the equation represents an ellipse, a circle, a point or no curve. For the equation to represent a circle A=C and B=0.
-							</p>
+							<p> If <m> e /lt 1 </m> then the conic is an ellipse. </p>
 						</li>
 						<li>
-							<p> If B-4AC=0 then the equation represents an parabola, two parallel lines, one line or no curve. 
-							</p>
+							<p> If <m> e = 1 </m> then the conice is a parabola. </p>
 						</li>
 						<li>
-							<p> If B-4AC0 then the equation represents a hyperbola or two intersecting lines. If also A+C=0 then the equation represents a rectangular hyperbola.
-							</p>
+							<p> If <m> e /gt 1 </m> then the conic is a hyperbola. </p>
 						</li>
 					</ol>
 				</p>
 			</definition>
+
+			<p> Add a couple of examples here too. </p>
 
 			<definition> <title> A Locus Definition </title>
 				<p>
@@ -109,8 +109,17 @@
 				</p>
 			</definition>
 
+			<p> Add a couple of examples here too. </p>
+
     	</subsection>
 
-		
+		<subsection> <title> Further Information </title>
+
+		</subsection>
+
     </section>
+
+	<section> <title> Investigations </title>
+	</section>
+
 </chapter>
