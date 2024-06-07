@@ -37,7 +37,7 @@
 
     		<definition> <title> A Geometric Definition </title>
 				<p> 
-					A <term> conic </term>) is a curve obtained as the intersection of a plane and the surface of a cone (or two cones placed apex to apex). The four types of (non-degenerate) conics are the hyperbola, the parabola, the ellipse and the circle, as illustrated in figure ?
+					A <term> conic </term> is a curve obtained as the intersection of a plane and the surface of a cone (or two cones placed apex to apex). The four types of (non-degenerate) conics are the hyperbola, the parabola, the ellipse and the circle, as illustrated in figure ?
 				</p>
 			</definition>
 
@@ -81,7 +81,7 @@
 							<p> If <m> e \lt 1 </m> then the conic is an ellipse. </p>
 						</li>
 						<li>
-							<p> If <m> e = 1 </m> then the conice is a parabola. </p>
+							<p> If <m> e = 1 </m> then the conic is a parabola. </p>
 						</li>
 						<li>
 							<p> If <m> e \gt 1 </m> then the conic is a hyperbola. </p>
@@ -98,22 +98,27 @@
 						<li>
 							<p> 
 								A circle is the locus of a point <m> P </m> that moves such that its distance from a given point <m> C </m> remains constant, <ie /> such that
-								<me> d(P,C)=r </me>. </p>
+								<me> d(P,C)=r </me>.
+								The constant <m> r </m> is the radius of the circle.
+							</p>
 						</li>
 						<li>
 							<p> 
 								A parabola is the locus of a point <m> P  </m> that moves such that its distance from a given point <m> F </m> and a given line <m> l </m> remains equal, <ie /> such that 
-								<me> d(P,F)=d(P,l) </me>. </p>
+								<me> d(P,F)=d(P,l) </me>.
+							</p>
 						</li>
 						<li>
 							<p> 
 								An ellipse is the locus of a point <m> P </m> that moves such that the sum of its distances from two given points <m> F_1 </m> and <m> F_2 </m> remains equal, <ie /> such that
-								<me> d(P,F_1)+d(P,F_2)=k </me>. </p>
+								<me> d(P,F_1)+d(P,F_2)=k </me>.
+							</p>
 						</li>
 						<li>
 							<p> 
 								A hyperbola is the locus of a point <m> P  </m> that moves such that the difference of its distances from two given points <m> F_1 </m> and <m> F_2 </m> remains constant, <ie /> such that
-								<me> d(P,F_1)-d(P,F_2)=k </me>. </p>
+								<me> d(P,F_1)-d(P,F_2)=k </me>.
+							</p>
 						</li>
 					</ol>
 				</p>

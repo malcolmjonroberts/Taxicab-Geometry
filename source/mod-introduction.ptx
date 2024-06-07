@@ -4,28 +4,38 @@
   <title>Introducing Taxicab Geometry</title>
 
     <section> <title> Module Outline </title>
-		<p> 
-			<ul>
-				<li> Preliminary Ideas
-					<ol>
-						<li> Where does taxicab geometry fit into the overall idea of geometry? </li>
-						<li> What is taxicab geometry? </li>
-					</ol>
-				</li>
-				
-				<li> Investigations
-						<ol>
-							<li> The taxicab metric </li>
-							<li> Some shapes defined by distance </li>
-							<li> A simple application in urban geography </li>
-						</ol>
-				</li>
-			</ul>
-		</p>
 
-		<p> Note that the ideas and problems in this module are taken directly
-        from the book by Eugene F. Krause, Taxicab Geometry: An Adventure in Non-Euclidean Geometry
-        (Dover Books on Mathematics) Revised Edition 1986 </p>
+		<paragraphs> <title> Preliminary Ideas </title>
+			<p> 
+				In order to give taxicab geometry some context we will firstly think about some of the big ideas in geometry. 
+			</p>
+
+			<p>
+				Then we will look at some results from plane co-ordinate geometry that could be useful in our investigations in taxicab geometry.
+			</p>
+
+			<p>
+				Lastly, we will introduce the idea of taxicab geometry.
+			</p>
+		</paragraphs>
+
+		<paragraphs> <title> Investigations </title>
+			<p>
+				Our first investigations in taxicab geometry:
+				<ul>
+					<li> The taxicab metric </li>
+					<li> Some shapes defined by distance </li>
+					<li> A simple application in urban geography </li>
+				</ul>
+			</p>
+
+			<p> 
+				Note that the ideas and problems in this module are taken directly
+				from the book by Eugene F. Krause, Taxicab Geometry: An Adventure in Non-Euclidean Geometry
+				(Dover Books on Mathematics) Revised Edition 1986
+			 </p>
+		</paragraphs>
+		
 	</section>
 
 	<section> <title> Preliminary Ideas </title>
