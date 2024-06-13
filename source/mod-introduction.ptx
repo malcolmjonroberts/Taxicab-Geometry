@@ -208,5 +208,92 @@
     	</subsection>
     </section>
 
+	<section> <title> Investigations </title>
 
+		<project> <title> A context for taxicab geometry </title>
+		
+			<task>
+				<statement>
+					<p> What is geometry? </p>
+					<p> Discuss this among yourselves and see if you can come up with an explanation of what geometry is that might be suitable if you were telling an interested adult about what you were doing in your mathematics enrichment class.
+					</p>
+				</statement>
+			</task>
+
+			<task>
+				<statement>
+					<p> You will have to do some research on this one. Listed below are some of what might be called big ideas in geometry along with the name of one mathematician associated with that big idea. Pick one of these ideas. For that idea try to produce an outline/summary of that idea at a level that the rest of the class would understand. Also, find out one or more interesting facts about the mathematician mentioned.
+
+					<ul>
+						<li> Euclidean Geometry (Euclid, ~300BC) </li>
+						<li> Coordinate Geometry (Descartes, 1596-1650) </li>
+						<li> Topology (Euler, 1707-1783) </li>
+						<li> Non-Euclidean Geometry (Gauss, 1777-1855) </li>
+						<li> Fractal Geometry (Mandelbrot, 1924-2010) </li>
+					</ul>
+					</p>
+				</statement>
+			</task>
+
+		</project>
+
+		<project> <title> First explorations of taxicab distance </title>
+
+			<task> 
+				<statement>
+					<p> Let <m> A=(-3,5) </m>, <m> B=(-1,1) </m>, <m> C=(1,2) </m> and <m> D=(-3,-2) </m>. Find both the Euclidean distance, <m> d_E </m> and the taxicab distance, <m> d_T </m>, between the following pairs of points.
+						<ol>
+							<li> <m> A </m> and <m> C </m> </li>
+							<li> <m> A </m> and <m> B </m> </li>
+							<li> <m> A </m> and <m> D </m> </li>
+						</ol> 
+					</p>
+				</statement>
+				<answer>
+					<p> 
+						<ol>
+							<li> <m> d_E(A,C)=5 </m>, <m> d_T(A,C)=7 </m> </li>
+							<li> <m> d_E(A,B)=\sqrt{42} </m>, <m> d_T(A,B)=10 </m> </li>
+							<li> <m> d_E(A,D)=7 </m>, <m> d_T(A,D)=7 </m> </li>
+						</ol>
+					</p>
+				</answer>
+			</task>
+
+			<task> 
+				<statement>
+					<p> Find two points in the plane for which
+					</p>
+				</statement>
+				<answer>
+					<p> 
+					</p>
+				</answer>
+			</task>
+
+			<task> 
+				<statement>
+					<p> So do we only ever deal with points that have integer coordinates? How might we proceed if we decide to allow points with any real number for a coordinates?
+					</p>
+				</statement>
+				<answer>
+					<p> Rather than requiring the taxicab to stay on the grid lines (which are usually only drawn at integer values) require instead that the taxicab is only allowed to travel horizontally and vertically, (<ie /> parallel to the axes of the coordinate system).
+					</p>
+				</answer>
+			</task>
+
+			<task> 
+				<statement>
+					<p> If must ?
+					</p>
+					<p>
+					</p> If must?
+				</statement>
+				<answer>
+					<p> 
+					</p>
+				</answer>
+			</task>
+		</project>
+	</section>
 </chapter>
