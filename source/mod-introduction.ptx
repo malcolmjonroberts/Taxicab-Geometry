@@ -208,7 +208,7 @@
     	</subsection>
     </section>
 
-	<section> <title> Investigations </title>
+	<section> <title> Activities </title>
 
 		<project> <title> A context for taxicab geometry </title>
 		
@@ -263,6 +263,12 @@
 			<task> 
 				<statement>
 					<p> Find two points in the plane for which
+						<ol>
+							<li> <m> d_T \gt d_E </m> </li>
+							<li> <m> d_T = d_E </m> </li>
+							<li> <m> d_T \lt d_E </m> </li>
+							<li> <m> d_T = 2d_E </m> </li>
+						</ol>
 					</p>
 				</statement>
 				<answer>
@@ -273,7 +279,7 @@
 
 			<task> 
 				<statement>
-					<p> So do we only ever deal with points that have integer coordinates? How might we proceed if we decide to allow points with any real number for a coordinates?
+					<p> So, do we only ever deal with points that have integer coordinates? How might we proceed if we decide to allow points with any real number for a coordinates?
 					</p>
 				</statement>
 				<answer>
