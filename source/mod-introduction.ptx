@@ -293,16 +293,73 @@
 
 			<exercise> 
 				<statement>
-					<p> If must ?
-					</p>
 					<p>
-					</p> If must?
+						<ol>
+							<li>
+								<p>
+									If <m> d_E(A,B)= d_E(C,D) </m> must <m> d_T(A,B)=d_T(C,D) </m>?
+								</p>
+							</li>
+							<li>
+								<p>
+									If <m> d_T(A,B)= d_T(C,D) </m> must <m> d_E(A,B)=d_E(C,D) </m>?
+								</p>
+							</li>
+						</ol> 
+					</p>
 				</statement>
 				<answer>
 					<p> 
+						<ol>
+							<li> No </li>
+							<li> No </li>
+						</ol> 
 					</p>
 				</answer>
 			</exercise>
+
+			<exercise>
+				<statement>
+					<p>
+						Given the numbers <m> x_1, x_2, y_1 </m> and <m> y_2 </m> find:
+						<ol>
+							<li> <m> d_T(A,B) </m> when <m> A=(x_1, y_1) </m> and <m> B=(x_2,y_1) </m> </li>
+							<li> <m> d_T(A,B) </m> when <m> A=(x_1, y_1) </m> and <m> B=(x_1,y_2) </m> </li>
+							<li> <m> d_T(A,B) </m> when <m> A=(x_1, y_1) </m> and <m> B=(x_2,y_2) </m> </li>
+						</ol>
+					</p>
+				</statement>
+			</exercise>
+
+			<exercise>
+				<statement>
+					<p>
+						<ol>
+							<li>
+								<p>
+									Given the points <m> A=(-3,-2) </m> and <m> B=(2,1) </m> find their <em> taxicab mid-point </em>. 
+								</p>
+							</li>
+							<li>
+								<p>
+									Come up with a better name than <em> taxicab mid-point </em> for what you just found.
+								</p>
+							</li>
+							<li>
+								<p>
+									Make a tool in your favourite dynamic geometry environment (<eg /> GeoGebra) that will plot the <em> taxicab mid-point </em> (or whatever you are calling it now) given two points as the input to the tool.
+								</p>
+							</li>
+						</ol>
+					</p>
+				</statement>
+				<hint>
+					<p>
+						We cover this in the appendix on GeoGebra tools.
+					</p>
+				</hint>
+			</exercise>
+
 		</exercises>
 	</section>
 </chapter>
