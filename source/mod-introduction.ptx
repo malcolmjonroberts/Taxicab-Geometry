@@ -215,7 +215,8 @@
 			<task>
 				<statement>
 					<p> What is geometry? </p>
-					<p> Discuss this among yourselves and see if you can come up with an explanation of what geometry is that might be suitable if you were telling an interested adult about what you were doing in your mathematics enrichment class.
+					<p> 
+						Discuss this among yourselves and see if you can come up with an explanation of what geometry is that might be suitable if you were telling an interested adult about what you were doing in your mathematics enrichment class.
 					</p>
 				</statement>
 			</task>
@@ -237,9 +238,9 @@
 
 		</project>
 
-		<project> <title> First explorations of taxicab distance </title>
+		<exercises> <title> First explorations of taxicab distance </title>
 
-			<task> 
+			<exercise> 
 				<statement>
 					<p> Let <m> A=(-3,5) </m>, <m> B=(-1,1) </m>, <m> C=(1,2) </m> and <m> D=(-3,-2) </m>. Find both the Euclidean distance, <m> d_E </m> and the taxicab distance, <m> d_T </m>, between the following pairs of points.
 						<ol>
@@ -258,9 +259,9 @@
 						</ol>
 					</p>
 				</answer>
-			</task>
+			</exercise>
 
-			<task> 
+			<exercise> 
 				<statement>
 					<p> Find two points in the plane for which
 						<ol>
@@ -275,20 +276,22 @@
 					<p> 
 					</p>
 				</answer>
-			</task>
+			</exercise>
 
-			<task> 
+			<exercise> 
 				<statement>
-					<p> So, do we only ever deal with points that have integer coordinates? How might we proceed if we decide to allow points with any real number for a coordinates?
+					<p>
+						So far we have only used points that have integer coordinates? How might we proceed if we decide to allow points with any real number for a coordinates?
 					</p>
 				</statement>
 				<answer>
-					<p> Rather than requiring the taxicab to stay on the grid lines (which are usually only drawn at integer values) require instead that the taxicab is only allowed to travel horizontally and vertically, (<ie /> parallel to the axes of the coordinate system).
+					<p> 
+						Rather than requiring the taxicab to stay on the grid lines (which are usually only drawn at integer values) require instead that the taxicab is only allowed to travel horizontally and vertically, (<ie /> parallel to the axes of the coordinate system).
 					</p>
 				</answer>
-			</task>
+			</exercise>
 
-			<task> 
+			<exercise> 
 				<statement>
 					<p> If must ?
 					</p>
@@ -299,7 +302,7 @@
 					<p> 
 					</p>
 				</answer>
-			</task>
-		</project>
+			</exercise>
+		</exercises>
 	</section>
 </chapter>
