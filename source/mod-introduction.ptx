@@ -281,7 +281,7 @@
 			<exercise> 
 				<statement>
 					<p>
-						So far we have only used points that have integer coordinates? How might we proceed if we decide to allow points with any real number for a coordinates?
+						So far we have only used points that have integer coordinates? How might we proceed if we decide to allow points with any real number in its coordinates?
 					</p>
 				</statement>
 				<answer>
