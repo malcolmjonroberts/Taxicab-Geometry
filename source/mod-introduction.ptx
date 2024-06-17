@@ -465,9 +465,10 @@
 						<ol>
 							<li>
 								<p>
-									Given the three points <m> A </m> and <m> B </m>
+									Given the three points <m> A=(2,4) </m>, <m> B=(7,-1) </m>, <m> C=(-3,1) </m> find a point <m> P </m> for which <m> d_T(P,A)+d_T(P,B)+d_T(P,C) </m> is as small as possible.
 								</p>
 							</li>
+							<li> What happens for different choices of <m> A </m>, <m> B </m> and <m> C </m>? </li>
 						</ol>
 					</p>
 				</statement>
