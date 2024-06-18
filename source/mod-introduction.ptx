@@ -362,7 +362,7 @@
 
 		</exercises>
 
-		<exercises> <title> Some shapes defined by distance </title>
+		<exercises> <title> Some shapes defined by locus </title>
 
 			<exercise> 
 				<statement>
@@ -458,17 +458,56 @@
 				</answer>
 			</exercise>
 
+		</exercises>
+
+		<exercises> <title> A simple application to urban geography </title>
+
 			<exercise>
 				<statement>
-					<p>
-						In Euclidean geometry , the <term> Fermat point </term> of a triangle is the point that gives the smallest total if you add the distances from the point to each of the vertices of the triangle.
+					<p> 
+						Alice and Bruno are moving to Ideal City. In Ideal City the streets are set out in a perfect grid-like pattern and so they are going to use taxicab geometry to model the city. 
 						<ol>
 							<li>
 								<p>
-									Given the three points <m> A=(2,4) </m>, <m> B=(7,-1) </m>, <m> C=(-3,1) </m> find a point <m> P </m> for which <m> d_T(P,A)+d_T(P,B)+d_T(P,C) </m> is as small as possible.
+									Alice's work place is at <m> A=(-3,-1) </m> while Bruno will work at <m> B=(3,3) </m>. They decide that their new home should be located in a part of the city where the sum of the distances that they will have to travel to work should be as small as possible. Where in the city should they be looking?
 								</p>
 							</li>
-							<li> What happens for different choices of <m> A </m>, <m> B </m> and <m> C </m>? </li>
+							<li>
+								<p>
+									After finding that Alice has an early morning start they decide that, as
+									well as the requirement in a), their home should also be closer to Alice’s
+									work. Now where should they look?
+								</p>
+							</li>
+						</ol>
+					</p>
+				</statement>
+				<answer>
+					<p>
+						
+					</p>
+				</answer>
+			</exercise>
+
+			<exercise>
+				<statement>
+					<p> 
+						<ol>
+							<li>
+								<p>
+									In Ideal City there are three high schools, Fillmore at <m> (-4,3) </m>, Graceland at <m> (2,1) </m> and Hartley at <m> (-1,-6) </m>. Determine the boundaries so that students attend the nearest school.
+								</p>
+							</li>
+							<li>
+								<p>
+									If Burger Baron wants to open a store which is the same distance from all three schools, where should it be?
+								</p>
+							</li>
+							<li>
+								<p>
+									If a fourth high school, Parmenter, is built at <m> (5,3) </m> draw in the new school boundaries.
+								</p>
+							</li>
 						</ol>
 					</p>
 				</statement>
