@@ -186,7 +186,7 @@
 				<exercise>
 					<statement>
 						<p>
-							Sketch the graph of the taxicab ellipse with focus <m> F </m>, directrix <m> l </m> with elasticity <m> e=\frac{1}{2} </m>.
+							Sketch the graph of the taxicab ellipse with focus <m> F </m>, directrix <m> l </m> and with elasticity <m> e=\frac{1}{2} </m>.
 						</p>
 					</statement>
 					<answer>
@@ -199,7 +199,7 @@
 				<exercise>
 					<statement>
 						<p>
-							What is the effect of varying <m> e </m>?
+							What is the effect of varying the elasticity <m> e </m>?
 						</p>
 					</statement>
 				</exercise>
