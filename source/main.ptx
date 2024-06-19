@@ -16,7 +16,7 @@
       <title> Enrichment Modules </title>
       <xi:include href="./mod-introduction.ptx" />
       <xi:include href="./mod-conics.ptx" />
-      <xi:include href=".mod-triangles.ptx" />
+      <xi:include href="./mod-triangles.ptx" />
   <!--
       <xi:include href="ModuleCircles.ptx" />
       <xi:include href="ModuleTrigonometry.ptx" />
