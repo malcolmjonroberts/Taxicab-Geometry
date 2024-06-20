@@ -136,6 +136,96 @@
 
 	<section> <title> Activities </title>
 
+		<exercises>
+			
+			<exercisegroup> <title> Parabolas </title>
+				<introduction>
+					<p>
+						Sketch the graph of the taxicab parabola whose focus is the point <m> F </m> and whose directrix is the line <m> l </m> where:
+					</p>
+				</introduction>
+
+				<exercise>
+					<p>
+						<m> F=(0,1) </m> and <m> l </m> is <m> y=-1 </m>
+					</p>
+				</exercise>
+
+				<exercise>
+					<p>
+						<m> F=(2,2) </m> and <m> l </m> is <m> y=6 </m>
+					</p>
+				</exercise>
+
+				<exercise>
+					<p>
+						<m> F=(-4,4) </m> and <m> l </m> is <m> y=x </m>
+					</p>
+				</exercise>
+
+				<exercise>
+					<p>
+						<m> F=(-2,3) </m> and <m> l </m> is <m> y=\frac{1}{2}x-2 </m>
+					</p>
+				</exercise>
+
+			</exercisegroup>
+
+			<exercisegroup> <title> Ellipses </title>
+				<introduction>
+					<p>
+						
+					</p>
+				</introduction>
+
+				<exercise>
+					<p>
+						Sketch the graph of the taxicab ellipse with focus <m> F=(0,0) </m>, directrix <m> y=-6 </m> and with elasticity <m> e=\frac{1}{2} </m>.
+					</p>
+				</exercise>
+
+				<exercise>
+					<p>
+						What is the effect of varying the elasticity <m> e </m>?
+					</p>
+				</exercise>
+
+				<exercise>
+					<p>
+						Will the ellipse have the same basic shape if the directrix is not vertical or horizontal?
+					</p>
+				</exercise>
+
+				<exercise>
+					<p>
+						Sketch the graph of the taxicab ellipse with foci at  <m> F_1=(0,0) </m>, <m> F_2=(0,6) </m> and satisfying <m> d_T(F_1,P)+d_T(F_2,P)=8 </m>.
+					</p>
+				</exercise>
+
+				<exercise>
+					<p>
+						What is the effect of varying the number 8 in exercise ??
+					</p>
+				</exercise>
+
+				<exercise>
+					<p>
+						What is the effect of varying the number 8 in exercise ??
+					</p>
+				</exercise>
+
+				<exercise>
+					<p>
+						Will the ellipse have the same basic shape if the foci are not aligned vertically or horizontally?
+					</p>
+				</exercise>
+
+			</exercisegroup>
+			
+		</exercises>
+
+<!--
+
 		<exercises> <title> Parabolas </title>
 			
 			<exercise>
@@ -325,7 +415,7 @@
 			</exercisegroup>
 
 		</exercises>
-
+	-->
 	</section>
 
 </chapter>
