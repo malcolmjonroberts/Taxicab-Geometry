@@ -106,7 +106,7 @@
 				<exercise>
 					<statement>
 						<p>
-							Consider the triangle with vertices at <m> D=(0,0) </m>, <m> E=(\frac{3\sqrt{3}}{2},\frac{3\sqrt{3}}{2}) </m>, <m> F=(-\frac{3\sqrt{3}}{2},\frac{3\sqrt{3}}{2}) </m>. Determine the area of this triangle in both Euclidean and taxicab geometry.
+							Consider the triangle with vertices at <m> D=(0,0) </m>, <m> E=(\frac{3\sqrt{2}}{2},\frac{3\sqrt{2}}{2}) </m>, <m> F=(-\frac{3\sqrt{2}}{2},\frac{3\sqrt{2}}{2}) </m>. Determine the area of this triangle in both Euclidean and taxicab geometry.
 						</p>
 					</statement>
 				</exercise>
