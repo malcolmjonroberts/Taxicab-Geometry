@@ -25,7 +25,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "1",
   "title": "Introducing Taxicab Geometry",
-  "body": " Introducing Taxicab Geometry   Module Outline   Preliminary Ideas  In order to give taxicab geometry some context we will firstly think about some of the big ideas in geometry.  Then we will look at some results from plane co-ordinate geometry that could be useful in our investigations in taxicab geometry.  Lastly, we will introduce the idea of taxicab geometry.    Investigations  Our first investigations in taxicab geometry:  The taxicab metric  Some shapes defined by distance  A simple application in urban geography    Note that the ideas and problems in this module are taken directly from the book by Eugene F. Krause, Taxicab Geometry: An Adventure in Non-Euclidean Geometry (Dover Books on Mathematics) Revised Edition 1986     Preliminary Ideas   Euclidean Geometry  In most schools the geometry topics that are taught come from a branch of geometry called Euclidean Geometry. In simple terms, Plane Euclidean Geometry is the study of the properties of figures that can be drawn on piece of paper (i.e. can be drawn in the plane). Lines, triangles, circles and so on are examples of the kind of figures typically investigated in school geometry courses. Here are a couple of examples of the kind of properties of these figures that are considered to be results from Euclidean geometry.    The area of a triangle whose base has length and whose perpendicular height is is .      The perpendicular bisector of a chord of a circle passes through the centre of the circle.     is illustrated in . In this figure you can drag points and to move the chord of the circle around or you can drag points and to change the circle. As you can see, the perpendicular bisector of the chord, the line that passes through the mid-point of and and is at right angles to the chord , always passes through the centre of the circle.       It is called Euclidean geometry because of the enormous contribution that the ancient Greek mathematician Euclid of Alexandria (who lived around 300BC) made to this field of study. If you would like to know more about Euclid and his contribution to geometry you could start with the Encyclopedia Britannica article Euclid (Greek Mathematician) or the Wikipedia article Euclid .    Geometric figures defined by locus  Some geometric figures are readily described as the locus of points that obey some rule.    Coordinate Geometry  The idea of using coordinates (set up by placing a set of coordinate axes on the plane) to study geometric objects can be traced back to the work La Geometrie by Rene Descartes published in 1637. This way of studying geometry is called coordinate geometry .  In this module it would definitely be an advantage if you were already familiar with a some (Euclidean) coordinate geometry in the plane. In particular, given two points and could you:  Determine the coordinates of the point half-way between and , the mid-point of and ?  Determine the distance between and ?  Find the equation of the line that passes through and ?  Find the equation of the circle with centre and passing through ?     Some Coordinate Geometry   Consider the points and . For these points find:  The mid-point of and .  The distance between and .  The equation of the line that passes through and .  The equation of the circle with centre and passing through .      There are many ways in which we could go about finding the results asked for. One way might be to use the formulas that are listed at the end of this section. The methods outlined below, however, are ones that try to give some small insight into where those general formulas might come from.   show points and plotted in the plane. In this figure we have also constructed a right angled triangle with the interval as the hypotenuse. Note that, while it is not directly relevant to the example, in this figure you can drag the points and to different locations in the plane. This would be useful if you were looking for results that might be more generally applicable than just for the points and .          The -coordinate of the midpoint, , of and will be halfway between the -coordinate and the -coordinate , the average of -coordinate and the -coordinate . Similarly for the -coordinate of the midpoint. So, .    The distance, , between and is the length of the hypotenuse in the triangle . In this triangle, side has length 5 and side has length 3. Thus, using Pythagoras' Theorem .    If is some unspecified point on the line passing through and then triangles and will be similar. In similar triangles the ratio of corresponding sides are equal. So , which on rearranging gives . Note here that this argument isn't really complete. Does the argument hold if the point is between the points and ? This should be checked, as well as other placements of .    If is some unspecified point on the circle with centre and passing through then the distance of from will be equal to the distance of from . Thus , which on squaring both sides becomes        Even if you haven't come across much coordinate geometry before I would still encourage you to have a go at least at the early taxicab geometry activities since you can make progress in these activities just using common sense. Of course, the activities may take you a little longer and\/or you may approach them in different ways but that is nothing to worry about.  To finish off this very brief discussion of coordinate geometry I have listed a few basic results from coordinate geometry. Use this list as you see fit, maybe just as a reminder of these results or maybe as a reference for later on or even as a list of material that you might want to investigate further yourself. It would be good if you could explain why these results hold.  The Mid Point Formula  The mid-point, , of and has the coordinates .   The Distance Formula  The distance, between the points and is .   The Equation of the Line  The equation of the line that passes through the points and is .   The Equation of the Circle  The equation of the circle with centre and passing through is .     Taxicab Geometry  Taxicab Geometry is the same as plane (Euclidean) Coordinate Geometry except that in taxicab geometry distances are calculated, not as the crow flies, but as the (honest) taxicab driver would drive, i.e. taking the shortest path while staying on the \"streets\".  Given two points, and , in the plane we are going to use the notation to denote the Euclidean distance between the points and to denote the taxicab distance Taxicab distance between the points.   Calculating a Taxicab Distance  Consider the points and .  For these points we can see (for example by using the formula given in ) that .  Now look at . As you can see, there are many possible paths that the honest taxicab driver could take from to , (the figure shows just two of these). However all of these paths have the same length, i.e. 8. Thus .    Two possible Taxicab Paths from to        Activities   A context for taxicab geometry   What is geometry?  Discuss this among yourselves and see if you can come up with an explanation of what geometry is that might be suitable if you were telling an interested adult about what you were doing in your mathematics enrichment class.    You will have to do some research on this one. Listed below are some of what might be called big ideas in geometry along with the name of one mathematician associated with that big idea. Pick one of these ideas. For that idea try to produce an outline\/summary of that idea at a level that the rest of the class would understand. Also, find out one or more interesting facts about the mathematician mentioned.  Euclidean Geometry (Euclid, ~300BC)  Coordinate Geometry (Descartes, 1596-1650)  Topology (Euler, 1707-1783)  Non-Euclidean Geometry (Gauss, 1777-1855)  Fractal Geometry (Mandelbrot, 1924-2010)       First explorations of taxicab distance   Let , , and . Find both the Euclidean distance, and the taxicab distance, , between the following pairs of points.   and    and    and         ,    ,    ,       Find two points in the plane for which                     So, do we only ever deal with points that have integer coordinates? How might we proceed if we decide to allow points with any real number for a coordinates?   Rather than requiring the taxicab to stay on the grid lines (which are usually only drawn at integer values) require instead that the taxicab is only allowed to travel horizontally and vertically, ( parallel to the axes of the coordinate system).    If must ?   If must?       "
+  "body": " Introducing Taxicab Geometry   Module Outline   Preliminary Ideas  In order to give taxicab geometry some context we will firstly think about some of the big ideas in geometry.  Then we will look at some results from plane co-ordinate geometry that could be useful in our investigations in taxicab geometry.  Lastly, we will introduce the idea of taxicab geometry.    Investigations  Our first investigations in taxicab geometry:  The taxicab metric  Some shapes defined by distance  A simple application in urban geography    Note that the ideas and problems in this module are taken directly from the book by Eugene F. Krause, Taxicab Geometry: An Adventure in Non-Euclidean Geometry (Dover Books on Mathematics) Revised Edition 1986     Preliminary Ideas   Euclidean Geometry  In most schools the geometry topics that are taught come from a branch of geometry called Euclidean Geometry. In simple terms, Plane Euclidean Geometry is the study of the properties of figures that can be drawn on piece of paper (i.e. can be drawn in the plane). Lines, triangles, circles and so on are examples of the kind of figures typically investigated in school geometry courses. Here are a couple of examples of the kind of properties of these figures that are considered to be results from Euclidean geometry.    The area of a triangle whose base has length and whose perpendicular height is is .      The perpendicular bisector of a chord of a circle passes through the centre of the circle.     is illustrated in . In this figure you can drag points and to move the chord of the circle around or you can drag points and to change the circle. As you can see, the perpendicular bisector of the chord, the line that passes through the mid-point of and and is at right angles to the chord , always passes through the centre of the circle.       It is called Euclidean geometry because of the enormous contribution that the ancient Greek mathematician Euclid of Alexandria (who lived around 300BC) made to this field of study. If you would like to know more about Euclid and his contribution to geometry you could start with the Encyclopedia Britannica article Euclid (Greek Mathematician) or the Wikipedia article Euclid .    Geometric figures defined by locus  Some geometric figures are readily described as the locus of points that obey some rule.    Coordinate Geometry  The idea of using coordinates (set up by placing a set of coordinate axes on the plane) to study geometric objects can be traced back to the work La Geometrie by Rene Descartes published in 1637. This way of studying geometry is called coordinate geometry .  In this module it would definitely be an advantage if you were already familiar with a some (Euclidean) coordinate geometry in the plane. In particular, given two points and could you:  Determine the coordinates of the point half-way between and , the mid-point of and ?  Determine the distance between and ?  Find the equation of the line that passes through and ?  Find the equation of the circle with centre and passing through ?     Some Coordinate Geometry   Consider the points and . For these points find:  The mid-point of and .  The distance between and .  The equation of the line that passes through and .  The equation of the circle with centre and passing through .      There are many ways in which we could go about finding the results asked for. One way might be to use the formulas that are listed at the end of this section. The methods outlined below, however, are ones that try to give some small insight into where those general formulas might come from.   show points and plotted in the plane. In this figure we have also constructed a right angled triangle with the interval as the hypotenuse. Note that, while it is not directly relevant to the example, in this figure you can drag the points and to different locations in the plane. This would be useful if you were looking for results that might be more generally applicable than just for the points and .          The -coordinate of the midpoint, , of and will be halfway between the -coordinate and the -coordinate , the average of -coordinate and the -coordinate . Similarly for the -coordinate of the midpoint. So, .    The distance, , between and is the length of the hypotenuse in the triangle . In this triangle, side has length 5 and side has length 3. Thus, using Pythagoras' Theorem .    If is some unspecified point on the line passing through and then triangles and will be similar. In similar triangles the ratio of corresponding sides are equal. So , which on rearranging gives . Note here that this argument isn't really complete. Does the argument hold if the point is between the points and ? This should be checked, as well as other placements of .    If is some unspecified point on the circle with centre and passing through then the distance of from will be equal to the distance of from . Thus , which on squaring both sides becomes        Even if you haven't come across much coordinate geometry before I would still encourage you to have a go at least at the early taxicab geometry activities since you can make progress in these activities just using common sense. Of course, the activities may take you a little longer and\/or you may approach them in different ways but that is nothing to worry about.  To finish off this very brief discussion of coordinate geometry I have listed a few basic results from coordinate geometry. Use this list as you see fit, maybe just as a reminder of these results or maybe as a reference for later on or even as a list of material that you might want to investigate further yourself. It would be good if you could explain why these results hold.  The Mid Point Formula  The mid-point, , of and has the coordinates .   The Distance Formula  The distance, between the points and is .   The Equation of the Line  The equation of the line that passes through the points and is .   The Equation of the Circle  The equation of the circle with centre and passing through is .     Taxicab Geometry  Taxicab Geometry is the same as plane (Euclidean) Coordinate Geometry except that in taxicab geometry distances are calculated, not as the crow flies, but as the (honest) taxicab driver would drive, i.e. taking the shortest path while staying on the \"streets\".  Given two points, and , in the plane we are going to use the notation to denote the Euclidean distance between the points and to denote the taxicab distance Taxicab distance between the points.   Calculating a Taxicab Distance  Consider the points and .  For these points we can see (for example by using the formula given in ) that .  Now look at . As you can see, there are many possible paths that the honest taxicab driver could take from to , (the figure shows just two of these). However all of these paths have the same length, i.e. 8. Thus .    Two possible Taxicab Paths from to        Activities   A context for taxicab geometry   What is geometry?  Discuss this among yourselves and see if you can come up with an explanation of what geometry is that might be suitable if you were telling an interested adult about what you were doing in your mathematics enrichment class.    You will have to do some research on this one. Listed below are some of what might be called big ideas in geometry along with the name of one mathematician associated with that big idea. Pick one of these ideas. For that idea try to produce an outline\/summary of that idea at a level that the rest of the class would understand. Also, find out one or more interesting facts about the mathematician mentioned.  Euclidean Geometry (Euclid, ~300BC)  Coordinate Geometry (Descartes, 1596-1650)  Topology (Euler, 1707-1783)  Non-Euclidean Geometry (Gauss, 1777-1855)  Fractal Geometry (Mandelbrot, 1924-2010)       First explorations of taxicab distance   Let , , and . Find both the Euclidean distance, and the taxicab distance, , between the following pairs of points.   and    and    and         ,    ,    ,       Find two points in the plane for which                     So far we have only used points that have integer coordinates? How might we proceed if we decide to allow points with any real number in its coordinates?   Rather than requiring the taxicab to stay on the grid lines (which are usually only drawn at integer values) require instead that the taxicab is only allowed to travel horizontally and vertically, ( parallel to the axes of the coordinate system).       If must ?    If must ?        No  No      Given the numbers and find:   when and    when and    when and          Given the points and find their taxicab mid-point .    Come up with a better name than taxicab mid-point for what you just found.    Make a tool in your favourite dynamic geometry environment ( GeoGebra) that will plot the taxicab mid-point (or whatever you are calling it now) given two points as the input to the tool.      We cover this in the appendix on GeoGebra tools.     Some shapes defined by locus   Let .  If calculate .  Find two other points the same distance from as is.   Plot the set of all points at taxicab distance from .    On the same diagram plot the set of all points at Euclidean distance from , ( whose Euclidean distance from is the same as the taxicab distance from to ). Give (sensible) names to the two sets of points that you have now plotted.   In taxicab geometry what is a reasonable numerical value for ?       3   ,   4         Draw diagrams showing different ways in which Euclidean circles can intersect.    Draw diagrams showing different ways in which taxicab circles can intersect.    Can taxicab circles intersect in ways that Euclidean circles can't?    Can Euclidean circles intersect in ways that taxicab circles can't?          Let and .   Plot the set of all points for which .    Plot the set of all points for which .    Repeat but with other choices for and . Can you predict what the set of points will look like just given the points and ?           A simple application to urban geography   Alice and Bruno are moving to Ideal City. In Ideal City the streets are set out in a perfect grid-like pattern and so they are going to use taxicab geometry to model the city.   Alice's work place is at while Bruno will work at . They decide that their new home should be located in a part of the city where the sum of the distances that they will have to travel to work should be as small as possible. Where in the city should they be looking?    After finding that Alice has an early morning start they decide that, as well as the requirement in a), their home should also be closer to Alice’s work. Now where should they look?             In Ideal City there are three high schools, Fillmore at , Graceland at and Hartley at . Determine the boundaries so that students attend the nearest school.    If Burger Baron wants to open a store which is the same distance from all three schools, where should it be?    If a fourth high school, Parmenter, is built at draw in the new school boundaries.           "
 },
 {
   "id": "mod-introduction-3-2-3",
@@ -127,13 +127,103 @@ var ptx_lunr_docs = [
   "body": " A context for taxicab geometry   What is geometry?  Discuss this among yourselves and see if you can come up with an explanation of what geometry is that might be suitable if you were telling an interested adult about what you were doing in your mathematics enrichment class.    You will have to do some research on this one. Listed below are some of what might be called big ideas in geometry along with the name of one mathematician associated with that big idea. Pick one of these ideas. For that idea try to produce an outline\/summary of that idea at a level that the rest of the class would understand. Also, find out one or more interesting facts about the mathematician mentioned.  Euclidean Geometry (Euclid, ~300BC)  Coordinate Geometry (Descartes, 1596-1650)  Topology (Euler, 1707-1783)  Non-Euclidean Geometry (Gauss, 1777-1855)  Fractal Geometry (Mandelbrot, 1924-2010)     "
 },
 {
-  "id": "mod-introduction-4-3",
+  "id": "mod-introduction-4-3-2",
   "level": "2",
-  "url": "mod-introduction.html#mod-introduction-4-3",
-  "type": "Project",
-  "number": "1.2",
-  "title": "First explorations of taxicab distance.",
-  "body": " First explorations of taxicab distance   Let , , and . Find both the Euclidean distance, and the taxicab distance, , between the following pairs of points.   and    and    and         ,    ,    ,       Find two points in the plane for which                     So, do we only ever deal with points that have integer coordinates? How might we proceed if we decide to allow points with any real number for a coordinates?   Rather than requiring the taxicab to stay on the grid lines (which are usually only drawn at integer values) require instead that the taxicab is only allowed to travel horizontally and vertically, ( parallel to the axes of the coordinate system).    If must ?   If must?     "
+  "url": "mod-introduction.html#mod-introduction-4-3-2",
+  "type": "Exercise",
+  "number": "1.3.1",
+  "title": "",
+  "body": " Let , , and . Find both the Euclidean distance, and the taxicab distance, , between the following pairs of points.   and    and    and         ,    ,    ,     "
+},
+{
+  "id": "mod-introduction-4-3-3",
+  "level": "2",
+  "url": "mod-introduction.html#mod-introduction-4-3-3",
+  "type": "Exercise",
+  "number": "1.3.2",
+  "title": "",
+  "body": " Find two points in the plane for which                   "
+},
+{
+  "id": "mod-introduction-4-3-4",
+  "level": "2",
+  "url": "mod-introduction.html#mod-introduction-4-3-4",
+  "type": "Exercise",
+  "number": "1.3.3",
+  "title": "",
+  "body": " So far we have only used points that have integer coordinates? How might we proceed if we decide to allow points with any real number in its coordinates?   Rather than requiring the taxicab to stay on the grid lines (which are usually only drawn at integer values) require instead that the taxicab is only allowed to travel horizontally and vertically, ( parallel to the axes of the coordinate system).  "
+},
+{
+  "id": "mod-introduction-4-3-5",
+  "level": "2",
+  "url": "mod-introduction.html#mod-introduction-4-3-5",
+  "type": "Exercise",
+  "number": "1.3.4",
+  "title": "",
+  "body": "    If must ?    If must ?        No  No    "
+},
+{
+  "id": "mod-introduction-4-3-6",
+  "level": "2",
+  "url": "mod-introduction.html#mod-introduction-4-3-6",
+  "type": "Exercise",
+  "number": "1.3.5",
+  "title": "",
+  "body": " Given the numbers and find:   when and    when and    when and     "
+},
+{
+  "id": "mod-introduction-4-3-7",
+  "level": "2",
+  "url": "mod-introduction.html#mod-introduction-4-3-7",
+  "type": "Exercise",
+  "number": "1.3.6",
+  "title": "",
+  "body": "    Given the points and find their taxicab mid-point .    Come up with a better name than taxicab mid-point for what you just found.    Make a tool in your favourite dynamic geometry environment ( GeoGebra) that will plot the taxicab mid-point (or whatever you are calling it now) given two points as the input to the tool.      We cover this in the appendix on GeoGebra tools.  "
+},
+{
+  "id": "mod-introduction-4-4-2",
+  "level": "2",
+  "url": "mod-introduction.html#mod-introduction-4-4-2",
+  "type": "Exercise",
+  "number": "1.3.1",
+  "title": "",
+  "body": " Let .  If calculate .  Find two other points the same distance from as is.   Plot the set of all points at taxicab distance from .    On the same diagram plot the set of all points at Euclidean distance from , ( whose Euclidean distance from is the same as the taxicab distance from to ). Give (sensible) names to the two sets of points that you have now plotted.   In taxicab geometry what is a reasonable numerical value for ?       3   ,   4    "
+},
+{
+  "id": "mod-introduction-4-4-3",
+  "level": "2",
+  "url": "mod-introduction.html#mod-introduction-4-4-3",
+  "type": "Exercise",
+  "number": "1.3.2",
+  "title": "",
+  "body": "    Draw diagrams showing different ways in which Euclidean circles can intersect.    Draw diagrams showing different ways in which taxicab circles can intersect.    Can taxicab circles intersect in ways that Euclidean circles can't?    Can Euclidean circles intersect in ways that taxicab circles can't?        "
+},
+{
+  "id": "mod-introduction-4-4-4",
+  "level": "2",
+  "url": "mod-introduction.html#mod-introduction-4-4-4",
+  "type": "Exercise",
+  "number": "1.3.3",
+  "title": "",
+  "body": " Let and .   Plot the set of all points for which .    Plot the set of all points for which .    Repeat but with other choices for and . Can you predict what the set of points will look like just given the points and ?        "
+},
+{
+  "id": "mod-introduction-4-5-2",
+  "level": "2",
+  "url": "mod-introduction.html#mod-introduction-4-5-2",
+  "type": "Exercise",
+  "number": "1.3.1",
+  "title": "",
+  "body": " Alice and Bruno are moving to Ideal City. In Ideal City the streets are set out in a perfect grid-like pattern and so they are going to use taxicab geometry to model the city.   Alice's work place is at while Bruno will work at . They decide that their new home should be located in a part of the city where the sum of the distances that they will have to travel to work should be as small as possible. Where in the city should they be looking?    After finding that Alice has an early morning start they decide that, as well as the requirement in a), their home should also be closer to Alice’s work. Now where should they look?        "
+},
+{
+  "id": "mod-introduction-4-5-3",
+  "level": "2",
+  "url": "mod-introduction.html#mod-introduction-4-5-3",
+  "type": "Exercise",
+  "number": "1.3.2",
+  "title": "",
+  "body": "    In Ideal City there are three high schools, Fillmore at , Graceland at and Hartley at . Determine the boundaries so that students attend the nearest school.    If Burger Baron wants to open a store which is the same distance from all three schools, where should it be?    If a fourth high school, Parmenter, is built at draw in the new school boundaries.        "
 },
 {
   "id": "mod-conics",
@@ -141,8 +231,8 @@ var ptx_lunr_docs = [
   "url": "mod-conics.html",
   "type": "Chapter",
   "number": "2",
-  "title": "Conics",
-  "body": " Conics   Module Outline  This is attempt ?   Preliminary Ideas  A brief discussion of the conics in Euclidean geometry, primarily by looking at the different ways in which the conics can be defined.    Investigations  Conics in taxicab geometry via the focus\/directrix definition.  The ellipse  The parabola  The hyperbola       Preliminary Ideas   The Conics in Euclidean Geometry  In Euclidean geometry the conics are a family of curves in the plane. They can be defined in a number of different ways.   A Geometric Definition  A conic is a curve obtained as the intersection of a plane and the surface of a cone (or two cones placed apex to apex). The four types of (non-degenerate) conics are the hyperbola, the parabola, the ellipse and the circle, as illustrated in figure ?   From figure ? you can why a this family of curves is also sometimes referred to as the conic sections, (rather than simply the conics).   An Algebraic Definition  A conic is a curve associated with the equation where are real numbers and , and are not all 0.   If then the equation represents an ellipse, a circle, a point or no curve. For the equation to represent a circle and .    If then the equation represents an parabola, two parallel lines, one line or no curve.    If then the equation represents a hyperbola or two intersecting lines. If also then the equation represents a rectangular hyperbola.      Add a couple of examples here.   A Focus-Directrix Definition  A non-circular conic is the set of points, , whose distances to a given point , called the focus, and a given line , called the directrix, are in a fixed ratio, , called the eccentricity, for which .   If then the conic is an ellipse.    If then the conic is a parabola.    If then the conic is a hyperbola.      Add a couple of examples here too.   A Locus Definition     A circle is the locus of a point that moves such that its distance from a given point remains constant, such that . The constant is the radius of the circle.    A parabola is the locus of a point that moves such that its distance from a given point and a given line remains equal, such that .    An ellipse is the locus of a point that moves such that the sum of its distances from two given points and remains equal, such that .    A hyperbola is the locus of a point that moves such that the difference of its distances from two given points and remains constant, such that .      Add a couple of examples here too.    Further Information     Investigations   "
+  "title": "Taxicab Conics",
+  "body": " Taxicab Conics   Module Outline  This is attempt ?   Preliminary Ideas  A brief discussion of the conics in Euclidean geometry, primarily by looking at the different ways in which the conics can be defined.    Investigations  Conics in taxicab geometry via the focus\/directrix definition.  The ellipse  The parabola  The hyperbola       Preliminary Ideas   The Conics in Euclidean Geometry  In Euclidean geometry the conics are a family of curves in the plane. They can be defined in a number of different ways.   A Geometric Definition  A conic is a curve obtained as the intersection of a plane and the surface of a cone (or two cones placed apex to apex). The four types of (non-degenerate) conics are the hyperbola, the parabola, the ellipse and the circle, as illustrated in figure ?   From figure ? you can why a this family of curves is also sometimes referred to as the conic sections, (rather than simply the conics).   An Algebraic Definition  A conic is a curve associated with the equation where are real numbers and , and are not all 0.   If then the equation represents an ellipse, a circle, a point or no curve. For the equation to represent a circle and .    If then the equation represents an parabola, two parallel lines, one line or no curve.    If then the equation represents a hyperbola or two intersecting lines. If also then the equation represents a rectangular hyperbola.      Add a couple of examples here.   A Focus-Directrix Definition  A non-circular conic is the set of points, , whose distances to a given point , called the focus, and a given line , called the directrix, are in a fixed ratio, , called the eccentricity, for which .   If then the conic is an ellipse.    If then the conic is a parabola.    If then the conic is a hyperbola.      Add a couple of examples here too.   A Locus Definition     A circle is the locus of a point that moves such that its distance from a given point remains constant, such that . The constant is the radius of the circle.    A parabola is the locus of a point that moves such that its distance from a given point and a given line remains equal, such that .    An ellipse is the locus of a point that moves such that the sum of its distances from two given points and remains equal, such that .    A hyperbola is the locus of a point that moves such that the difference of its distances from two given points and remains constant, such that .      Add a couple of examples here too.    Further Information     Activities      Parabolas   Sketch the graph of the taxicab parabola whose focus is the point and whose directrix is the line where:    and is    and is    and is    and is     Ellipses    Sketch the graph of the taxicab ellipse with focus , directrix and with elasticity .  What is the effect of varying the elasticity ?  Will the ellipse have the same basic shape if the directrix is not vertical or horizontal?  Sketch the graph of the taxicab ellipse with foci at , and satisfying .  What is the effect of varying the number 8 in exercise ??  Will the ellipse have the same basic shape if the foci are not aligned vertically or horizontally?    Hyperbolae    Sketch the graph of the taxicab hyperbola with focus , directrix and with elasticity .  What is the effect of varying the elasticity ?  Will the ellipse have the same basic shape if the directrix is not vertical or horizontal?  Sketch the graph of the taxicab hyperbola with foci at , and satisfying .  What is the effect of varying the number 6 in exercise ??  Will the hyperbola have the same basic shape if the foci are not aligned vertically or horizontally?     "
 },
 {
   "id": "mod-conics-3-2-2",
@@ -190,11 +280,272 @@ var ptx_lunr_docs = [
   "body": " A Locus Definition     A circle is the locus of a point that moves such that its distance from a given point remains constant, such that . The constant is the radius of the circle.    A parabola is the locus of a point that moves such that its distance from a given point and a given line remains equal, such that .    An ellipse is the locus of a point that moves such that the sum of its distances from two given points and remains equal, such that .    A hyperbola is the locus of a point that moves such that the difference of its distances from two given points and remains constant, such that .     "
 },
 {
+  "id": "mod-conics-4-2-2-3",
+  "level": "2",
+  "url": "mod-conics.html#mod-conics-4-2-2-3",
+  "type": "Exercise",
+  "number": "2.3.1",
+  "title": "",
+  "body": " and is  "
+},
+{
+  "id": "mod-conics-4-2-2-4",
+  "level": "2",
+  "url": "mod-conics.html#mod-conics-4-2-2-4",
+  "type": "Exercise",
+  "number": "2.3.2",
+  "title": "",
+  "body": " and is  "
+},
+{
+  "id": "mod-conics-4-2-2-5",
+  "level": "2",
+  "url": "mod-conics.html#mod-conics-4-2-2-5",
+  "type": "Exercise",
+  "number": "2.3.3",
+  "title": "",
+  "body": " and is  "
+},
+{
+  "id": "mod-conics-4-2-2-6",
+  "level": "2",
+  "url": "mod-conics.html#mod-conics-4-2-2-6",
+  "type": "Exercise",
+  "number": "2.3.4",
+  "title": "",
+  "body": " and is  "
+},
+{
+  "id": "mod-conics-4-2-3-3",
+  "level": "2",
+  "url": "mod-conics.html#mod-conics-4-2-3-3",
+  "type": "Exercise",
+  "number": "2.3.5",
+  "title": "",
+  "body": "Sketch the graph of the taxicab ellipse with focus , directrix and with elasticity . "
+},
+{
+  "id": "mod-conics-4-2-3-4",
+  "level": "2",
+  "url": "mod-conics.html#mod-conics-4-2-3-4",
+  "type": "Exercise",
+  "number": "2.3.6",
+  "title": "",
+  "body": "What is the effect of varying the elasticity ? "
+},
+{
+  "id": "mod-conics-4-2-3-5",
+  "level": "2",
+  "url": "mod-conics.html#mod-conics-4-2-3-5",
+  "type": "Exercise",
+  "number": "2.3.7",
+  "title": "",
+  "body": "Will the ellipse have the same basic shape if the directrix is not vertical or horizontal? "
+},
+{
+  "id": "mod-conics-4-2-3-6",
+  "level": "2",
+  "url": "mod-conics.html#mod-conics-4-2-3-6",
+  "type": "Exercise",
+  "number": "2.3.8",
+  "title": "",
+  "body": "Sketch the graph of the taxicab ellipse with foci at , and satisfying . "
+},
+{
+  "id": "mod-conics-4-2-3-7",
+  "level": "2",
+  "url": "mod-conics.html#mod-conics-4-2-3-7",
+  "type": "Exercise",
+  "number": "2.3.9",
+  "title": "",
+  "body": "What is the effect of varying the number 8 in exercise ?? "
+},
+{
+  "id": "mod-conics-4-2-3-8",
+  "level": "2",
+  "url": "mod-conics.html#mod-conics-4-2-3-8",
+  "type": "Exercise",
+  "number": "2.3.10",
+  "title": "",
+  "body": "Will the ellipse have the same basic shape if the foci are not aligned vertically or horizontally? "
+},
+{
+  "id": "mod-conics-4-2-4-3",
+  "level": "2",
+  "url": "mod-conics.html#mod-conics-4-2-4-3",
+  "type": "Exercise",
+  "number": "2.3.11",
+  "title": "",
+  "body": "Sketch the graph of the taxicab hyperbola with focus , directrix and with elasticity . "
+},
+{
+  "id": "mod-conics-4-2-4-4",
+  "level": "2",
+  "url": "mod-conics.html#mod-conics-4-2-4-4",
+  "type": "Exercise",
+  "number": "2.3.12",
+  "title": "",
+  "body": "What is the effect of varying the elasticity ? "
+},
+{
+  "id": "mod-conics-4-2-4-5",
+  "level": "2",
+  "url": "mod-conics.html#mod-conics-4-2-4-5",
+  "type": "Exercise",
+  "number": "2.3.13",
+  "title": "",
+  "body": "Will the ellipse have the same basic shape if the directrix is not vertical or horizontal? "
+},
+{
+  "id": "mod-conics-4-2-4-6",
+  "level": "2",
+  "url": "mod-conics.html#mod-conics-4-2-4-6",
+  "type": "Exercise",
+  "number": "2.3.14",
+  "title": "",
+  "body": "Sketch the graph of the taxicab hyperbola with foci at , and satisfying . "
+},
+{
+  "id": "mod-conics-4-2-4-7",
+  "level": "2",
+  "url": "mod-conics.html#mod-conics-4-2-4-7",
+  "type": "Exercise",
+  "number": "2.3.15",
+  "title": "",
+  "body": "What is the effect of varying the number 6 in exercise ?? "
+},
+{
+  "id": "mod-conics-4-2-4-8",
+  "level": "2",
+  "url": "mod-conics.html#mod-conics-4-2-4-8",
+  "type": "Exercise",
+  "number": "2.3.16",
+  "title": "",
+  "body": "Will the hyperbola have the same basic shape if the foci are not aligned vertically or horizontally? "
+},
+{
+  "id": "mod-triangles",
+  "level": "1",
+  "url": "mod-triangles.html",
+  "type": "Chapter",
+  "number": "3",
+  "title": "Triangles In Taxicab Geometry",
+  "body": " Triangles In Taxicab Geometry   Activities      The Fermat Point   In Euclidean geometry , the Fermat point of a triangle is the point that gives the smallest total if you add the distances from the point to each of the vertices of the triangle.    Given the three points , , find a point for which is as small as possible.       What happens for different choices of , and ?     Pythagoras Theorem     Consider the triangle with vertices at , , . Find a relationship between the taxicab lengths of the sides of this triangle.       Does the relationship that you found in a hold for other right-angled triangles? (That is, is the relationship that you found in a a candidate for a Taxicab Pythagoras Theorem?)     Area of a Triangle   Recall that in Euclidean geometry the area of a triangle with side lengths , and can be found using Heron's formula: where .    Find the (Euclidean) area of the triangle whose vertices are , , .       Repeat a but use Heron's formula.    Repeat a and b but this time in taxicab geometry.    Consider the triangle with vertices at , , . Determine the area of this triangle in both Euclidean and taxicab geometry.     Circumscribing and Inscribing Circles     Consider the triangle with vertices at , , . Find, if possible, a circumscribing taxicab circle for this triangle.    Find, if possible, an inscribed taxicab circle for the triangle given in a.      "
+},
+{
+  "id": "mod-triangles-2-2-2-3",
+  "level": "2",
+  "url": "mod-triangles.html#mod-triangles-2-2-2-3",
+  "type": "Exercise",
+  "number": "3.1.1",
+  "title": "",
+  "body": " Given the three points , , find a point for which is as small as possible.     "
+},
+{
+  "id": "mod-triangles-2-2-2-4",
+  "level": "2",
+  "url": "mod-triangles.html#mod-triangles-2-2-2-4",
+  "type": "Exercise",
+  "number": "3.1.2",
+  "title": "",
+  "body": " What happens for different choices of , and ?  "
+},
+{
+  "id": "mod-triangles-2-2-3-3",
+  "level": "2",
+  "url": "mod-triangles.html#mod-triangles-2-2-3-3",
+  "type": "Exercise",
+  "number": "3.1.3",
+  "title": "",
+  "body": " Consider the triangle with vertices at , , . Find a relationship between the taxicab lengths of the sides of this triangle.     "
+},
+{
+  "id": "mod-triangles-2-2-3-4",
+  "level": "2",
+  "url": "mod-triangles.html#mod-triangles-2-2-3-4",
+  "type": "Exercise",
+  "number": "3.1.4",
+  "title": "",
+  "body": " Does the relationship that you found in a hold for other right-angled triangles? (That is, is the relationship that you found in a a candidate for a Taxicab Pythagoras Theorem?)  "
+},
+{
+  "id": "mod-triangles-2-2-4-3",
+  "level": "2",
+  "url": "mod-triangles.html#mod-triangles-2-2-4-3",
+  "type": "Exercise",
+  "number": "3.1.5",
+  "title": "",
+  "body": " Find the (Euclidean) area of the triangle whose vertices are , , .     "
+},
+{
+  "id": "mod-triangles-2-2-4-4",
+  "level": "2",
+  "url": "mod-triangles.html#mod-triangles-2-2-4-4",
+  "type": "Exercise",
+  "number": "3.1.6",
+  "title": "",
+  "body": " Repeat a but use Heron's formula.  "
+},
+{
+  "id": "mod-triangles-2-2-4-5",
+  "level": "2",
+  "url": "mod-triangles.html#mod-triangles-2-2-4-5",
+  "type": "Exercise",
+  "number": "3.1.7",
+  "title": "",
+  "body": " Repeat a and b but this time in taxicab geometry.  "
+},
+{
+  "id": "mod-triangles-2-2-4-6",
+  "level": "2",
+  "url": "mod-triangles.html#mod-triangles-2-2-4-6",
+  "type": "Exercise",
+  "number": "3.1.8",
+  "title": "",
+  "body": " Consider the triangle with vertices at , , . Determine the area of this triangle in both Euclidean and taxicab geometry.  "
+},
+{
+  "id": "mod-triangles-2-2-5-3",
+  "level": "2",
+  "url": "mod-triangles.html#mod-triangles-2-2-5-3",
+  "type": "Exercise",
+  "number": "3.1.9",
+  "title": "",
+  "body": " Consider the triangle with vertices at , , . Find, if possible, a circumscribing taxicab circle for this triangle.  "
+},
+{
+  "id": "mod-triangles-2-2-5-4",
+  "level": "2",
+  "url": "mod-triangles.html#mod-triangles-2-2-5-4",
+  "type": "Exercise",
+  "number": "3.1.10",
+  "title": "",
+  "body": " Find, if possible, an inscribed taxicab circle for the triangle given in a.  "
+},
+{
+  "id": "mod-trigonometry",
+  "level": "1",
+  "url": "mod-trigonometry.html",
+  "type": "Chapter",
+  "number": "4",
+  "title": "Trigonometry In Taxicab Geometry",
+  "body": " Trigonometry In Taxicab Geometry   Activities              "
+},
+{
+  "id": "mod-trigonometry-2-2-2",
+  "level": "2",
+  "url": "mod-trigonometry.html#mod-trigonometry-2-2-2",
+  "type": "Exercise",
+  "number": "4.1.1",
+  "title": "",
+  "body": "      "
+},
+{
   "id": "inv-conics",
   "level": "1",
   "url": "inv-conics.html",
   "type": "Chapter",
-  "number": "3",
+  "number": "5",
   "title": "Conics",
   "body": " Conics   Text before the first section.   "
 },
