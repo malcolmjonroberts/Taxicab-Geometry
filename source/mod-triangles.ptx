@@ -5,29 +5,137 @@
 
     <section> <title> Activities </title>
 
-        <exercises> <title> Triangle properties </title>
+        <exercises> <title> </title>
 
-            <exercise>
-				<statement>
+			<exercisegroup> <title> The Fermat Point </title>
+				<introduction>
 					<p>
-						In Euclidean geometry , the <term> Fermat point </term> of a triangle is the point that gives the smallest total if you add the distances from the point to each of the vertices of the triangle.
-						<ol>
-							<li>
-								<p>
-									Given the three points <m> A=(2,4) </m>, <m> B=(7,-1) </m>, <m> C=(-3,1) </m> find a point <m> P </m> for which <m> d_T(P,A)+d_T(P,B)+d_T(P,C) </m> is as small as possible.
-								</p>
-							</li>
-							<li> What happens for different choices of <m> A </m>, <m> B </m> and <m> C </m>? </li>
-						</ol>
+						In Euclidean geometry , the Fermat point of a triangle is the point that gives the smallest total if you add the distances from the point to each of the vertices of the triangle.
 					</p>
-				</statement>
-				<answer>
-					<p>
-						
-					</p>
-				</answer>
-			</exercise>
+				</introduction>
+
+				<exercise>
+					<statement>
+						<p>
+							Given the three points <m> A=(2,4) </m>, <m> B=(7,-1) </m>, <m> C=(-3,1) </m> find a point <m> P </m> for which <m> d_T(P,A)+d_T(P,B)+d_T(P,C) </m> is as small as possible.
+						</p>
+					</statement>
+					<answer>
+						<p>
+							
+						</p>
+					</answer>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							What happens for different choices of <m> A </m>, <m> B </m> and <m> C </m>?	
+						</p>
+					</statement>
+				</exercise>
+
+			</exercisegroup>
+		
+			<exercisegroup> <title> Pythagoras Theorem </title>
+				<introduction>
+					
+				</introduction>
+
+				<exercise>
+					<statement>
+						<p>
+							Consider the triangle with vertices at <m> A=(0,0) </m>, <m> B=(3,0) </m>, <m> C=(0,4) </m>. Find a relationship between the taxicab lengths of the sides of this triangle.
+						</p>
+					</statement>
+					<answer>
+						<p>
+							
+						</p>
+					</answer>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							Does the relationship that you found in a hold for other right-angled triangles? (That is, is the relationship that you found in a a candidate for a Taxicab Pythagoras Theorem?)	
+						</p>
+					</statement>
+				</exercise>
+
+			</exercisegroup>
             
+            <exercisegroup> <title> Area of a Triangle </title>
+				<introduction>
+					<p>
+						Recall that in Euclidean geometry the area of a triangle with side lengths <m> a </m>, <m> b </m> and <m> c </m> can be found using Heron's formula:
+						<me> \text{Area}=\sqrt{s(s-a)(s-b)(s-c)} </me>
+						where <m> s=\frac{1}{2}(a+b+c) </m>.
+					</p>
+				</introduction>
+
+				<exercise>
+					<statement>
+						<p>
+							Find the (Euclidean) area of the triangle whose vertices are <m> A=(0,0) </m>, <m> B=(3,0) </m>, <m> C=(0,3) </m>.
+						</p>
+					</statement>
+					<answer>
+						<p>
+							
+						</p>
+					</answer>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							Repeat a but use Heron's formula. 	
+						</p>
+					</statement>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							Repeat a and b but this time in taxicab geometry. 	
+						</p>
+					</statement>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							Consider the triangle with vertices at <m> D=(0,0) </m>, <m> E=(\frac{3\sqrt{3}}{2},\frac{3\sqrt{3}}{2}) </m>, <m> F=(-\frac{3\sqrt{3}}{2},\frac{3\sqrt{3}}{2}) </m>. Determine the area of this triangle in both Euclidean and taxicab geometry.
+						</p>
+					</statement>
+				</exercise>
+
+			</exercisegroup>
+
+			<exercisegroup> <title> Circumscribing and Inscribing Circles </title>
+				<introduction>
+					
+				</introduction>
+			
+				<exercise>
+					<statement>
+						<p>
+							Consider the triangle with vertices at <m> A=(0,0) </m>, <m> B=(6,1) </m>, <m> C=(2,4) </m>. Find, if possible, a circumscribing taxicab circle for this triangle.
+						</p>
+					</statement>
+				</exercise>
+			
+				<exercise>
+					<statement>
+						<p>
+							Find, if possible, an inscribed taxicab circle for the triangle given in a.
+						</p>
+					</statement>
+				</exercise>
+
+			</exercisegroup>
+
         </exercises>
 
     </section>
