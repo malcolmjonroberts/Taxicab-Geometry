@@ -7,17 +7,111 @@
 
         <exercises> <title> </title>
 
-            <exercise>
-				<statement>
-					<p>
-					</p>
-				</statement>
-				<answer>
-					<p>
-						
-					</p>
-				</answer>
-			</exercise>
+			<exercisegroup> <title> Euclidean Angles </title>
+				<introduction>				
+				</introduction>
+			
+				<exercise>
+					<statement>
+						<p>
+							Find the size of <m> \angle ABC </m> in degrees and in radians if <m> A=(2,0) </m>, <m> B=(0,0) </m>, <m> C=(2,2) </m>.
+						</p>
+					</statement>
+				</exercise>
+			
+				<exercise>
+					<statement>
+						<p>
+							Find the size of <m> \angle ABC </m> in degrees and in radians if <m> A=(2,1) </m>, <m> B=(0,0) </m>, <m> C=(-1,3) </m>.
+						</p>
+					</statement>
+				</exercise>
+
+			</exercisegroup>
+
+			<exercisegroup> <title> Taxicab Angles </title>
+				<introduction>					
+				</introduction>
+
+				<exercise>
+					<statement>
+						<p>
+							Find the size of <m> \angle ABC </m> tradians if <m> A=(2,0) </m>, <m> B=(0,0) </m>, <m> C=(2,2) </m>.
+						</p>
+					</statement>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							Find the size of <m> \angle ABC </m> tradians if <m> A=(1,1) </m>, <m> B=(0,0) </m>, <m> C=(-1,1) </m>.
+						</p>
+					</statement>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							Find the size of <m> \angle ABC </m> tradians if <m> A=(\frac{1}{4},\frac{3}{4}) </m>, <m> B=(0,0) </m>, <m> C=(-\frac{1}{4},\frac{3}{4}) </m>.
+						</p>
+					</statement>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							Find the size of <m> \angle ABC </m> tradians if <m> A=(\frac{1}{4},\frac{3}{4}) </m>, <m> B=(0,0) </m>, <m> C=(-\frac{1}{3},\frac{2}{3}) </m>.
+						</p>
+					</statement>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							Let <m> C </m> be a point on the taxicab unit circle and let <m> A=(1,0 ) </m> and <m> B=(0,0) </m>. If <m> \angle ABC = \theta </m> tradians what are the coordinates of <m> C </m>?
+						</p>
+					</statement>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							Let <m> C </m> be a point on the taxicab unit circle and let <m> A=(1,0 ) </m> and <m> B=(0,0) </m>. If <m> \angle ABC = \theta </m> tradians what is the size of the angle in radians?
+						</p>
+					</statement>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							Is the conjecture that <em> Every angle that has a Euclidean measure of <m> \frac{\pi}{2}^c </m> has a taxicab measure of <m> 2^c </m> </em> true or false? Explain your reasoning.
+						</p>
+					</statement>
+				</exercise>
+
+			</exercisegroup>
+
+			<exercisegroup> <title> Taxicab Trigonometry</title>
+				<introduction>
+				</introduction>
+			
+				<exercise>
+					<statement>
+						<p>
+							Sketch the graph of the taxicab trigonometric functions.
+						</p>
+					</statement>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							Can yo find any trigonometric identities? Explain your reasoning.
+						</p>
+					</statement>
+				</exercise>
+			
+			</exercisegroup>
             
         </exercises>
 
