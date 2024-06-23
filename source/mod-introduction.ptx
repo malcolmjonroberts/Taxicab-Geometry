@@ -285,19 +285,38 @@
 
 				<exercise> 
 					<statement>
-						<p> Find two points in the plane for which
-							<ol>
-								<li> <m> d_T \gt d_E </m> </li>
-								<li> <m> d_T = d_E </m> </li>
-								<li> <m> d_T \lt d_E </m> </li>
-								<li> <m> d_T = 2d_E </m> </li>
-							</ol>
+						<p>
+							Find two points in the plane for which <m> d_T \gt d_E </m>.							
 						</p>
 					</statement>
 					<answer>
 						<p> 
 						</p>
 					</answer>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							Find two points in the plane for which <m> d_T = d_E </m>.
+						</p>
+					</statement>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							Find two points in the plane for which <m> d_T \lt d_E </m></m>.
+						</p>
+					</statement>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							Find two points in the plane for which <m> d_T = 2d_E </m>.
+						</p>
+						</statement>		
 				</exercise>
 
 				<exercise> 
@@ -316,26 +335,25 @@
 				<exercise> 
 					<statement>
 						<p>
-							<ol>
-								<li>
-									<p>
-										If <m> d_E(A,B)= d_E(C,D) </m> must <m> d_T(A,B)=d_T(C,D) </m>?
-									</p>
-								</li>
-								<li>
-									<p>
-										If <m> d_T(A,B)= d_T(C,D) </m> must <m> d_E(A,B)=d_E(C,D) </m>?
-									</p>
-								</li>
-							</ol> 
+							If <m> d_E(A,B)= d_E(C,D) </m> must <m> d_T(A,B)=d_T(C,D) </m>?
 						</p>
 					</statement>
 					<answer>
 						<p> 
-							<ol>
-								<li> No </li>
-								<li> No </li>
-							</ol> 
+							No 
+						</p>
+					</answer>
+				</exercise>
+
+				<exercise> 
+					<statement>
+						<p>
+							If <m> d_T(A,B)= d_T(C,D) </m> must <m> d_E(A,B)=d_E(C,D) </m>?
+						</p>		
+					</statement>
+					<answer>
+						<p> 
+							No 
 						</p>
 					</answer>
 				</exercise>
@@ -356,30 +374,25 @@
 				<exercise>
 					<statement>
 						<p>
-							<ol>
-								<li>
-									<p>
-										Given the points <m> A=(-3,-2) </m> and <m> B=(2,1) </m> find their <em> taxicab mid-point </em>. 
-									</p>
-								</li>
-								<li>
-									<p>
-										Come up with a better name than <em> taxicab mid-point </em> for what you just found.
-									</p>
-								</li>
-								<li>
-									<p>
-										Make a tool in your favourite dynamic geometry environment (<eg /> GeoGebra) that will plot the <em> taxicab mid-point </em> (or whatever you are calling it now) given two points as the input to the tool.
-									</p>
-								</li>
-							</ol>
+							Given the points <m> A=(-3,-2) </m> and <m> B=(2,1) </m> find their <em> taxicab mid-point </em>.
 						</p>
 					</statement>
-					<hint>
+				</exercise>
+
+				<exercise>
+					<statement>
 						<p>
-							We cover this in the appendix on GeoGebra tools.
+							Come up with a better name than <em> taxicab mid-point </em> for what you just found.
 						</p>
-					</hint>
+					</statement>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							Make a tool in your favourite dynamic geometry environment (<eg /> GeoGebra) that will plot the <em> taxicab mid-point </em> (or whatever you are calling it now) given two points as the input to the tool.
+						</p>
+					</statement>
 				</exercise>
 
 			</exercisegroup>
@@ -514,10 +527,11 @@
 				<exercise>
 					<statement>
 						<p> 
+							In Ideal City there are three high schools, Fillmore at <m> (-4,3) </m>, Graceland at <m> (2,1) </m> and Hartley at <m> (-1,-6) </m>.
 							<ol>
 								<li>
 									<p>
-										In Ideal City there are three high schools, Fillmore at <m> (-4,3) </m>, Graceland at <m> (2,1) </m> and Hartley at <m> (-1,-6) </m>. Determine the boundaries so that students attend the nearest school.
+										 Determine the boundaries so that students attend the nearest school.
 									</p>
 								</li>
 								<li>
