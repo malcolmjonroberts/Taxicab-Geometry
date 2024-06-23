@@ -433,33 +433,47 @@
 				<exercise>
 					<statement>
 						<p>
-							<ol>
-								<li>
-									<p>
-										Draw diagrams showing different ways in which Euclidean circles can intersect.
-									</p>
-								</li>
-								<li>
-									<p>
-										Draw diagrams showing different ways in which taxicab circles can intersect.
-									</p>
-								</li>
-								<li>
-									<p>
-										Can taxicab circles intersect in ways that Euclidean circles can't?
-									</p>
-								</li>
-								<li>
-									<p>
-										Can Euclidean circles intersect in ways that taxicab circles can't?
-									</p>
-								</li>
-							</ol>
+							Draw diagrams showing different ways in which Euclidean circles can intersect.
 						</p>
 					</statement>
 					<answer>
 						<p>
-							
+						</p>
+					</answer>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							Draw diagrams showing different ways in which taxicab circles can intersect.
+						</p>
+					</statement>
+					<answer>
+						<p>
+						</p>
+					</answer>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							Can taxicab circles intersect in ways that Euclidean circles can't?
+						</p>
+					</statement>
+					<answer>
+						<p>
+						</p>
+					</answer>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p>
+							Can Euclidean circles intersect in ways that taxicab circles can't?
+						</p>
+					</statement>
+					<answer>
+						<p>
 						</p>
 					</answer>
 				</exercise>
