@@ -209,7 +209,7 @@
     </section>
 
 	<section> <title> Activities </title>
-
+<!--
 		<project> <title> A context for taxicab geometry </title>
 		
 			<task>
@@ -237,286 +237,310 @@
 			</task>
 
 		</project>
+-->
+		<exercises> <title> </title>
 
-		<exercises> <title> First explorations of taxicab distance </title>
+			<exercisegroup> <title> First explorations of taxicab distance </title>
+				<introduction>
+				</introduction>
 
-			<exercise> 
-				<statement>
-					<p> Let <m> A=(-3,5) </m>, <m> B=(-1,1) </m>, <m> C=(1,2) </m> and <m> D=(-3,-2) </m>. Find both the Euclidean distance, <m> d_E </m> and the taxicab distance, <m> d_T </m>, between the following pairs of points.
-						<ol>
-							<li> <m> A </m> and <m> C </m> </li>
-							<li> <m> A </m> and <m> B </m> </li>
-							<li> <m> A </m> and <m> D </m> </li>
-						</ol> 
-					</p>
-				</statement>
-				<answer>
-					<p> 
-						<ol>
-							<li> <m> d_E(A,C)=5 </m>, <m> d_T(A,C)=7 </m> </li>
-							<li> <m> d_E(A,B)=\sqrt{42} </m>, <m> d_T(A,B)=10 </m> </li>
-							<li> <m> d_E(A,D)=7 </m>, <m> d_T(A,D)=7 </m> </li>
-						</ol>
-					</p>
-				</answer>
-			</exercise>
+				<exercise>
+					<statement>
+						<p>
+							Find both the Euclidean distance, <m> d_E </m> and the taxicab distance, <m> d_T </m>, between the points <m> A=(-3,5) </m> and <m> C=(1,2) </m>
+						</p>
+					</statement>
+					<answer>
+						<p> 
+							<m> d_E(A,C)=5 </m>, <m> d_T(A,C)=7 </m>
+						</p>
+					</answer>
+				</exercise>
 
-			<exercise> 
-				<statement>
-					<p> Find two points in the plane for which
-						<ol>
-							<li> <m> d_T \gt d_E </m> </li>
-							<li> <m> d_T = d_E </m> </li>
-							<li> <m> d_T \lt d_E </m> </li>
-							<li> <m> d_T = 2d_E </m> </li>
-						</ol>
-					</p>
-				</statement>
-				<answer>
-					<p> 
-					</p>
-				</answer>
-			</exercise>
+				<exercise>
+					<statement>
+						<p>
+							Find both the Euclidean distance, <m> d_E </m> and the taxicab distance, <m> d_T </m>, between the points <m> A=(-3,5) </m> and <m> B=(-1,1) </m>.
+						</p>
+					</statement>
+					<answer>
+						<p>
+							<m> d_E(A,B)=\sqrt{42} </m>, <m> d_T(A,B)=10 </m>
+						</p>
+					</answer>
+				</exercise>
 
-			<exercise> 
-				<statement>
-					<p>
-						So far we have only used points that have integer coordinates? How might we proceed if we decide to allow points with any real number in its coordinates?
-					</p>
-				</statement>
-				<answer>
-					<p> 
-						Rather than requiring the taxicab to stay on the grid lines (which are usually only drawn at integer values) require instead that the taxicab is only allowed to travel horizontally and vertically, (<ie /> parallel to the axes of the coordinate system).
-					</p>
-				</answer>
-			</exercise>
+				<exercise>
+					<statement>
+						<p>
+							Find both the Euclidean distance, <m> d_E </m> and the taxicab distance, <m> d_T </m>, between the points <m> A=(-3,5) </m> and <m> D=(-3,2) </m>.
+						</p>
+					</statement>
+					<answer>
+						<p>
+							<m> d_E(A,D)=7 </m>, <m> d_T(A,D)=7 </m>
+						</p>
+					</answer>
+				</exercise>
 
-			<exercise> 
-				<statement>
-					<p>
-						<ol>
-							<li>
-								<p>
-									If <m> d_E(A,B)= d_E(C,D) </m> must <m> d_T(A,B)=d_T(C,D) </m>?
-								</p>
-							</li>
-							<li>
-								<p>
-									If <m> d_T(A,B)= d_T(C,D) </m> must <m> d_E(A,B)=d_E(C,D) </m>?
-								</p>
-							</li>
-						</ol> 
-					</p>
-				</statement>
-				<answer>
-					<p> 
-						<ol>
-							<li> No </li>
-							<li> No </li>
-						</ol> 
-					</p>
-				</answer>
-			</exercise>
+				<exercise> 
+					<statement>
+						<p> Find two points in the plane for which
+							<ol>
+								<li> <m> d_T \gt d_E </m> </li>
+								<li> <m> d_T = d_E </m> </li>
+								<li> <m> d_T \lt d_E </m> </li>
+								<li> <m> d_T = 2d_E </m> </li>
+							</ol>
+						</p>
+					</statement>
+					<answer>
+						<p> 
+						</p>
+					</answer>
+				</exercise>
 
-			<exercise>
-				<statement>
-					<p>
-						Given the numbers <m> x_1, x_2, y_1 </m> and <m> y_2 </m> find:
-						<ol>
-							<li> <m> d_T(A,B) </m> when <m> A=(x_1, y_1) </m> and <m> B=(x_2,y_1) </m> </li>
-							<li> <m> d_T(A,B) </m> when <m> A=(x_1, y_1) </m> and <m> B=(x_1,y_2) </m> </li>
-							<li> <m> d_T(A,B) </m> when <m> A=(x_1, y_1) </m> and <m> B=(x_2,y_2) </m> </li>
-						</ol>
-					</p>
-				</statement>
-			</exercise>
+				<exercise> 
+					<statement>
+						<p>
+							So far we have only used points that have integer coordinates? How might we proceed if we decide to allow points with any real number in its coordinates?
+						</p>
+					</statement>
+					<answer>
+						<p> 
+							Rather than requiring the taxicab to stay on the grid lines (which are usually only drawn at integer values) require instead that the taxicab is only allowed to travel horizontally and vertically, (<ie /> parallel to the axes of the coordinate system).
+						</p>
+					</answer>
+				</exercise>
 
-			<exercise>
-				<statement>
-					<p>
-						<ol>
-							<li>
-								<p>
-									Given the points <m> A=(-3,-2) </m> and <m> B=(2,1) </m> find their <em> taxicab mid-point </em>. 
-								</p>
-							</li>
-							<li>
-								<p>
-									Come up with a better name than <em> taxicab mid-point </em> for what you just found.
-								</p>
-							</li>
-							<li>
-								<p>
-									Make a tool in your favourite dynamic geometry environment (<eg /> GeoGebra) that will plot the <em> taxicab mid-point </em> (or whatever you are calling it now) given two points as the input to the tool.
-								</p>
-							</li>
-						</ol>
-					</p>
-				</statement>
-				<hint>
-					<p>
-						We cover this in the appendix on GeoGebra tools.
-					</p>
-				</hint>
-			</exercise>
+				<exercise> 
+					<statement>
+						<p>
+							<ol>
+								<li>
+									<p>
+										If <m> d_E(A,B)= d_E(C,D) </m> must <m> d_T(A,B)=d_T(C,D) </m>?
+									</p>
+								</li>
+								<li>
+									<p>
+										If <m> d_T(A,B)= d_T(C,D) </m> must <m> d_E(A,B)=d_E(C,D) </m>?
+									</p>
+								</li>
+							</ol> 
+						</p>
+					</statement>
+					<answer>
+						<p> 
+							<ol>
+								<li> No </li>
+								<li> No </li>
+							</ol> 
+						</p>
+					</answer>
+				</exercise>
 
-		</exercises>
+				<exercise>
+					<statement>
+						<p>
+							Given the numbers <m> x_1, x_2, y_1 </m> and <m> y_2 </m> find:
+							<ol>
+								<li> <m> d_T(A,B) </m> when <m> A=(x_1, y_1) </m> and <m> B=(x_2,y_1) </m> </li>
+								<li> <m> d_T(A,B) </m> when <m> A=(x_1, y_1) </m> and <m> B=(x_1,y_2) </m> </li>
+								<li> <m> d_T(A,B) </m> when <m> A=(x_1, y_1) </m> and <m> B=(x_2,y_2) </m> </li>
+							</ol>
+						</p>
+					</statement>
+				</exercise>
 
-		<exercises> <title> Some shapes defined by locus </title>
+				<exercise>
+					<statement>
+						<p>
+							<ol>
+								<li>
+									<p>
+										Given the points <m> A=(-3,-2) </m> and <m> B=(2,1) </m> find their <em> taxicab mid-point </em>. 
+									</p>
+								</li>
+								<li>
+									<p>
+										Come up with a better name than <em> taxicab mid-point </em> for what you just found.
+									</p>
+								</li>
+								<li>
+									<p>
+										Make a tool in your favourite dynamic geometry environment (<eg /> GeoGebra) that will plot the <em> taxicab mid-point </em> (or whatever you are calling it now) given two points as the input to the tool.
+									</p>
+								</li>
+							</ol>
+						</p>
+					</statement>
+					<hint>
+						<p>
+							We cover this in the appendix on GeoGebra tools.
+						</p>
+					</hint>
+				</exercise>
 
-			<exercise> 
-				<statement>
-					<p> Let <m> A=(2,1) </m>.
-						<ol>
-							<li> If <m> B=(1,3) </m> calculate <m> d_T(A,B) </m>. </li>
-							<li> Find two other points the same distance from <m> A </m> as <m> B </m> is.</li>
-							<li> 
-								<p>
-									Plot the set of all points <m> P </m> at taxicab distance <m> d_T(A,B) </m> from <m> A </m>.
-								</p>
-							</li>
-							<li> 
-								<p>
-									On the same diagram plot the set of all points <m> P </m> at Euclidean distance <m> d_T(A,B) </m> from <m> A </m>, (<ie /> whose Euclidean distance from <m> A </m> is the same as the taxicab distance from <m> A </m> to <m> B </m>). Give (sensible) names to the two sets of points that you have now plotted.
-								</p>
-							</li>
-							<li> In taxicab geometry what is a reasonable numerical value for <m> \pi </m>? </li>
-						</ol> 
-					</p>
-				</statement>
-				<answer>
-					<p> 
-						<ol>
-							<li> 3 </li>
-							<li> <m> d_E(A,B)=\sqrt{42} </m>, <m> d_T(A,B)=10 </m> </li>
-							<li> 4 </li>
-						</ol>
-					</p>
-				</answer>
-			</exercise>
+			</exercisegroup>
 
-			<exercise>
-				<statement>
-					<p>
-						<ol>
-							<li>
-								<p>
-									Draw diagrams showing different ways in which Euclidean circles can intersect.
-								</p>
-							</li>
-							<li>
-								<p>
-									Draw diagrams showing different ways in which taxicab circles can intersect.
-								</p>
-							</li>
-							<li>
-								<p>
-									Can taxicab circles intersect in ways that Euclidean circles can't?
-								</p>
-							</li>
-							<li>
-								<p>
-									Can Euclidean circles intersect in ways that taxicab circles can't?
-								</p>
-							</li>
-						</ol>
-					</p>
-				</statement>
-				<answer>
-					<p>
-						
-					</p>
-				</answer>
-			</exercise>
+			<exercisegroup> <title> Some shapes defined by locus </title>
 
-			<exercise>
-				<statement>
-					<p> Let <m> A=(-2,-1) </m> and <m> B=(3,2) </m>.
-						<ol>
-							<li>
-								<p>
-									Plot the set of all points <m> P </m> for which <m> d_E(A,P) = d_E(P,B) </m>.
-								</p>
-							</li>
-							<li>
-								<p>
-									Plot the set of all points <m> P </m> for which <m> d_T(A,P) = d_T(P,B) </m>.
-								</p>
-							</li>
-							<li>
-								<p>
-									Repeat but with other choices for <m> A </m> and <m> B </m>. Can you predict what the set of points will look like just given the points <m> A </m> and <m> B </m>?
-								</p>
-							</li>
-						</ol>
-					</p>
-				</statement>
-				<answer>
-					<p>
-						
-					</p>
-				</answer>
-			</exercise>
+				<exercise> 
+					<statement>
+						<p> Let <m> A=(2,1) </m>.
+							<ol>
+								<li> If <m> B=(1,3) </m> calculate <m> d_T(A,B) </m>. </li>
+								<li> Find two other points the same distance from <m> A </m> as <m> B </m> is.</li>
+								<li> 
+									<p>
+										Plot the set of all points <m> P </m> at taxicab distance <m> d_T(A,B) </m> from <m> A </m>.
+									</p>
+								</li>
+								<li> 
+									<p>
+										On the same diagram plot the set of all points <m> P </m> at Euclidean distance <m> d_T(A,B) </m> from <m> A </m>, (<ie /> whose Euclidean distance from <m> A </m> is the same as the taxicab distance from <m> A </m> to <m> B </m>). Give (sensible) names to the two sets of points that you have now plotted.
+									</p>
+								</li>
+								<li> In taxicab geometry what is a reasonable numerical value for <m> \pi </m>? </li>
+							</ol> 
+						</p>
+					</statement>
+					<answer>
+						<p> 
+							<ol>
+								<li> 3 </li>
+								<li> <m> d_E(A,B)=\sqrt{42} </m>, <m> d_T(A,B)=10 </m> </li>
+								<li> 4 </li>
+							</ol>
+						</p>
+					</answer>
+				</exercise>
 
-		</exercises>
+				<exercise>
+					<statement>
+						<p>
+							<ol>
+								<li>
+									<p>
+										Draw diagrams showing different ways in which Euclidean circles can intersect.
+									</p>
+								</li>
+								<li>
+									<p>
+										Draw diagrams showing different ways in which taxicab circles can intersect.
+									</p>
+								</li>
+								<li>
+									<p>
+										Can taxicab circles intersect in ways that Euclidean circles can't?
+									</p>
+								</li>
+								<li>
+									<p>
+										Can Euclidean circles intersect in ways that taxicab circles can't?
+									</p>
+								</li>
+							</ol>
+						</p>
+					</statement>
+					<answer>
+						<p>
+							
+						</p>
+					</answer>
+				</exercise>
 
-		<exercises> <title> A simple application to urban geography </title>
+				<exercise>
+					<statement>
+						<p> Let <m> A=(-2,-1) </m> and <m> B=(3,2) </m>.
+							<ol>
+								<li>
+									<p>
+										Plot the set of all points <m> P </m> for which <m> d_E(A,P) = d_E(P,B) </m>.
+									</p>
+								</li>
+								<li>
+									<p>
+										Plot the set of all points <m> P </m> for which <m> d_T(A,P) = d_T(P,B) </m>.
+									</p>
+								</li>
+								<li>
+									<p>
+										Repeat but with other choices for <m> A </m> and <m> B </m>. Can you predict what the set of points will look like just given the points <m> A </m> and <m> B </m>?
+									</p>
+								</li>
+							</ol>
+						</p>
+					</statement>
+					<answer>
+						<p>
+							
+						</p>
+					</answer>
+				</exercise>
 
-			<exercise>
-				<statement>
-					<p> 
-						Alice and Bruno are moving to Ideal City. In Ideal City the streets are set out in a perfect grid-like pattern and so they are going to use taxicab geometry to model the city. 
-						<ol>
-							<li>
-								<p>
-									Alice's work place is at <m> A=(-3,-1) </m> while Bruno will work at <m> B=(3,3) </m>. They decide that their new home should be located in a part of the city where the sum of the distances that they will have to travel to work should be as small as possible. Where in the city should they be looking?
-								</p>
-							</li>
-							<li>
-								<p>
-									After finding that Alice has an early morning start they decide that, as
-									well as the requirement in a), their home should also be closer to Alice’s
-									work. Now where should they look?
-								</p>
-							</li>
-						</ol>
-					</p>
-				</statement>
-				<answer>
-					<p>
-						
-					</p>
-				</answer>
-			</exercise>
+			</exercisegroup>
 
-			<exercise>
-				<statement>
-					<p> 
-						<ol>
-							<li>
-								<p>
-									In Ideal City there are three high schools, Fillmore at <m> (-4,3) </m>, Graceland at <m> (2,1) </m> and Hartley at <m> (-1,-6) </m>. Determine the boundaries so that students attend the nearest school.
-								</p>
-							</li>
-							<li>
-								<p>
-									If Burger Baron wants to open a store which is the same distance from all three schools, where should it be?
-								</p>
-							</li>
-							<li>
-								<p>
-									If a fourth high school, Parmenter, is built at <m> (5,3) </m> draw in the new school boundaries.
-								</p>
-							</li>
-						</ol>
-					</p>
-				</statement>
-				<answer>
-					<p>
-						
-					</p>
-				</answer>
-			</exercise>
+			<exercisegroup> <title> A simple application to urban geography </title>
+
+				<exercise>
+					<statement>
+						<p> 
+							Alice and Bruno are moving to Ideal City. In Ideal City the streets are set out in a perfect grid-like pattern and so they are going to use taxicab geometry to model the city. 
+							<ol>
+								<li>
+									<p>
+										Alice's work place is at <m> A=(-3,-1) </m> while Bruno will work at <m> B=(3,3) </m>. They decide that their new home should be located in a part of the city where the sum of the distances that they will have to travel to work should be as small as possible. Where in the city should they be looking?
+									</p>
+								</li>
+								<li>
+									<p>
+										After finding that Alice has an early morning start they decide that, as
+										well as the requirement in a), their home should also be closer to Alice’s
+										work. Now where should they look?
+									</p>
+								</li>
+							</ol>
+						</p>
+					</statement>
+					<answer>
+						<p>
+							
+						</p>
+					</answer>
+				</exercise>
+
+				<exercise>
+					<statement>
+						<p> 
+							<ol>
+								<li>
+									<p>
+										In Ideal City there are three high schools, Fillmore at <m> (-4,3) </m>, Graceland at <m> (2,1) </m> and Hartley at <m> (-1,-6) </m>. Determine the boundaries so that students attend the nearest school.
+									</p>
+								</li>
+								<li>
+									<p>
+										If Burger Baron wants to open a store which is the same distance from all three schools, where should it be?
+									</p>
+								</li>
+								<li>
+									<p>
+										If a fourth high school, Parmenter, is built at <m> (5,3) </m> draw in the new school boundaries.
+									</p>
+								</li>
+							</ol>
+						</p>
+					</statement>
+					<answer>
+						<p>
+							
+						</p>
+					</answer>
+				</exercise>
+
+			</exercisegroup>
 
 		</exercises>
 
