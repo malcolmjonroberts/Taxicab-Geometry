@@ -12,20 +12,33 @@
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include parts and their chapters -->
+    <part xml:id="taxicab">
+      <title> Taxicab Geometry </title>
+      <xi:include href="./taxi-introduction.ptx" />
+    <!--
+      <xi:include href="./mod-conics.ptx" />
+      <xi:include href="./mod-triangles.ptx" />
+      <xi:include href="./mod-trigonometry.ptx" />
+      <xi:include href="ModuleCircles.ptx" />
+      <xi:include href="ModuleCalculus.ptx" />
+      <xi:include href="ModuleRandomWalks.ptx" />
+      <xi:include href="ModuleFireSimulation.ptx" /> -->
+    </part>
+
     <part xml:id="modules">
       <title> Enrichment Modules </title>
       <xi:include href="./mod-introduction.ptx" />
       <xi:include href="./mod-conics.ptx" />
       <xi:include href="./mod-triangles.ptx" />
       <xi:include href="./mod-trigonometry.ptx" />
-  <!--
+    <!--
       <xi:include href="ModuleCircles.ptx" />
       <xi:include href="ModuleCalculus.ptx" />
       <xi:include href="ModuleRandomWalks.ptx" />
       <xi:include href="ModuleFireSimulation.ptx" /> -->
-  </part>
+    </part>
 
-  <part xml:id="investigations">
+    part xml:id="investigations">
     <title> Investigations </title>
     <xi:include href="./inv-conics.ptx" />
   <!--
@@ -35,7 +48,7 @@
     <xi:include href="InvestigationCalculus.ptx" />
     <xi:include href="InvestigationRandomWalks.ptx" />
     <xi:include href="InvestigationFireSimulation.ptx" /> -->
-  </part>
+    </part>
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
