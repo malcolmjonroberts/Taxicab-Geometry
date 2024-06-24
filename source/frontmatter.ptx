@@ -26,61 +26,62 @@
 
   <preface xml:id="front-preface-1"> <title> To The Reader </title>
 
-    <p> I actually put this book together just for me <ellipsis/> as a way of collecting together and organising the ideas from taxicab geometry that I used over a number of years of being involved with mathematics enrichment programs at the The University of Newcastle, NSW, Australia. As such this book is not aimed at anyone in particular and, in this first draft at least, I haven't even bothered to try to make the writing particularly coherent, preferring instead just to get the ideas down! It is possible, however, that some of this material might be useful for a teacher thinking about conducting mathematics enrichment activities and hence the decision to make my thoughts public.
+    <p>
+      I actually put this book together just for me <ellipsis/> as a way of collecting together and organising the ideas from taxicab geometry that I used over a number of years of being involved with mathematics enrichment programs at the The University of Newcastle, NSW, Australia. As such this book is not aimed at any particular reader. If someone does find it any way useful, then that is a bonus!
     </p>
 
-    <p> The mathematics enrichment activities outlined in this book were aimed at senior high school mathematicians but there is much that not so experienced mathematicians can tackle and also plenty to keep those who have progressed further busy as well. </p>
-     
-    <p> I found taxicab geometry to be an excellent topic for a mathematics enrichment series for a number of reasons.
-      <ul>
-        <li>
-          <p> Over many years of running extension activities for high school mathematics students, (and professional development activities for high school mathematics teachers), I noticed that a number of the ideas in the high school mathematics syllabus (at least for NSW, Australia) could be revisited, in an accessible way, from the perspective of taxicab geometry. My hope was that revisiting ideas in the curriculum might make the extension activities a bit more of a direct benefit (in terms or their school mathematics) to those attending while looking at those ideas from a different perspective might also get the participants thinking a little more about the nature of mathematics. 
-          </p>
-        </li>
-        <li>
-          <p> As a topic, taxicab geometry has a "low enough floor" for most students to make progress from the very beginning while also having a "high enough ceiling" that every student will find something that is interesting and challenging.
-          </p>
-        </li>
-        <li>
-          <p> Taxicab geometry seems to naturally encourage students to use many of the 21st century mathematical tools, such as dynamic    geometry and computer algebra systems. I hasten to add that I would include pen and paper, or their digital equivalent, in the   list of 21st century mathematical tools. 
-          </p>
-        </li>
-        <li>
-          <p> Finally, because there didn't seem (at the time at least), to be an extensive amount written about taxicab geometry (beyond basic overviews) that can be easily found on the Internet the topic also steers students toward posing, and then pursuing to some extent, their own questions.
-          </p>
-        </li>
-      </ul> 
+    <p>
+      The mathematics enrichment sessions upon which this book is based were aimed at senior high school mathematicians but there is much here that not so experienced mathematicians could tackle and also plenty that would keep those who have progressed further busy as well.
     </p>
 
-    <p> The book is divided into two parts, Enrichment Modules and Investigations. In the Enrichment Modules part each chapter is meant to correspond to one, (two hour say), mathematics outreach, or even a professional development, session. Each chapter is divided into the following sections.
+<!--     
+    <p>
+      I found taxicab geometry to be an excellent topic for a mathematics enrichment series for a number of reasons.
       <ul>
         <li>
-          <p> Module Outline: A brief overview of the module.
+          <p>
+            Over many years of running extension activities for high school mathematics students, (and professional development activities for high school mathematics teachers), I noticed that a number of the ideas in the high school mathematics syllabus (at least for NSW, Australia) could be revisited, in an accessible way, from the perspective of taxicab geometry. My hope was that revisiting ideas in the curriculum might make the extension activities a bit more of a direct benefit (in terms or their school mathematics) to those attending while looking at those ideas from a different perspective might also get the participants thinking a little more about the nature of mathematics. 
           </p>
         </li>
         <li>
           <p>
-            Preliminary Ideas: A brief discussion of the mathematical ideas that the module is going to explore. Usually this review will cover the ideas from a Euclidean geometry perspective. 
+            As a topic, taxicab geometry has a "low enough floor" for most students to make progress from the very beginning while also having a "high enough ceiling" that every student will find something that is interesting and challenging.
           </p>
         </li>
         <li>
           <p>
-            Activities: A series of questions is given that, hopefully, act as prompts for students to begin to investigate the mathematical ideas from a taxicab geometry perspective.
+            Taxicab geometry seems to naturally encourage students to use many of the 21st century mathematical tools, such as dynamic geometry and computer algebra systems. I hasten to add that I would include pen and paper, or their digital equivalent, in the   list of 21st century mathematical tools. 
+          </p>
+        </li>
+        <li>
+          <p>
+            Finally, because there didn't seem (at the time at least), to be an extensive amount written about taxicab geometry (beyond basic overviews) that can be easily found on the Internet the topic also steers students toward posing, and then pursuing to some extent, their own questions.
           </p>
         </li>
       </ul> 
     </p>
+-->
 
+    <p>
+      The book is divided into three parts, TaxiCab Geometry, Enrichment Modules and Investigations. In the first part, Taxicab Geometry, I have attempted to put together a (hopefully) coherent account of the taxicab geometry topics that was looked at in those mathematics enrichment sessions. In the Enrichment Modules part each chapter is structured as if it was one, (two hour say), mathematics outreach session. So, each chapter gives an idea of what I presented in the session as well as a set of Activities that the students worked on at appropriate times. 
+    </p>
+
+<!--
     <p>
       In the outreach sessions that I conducted I would intersperse me talking, class discussions and the class working on activities. At the beginning of the session I would usually hand out to the students the full sheet of problems/activities/exercises for the session and then refer the students to the appropriate problems during the session. The Activities part of each chapter corresponds to the full problem sheet. The Preliminary Ideas part of each chapter then, corresponds to what I would present in each session. For a teacher this section should give an idea of both the content and the level of coverage that I gave to these ideas. For the student, for some the discussion might be a review while for others it might be an introduction to the ideas. Hopefully, both types of students will still find areas of the module where they can make progress.
     </p>
+-->
 
     <p>
-      The Investigations part is less structured in that each chapter describes in some detail one (or more) investigation(s) that my students and I worked on in those mathematics enrichment classes. Sometimes the work continued on outside the classes. Really, I put this part of the book together just for a sense of completion on my part but it should give the reader an idea of the scope of the mathematics that could come out of any active engagement with the first part of the book.
+      The final part, Investigations,  is less structured in that each chapter describes in some detail one (or more) investigation(s) that my students and I worked on in those mathematics enrichment classes. Sometimes the work continued on outside the classes. Really, I put this part of the book together just for a sense of completion on my part but it should give the reader an idea of the scope of the mathematics that could come out of any active engagement with the first part of the book.
     </p>
 
     <p>
-      In the appendix I briefly describe the format of the mathematical enrichment sessions for senior mathematics students in which taxicab geometry was the topic explored. I also briefy discuss how the structure and operation of those sessions was informed by my views about mathematics enrichment. Hopefully this will give some context and insight into to the contents of this book.
+      There are two appendices, In the first appendix, I briefly describe the format of the mathematical enrichment sessions for senior mathematics students in which taxicab geometry was the topic explored. I also briefy discuss how the structure and operation of those sessions was informed by my views about mathematics enrichment. Hopefully this will give some context and insight into to the contents of this book.
+    </p>
+
+    <p>
+      The second appendix describes some GeoGebra tools that I developed over the course of running the mathematics enrichment sessions. I assume that the tools themselves could be useful but more importantly, I hope that these tools give an idea of what is possible and hence inspire the reader to make even more tools to help them with their own investigations. 
     </p>
 
 </preface>
