@@ -9,13 +9,13 @@
   <title>Backmatter</title>
 
   <appendix>
-    <title> Some GeoGebra Tools </title>
-    <xi:include href="./app-geogebratools.ptx" />
+    <title> Some Thoughts On Mathematics Enrichment </title>
+    <xi:include href="./app-whymathsenrich.ptx" />
   </appendix> 
 
   <appendix>
-    <title> Some Thoughts On Mathematics Enrichment </title>
-    <xi:include href="./app-whymathsenrich.ptx" />
+    <title> Some GeoGebra Tools </title>
+    <xi:include href="./app-geogebratools.ptx" />
   </appendix> 
 
   <index>
