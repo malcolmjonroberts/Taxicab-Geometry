@@ -38,7 +38,7 @@
       <xi:include href="ModuleFireSimulation.ptx" /> -->
     </part>
 
-    part xml:id="investigations">
+    <part xml:id="investigations">
     <title> Investigations </title>
     <xi:include href="./inv-conics.ptx" />
   <!--
