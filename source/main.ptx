@@ -14,7 +14,7 @@
     <!-- Include parts and their chapters -->
     <part xml:id="taxicab">
       <title> Taxicab Geometry </title>
-      <xi:include href="./taxi-introduction.ptx" />
+      <xi:include href="./tax-introduction.ptx" />
     <!--
       <xi:include href="./mod-conics.ptx" />
       <xi:include href="./mod-triangles.ptx" />
