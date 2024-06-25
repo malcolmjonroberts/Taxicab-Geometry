@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="tax-introduction" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Introducing Taxicab Geometry</title>
+  <title>Introduction</title>
 
-  <section> <title> Introduction </title>
+  <section> <title> What Is Taxicab Geometry </title>
     <p>
       The standard reference on taxicab geometry for those new to the subject is Krause. Krause begins his treatise by saying:
     </p>
