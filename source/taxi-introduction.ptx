@@ -3,4 +3,21 @@
 <chapter xml:id="mod-introduction" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Introducing Taxicab Geometry</title>
 
+  <section> <title> Introduction </title>
+    <p>
+      The standard reference on taxicab geometry for those new to the subject is Krause. Krause begins his treatise by saying:
+    </p>
+
+    <blockquote>
+      <p>
+        The usual way to describe a (plane) geometry is to tell what its <em> points </em> are, what its <em> lines </em> are, how <em> distance </em> is measured, and how <em> angle measure </em> is determined. 
+      </p>
+    </blockquote>
+
+    <p>
+      The standard geometry taught in schools is plane Euclidean geometry. Intuitively, this geometry can be thought of as the geometry of a sheet of paper (the Euclidean plane). The points, then, are the (infinitesimal) dots that make up a plane. The lines are those paths that can be drawn with a ruler. Distances can be measured using a suitable ruler and angle measures can be determined using a protractor. 
+    </p>
+    
+  </section>
+
 </chapter>
