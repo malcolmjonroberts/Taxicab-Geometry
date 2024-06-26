@@ -16,7 +16,17 @@
   <appendix>
     <title> Some GeoGebra Tools </title>
     <xi:include href="./app-geogebratools.ptx" />
-  </appendix> 
+  </appendix>
+
+  <references xml:id="references-section"> <title> References </title>
+    
+    <biblio type="raw" xml:id="biblio-krause-book">
+      Eugene F. Krause,
+      <title>Taxicab Geometry </title>,
+      Addison-Wesley, Menlo Park, California, 1976.
+    </biblio>
+    
+  </references>
 
   <index>
     <title>Index</title>
