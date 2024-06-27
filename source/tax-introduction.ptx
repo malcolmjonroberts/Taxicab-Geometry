@@ -15,7 +15,16 @@
     </blockquote>
 
     <p>
-      The standard geometry taught in schools is plane Euclidean geometry. Intuitively, this geometry can be thought of as the geometry of a sheet of paper (the Euclidean plane). The points, then, are the (infinitesimal) dots that make up a plane. The lines are those paths that can be drawn with a ruler. Distances can be measured using a suitable ruler and angle measures can be determined using a protractor. 
+      The standard geometry taught in schools is plane Euclidean geometry. Intuitively, this geometry can be thought of as the geometry of a sheet of paper (the Euclidean plane). The points, then, are the (infinitesimal) dots that make up a plane. The lines are those paths that can be drawn with a ruler. Distances can be measured using a suitable ruler and angle measures can be determined using a protractor. We will use the symbol <m> \mathbb{R}^2 
+      </m> to denote the Euclidean plane.
+    </p>
+
+    <p>
+      Further, if a rectangular coordinate system is drawn on the sheet of paper then the points on the plane can be uniquely identified by their coordinates with respect to this coordinate system, lines can be identified via a linear equation in two variables and distances can be calculated via Pythagoras' Theorem. Angle measures can also be calculated, rather than measured via a protractor say, but not quite so simply. 
+    </p>
+
+    <p>
+      We will refer to the study of the geometry of the Euclidean plane via the use of a rectangular coordinate system as <term> coordinate geometry </term> (but it is also known as <term> analytic geometry </term> or <term> Cartesian geometry </term>). This is our starting place for taxicab geometry.
     </p>
     
   </section>
