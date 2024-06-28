@@ -11,6 +11,9 @@
     <blockquote>
       <p>
         The usual way to describe a (plane) geometry is to tell what its <em> points </em> are, what its <em> lines </em> are, how <em> distance </em> is measured, and how <em> angle measure </em> is determined. 
+        <fn>
+          In my opinion, this is a cleverly worded opening sentence. It is mathematically correct and yet manages to avoid a discussion of some deep and fundamental geometric concepts.
+        </fn>
       </p>
     </blockquote>
 
@@ -24,7 +27,7 @@
     </p>
 
     <p>
-      We will refer to the study of the geometry of the Euclidean plane via the use of a rectangular coordinate system as <term> coordinate geometry </term> (but it is also known as <term> analytic geometry </term> or <term> Cartesian geometry </term>). This is our starting place for taxicab geometry.
+      We will refer to the study of the geometry of the Euclidean plane via the use of a rectangular coordinate system as <term> coordinate geometry </term> (but it is also known as <term> analytic geometry </term> or <term> Cartesian geometry </term>). Co-ordinate geometry, then, is the starting place for our journey into taxicab geometry.
     </p>
     
   </section>
