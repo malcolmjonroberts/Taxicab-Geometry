@@ -14,7 +14,7 @@
         <fn>
           This is a footnote
           <!--
-          Note that Krause is talking about <em> a geometry </em> here, not about geometry in general. Throughout history the discipline of geometry has been enlarging its scope. The Wikipedia article <!-- <url href="https://en.wikipedia.org/wiki/Geometry"> Geometry </url> --> gives a brief glimpse of this evolution. -->
+          Note that Krause is talking about <em> a geometry </em> here, not about geometry in general. Throughout history the discipline of geometry has been enlarging its scope. The Wikipedia article <url href="https://en.wikipedia.org/wiki/Geometry"> Geometry </url> gives a brief glimpse of this evolution. -->
         </fn>
       </p>
     </blockquote>
