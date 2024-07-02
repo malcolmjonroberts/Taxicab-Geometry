@@ -31,11 +31,15 @@
     </p>
 
     <p>
-      Taxicab geometry, as introduced in <xref ref="biblio-krause-book" />, is exactly the same as coordinate geometry except in the way that distance is calculated. In Euclidean geometry the distance between the two points <m> A=(x_1,y_1) </m> and <m> B=(x_2,y_2) </m> in the plane, which we will denote by <m> d_E(A,B) </m>, is calculated via the formula
+      Taxicab geometry, as introduced in <xref ref="biblio-krause-book" />, is exactly the same as coordinate geometry except in the way that distance is calculated. So, points are still the (infinitesimal) dots that make up the plane and they are still uniquely identified by their coordinates with respect to a set of rectangular axes. Lines are still those paths that can be drawn with a ruler and angle measures can still be determined using a protractor.
+    </p>
+      
+    <p>  
+      Recall that in Euclidean geometry the distance between the two points <m> A=(x_1,y_1) </m> and <m> B=(x_2,y_2) </m> in the plane, which we will denote by <m> d_E(A,B) </m>, is calculated via the formula
       <me>
         d_E(A,B)=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}
       </me>.
-      In taxicab geometry, the distance between the two points, which we will denote by <m> d_T(A,B) </m>, is calculated via the formula
+      In taxicab geometry, the distance between the two points, which we will denote by <m> d_T(A,B) </m>, is now calculated via the formula
       <me>
         d_T(A,B)=|x_2-x_1|+|y_2-y_1|
       </me>.
