@@ -12,7 +12,7 @@
       <p>
         The usual way to describe a (plane) geometry is to tell what its <em> points </em> are, what its <em> lines </em> are, how <em> distance </em> is measured, and how <em> angle measure </em> is determined. 
         <fn>
-          Note that Krause is talking about <em> a geometry </em> here, not about geometry in general. This gives us a gentle reminder that the field of geometry is, these days, a vast domain.
+          Note that Krause is talking about <em> a geometry </em> here, not about geometry in general. I should pursue this but instead I am just going to blissfully skip over it.
         </fn>
       </p>
     </blockquote>
@@ -29,6 +29,18 @@
     <p>
       We will refer to the study of the geometry of the Euclidean plane via the use of a rectangular coordinate system as <term> coordinate geometry </term> (but it is also known as <term> analytic geometry </term> or <term> Cartesian geometry </term>). Co-ordinate geometry, then, is the starting place for our journey into taxicab geometry.
     </p>
+
+    <p>
+      Taxicab geometry, as introduced in <xref ref="biblio-krause-book" />, is exactly the same as coordinate geometry except in the way that distance is calculated. In Euclidean geometry the distance between the two points <m> A=(x_1,y_1) </m> and <m> B=(x_2,y_2) </m> in the plane, which we will denote by <m> d_E(A,B) </m>, is calculated via the formula
+      <me>
+        d_E(A,B)=\sqrt{(x_2-x_1)^2+(y_2-y_1)^}
+      </me>.
+      In taxicab geometry, the distance between the two points, which we will denote by <m> d_T(A,B) </m>, is calculated via the formula
+      <me>
+        d_T(A,B)=\abs{(x_2-x_1)}+\abs{(y_2-y_1)}
+      </me>.
+    </p>
+
     
   </section>
 
