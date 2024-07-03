@@ -46,13 +46,13 @@
     </p>
 
     <p>
-      To get an intuitive idea of what this means imagine the points <m> A=(-1,1) </m> and <m> B=(2,4) </m> plotted on the plane, as shown in figure ? Then the Euclidean distance between the two points is measured along the straight line path that joins the two points, <ie /> along the path that a crow would fly between the points. Thus
+      To get an intuitive idea of what this means imagine the points <m> A=(-2,1) </m> and <m> B=(2,4) </m> plotted on the plane, as shown in figure ? Then the Euclidean distance between the two points is measured along the straight line path that joins the two points, <ie /> along the path that a crow would fly between the points. Thus
       <me>
-        d_E(A,B)=\sqrt{(2-(-1))^2+(4-1)^2}=5
+        d_E(A,B)=\sqrt{(2-(-2))^2+(4-1)^2}=5
       </me>.
       The taxicab distance, however, is measured along the shortest path that always stays parallel to either the <m> x</m>-axis or the <m> y </m>-axis, <ie /> along the path that the (honest) taxicab driver would drive, given that the grid lines on the plane correspond to <em> streets </em>. Thus
       <me>
-        d_T(A,B)=|2-(-1)|+|4-1|=7
+        d_T(A,B)=|2-(-2)|+|4-1|=7
       </me>.
       You can see now why this geometry is called taxicab geometry. More importantly, if we call the path between the points <m> A=(-1,1) </m> and <m> B=(2,4) </m> that is used to determine the taxicab distance the <term> taxicab path </term> then you can also see that the taxicab path between <m> A=(-1,1) </m> and <m> B=(2,4) </m> is not unique.
     </p>
