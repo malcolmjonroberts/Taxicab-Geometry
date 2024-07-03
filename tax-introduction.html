@@ -223,19 +223,35 @@ window.MathJax = {
 <div class="para" id="tax-introduction-2-4">The standard geometry taught in schools is plane Euclidean geometry. Intuitively, this geometry can be thought of as the geometry of a sheet of paper (the Euclidean plane). The points, then, are the (infinitesimal) dots that make up a plane. The lines are those paths that can be drawn with a ruler. Distances can be measured using a suitable ruler and angle measures can be determined using a protractor. We will use the symbol <span class="process-math">\(\mathbb{R}^2 \)</span> to denote the Euclidean plane.</div>
 <div class="para" id="tax-introduction-2-5">Further, if a rectangular coordinate system is drawn on the sheet of paper then the points on the plane can be uniquely identified by their coordinates with respect to this coordinate system, lines can be identified via a linear equation in two variables and distances can be calculated via Pythagoras’ Theorem. Angle measures can also be calculated, rather than measured via a protractor say, but not quite so simply.</div>
 <div class="para" id="tax-introduction-2-6">We will refer to the study of the geometry of the Euclidean plane via the use of a rectangular coordinate system as <dfn class="terminology">coordinate geometry</dfn> (but it is also known as <dfn class="terminology">analytic geometry</dfn> or <dfn class="terminology">Cartesian geometry</dfn>). Co-ordinate geometry, then, is the starting place for our journey into taxicab geometry.</div>
-<div class="para logical" id="tax-introduction-2-7">
-<div class="para">Taxicab geometry, as introduced in <a href="references-section.html#biblio-krause-book" class="xref" data-knowl="./knowl/xref/biblio-krause-book.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1: Taxicab Geometry">[1]</a>, is exactly the same as coordinate geometry except in the way that distance is calculated. In Euclidean geometry the distance between the two points <span class="process-math">\(A=(x_1,y_1) \)</span> and <span class="process-math">\(B=(x_2,y_2) \)</span> in the plane, which we will denote by <span class="process-math">\(d_E(A,B) \text{,}\)</span> is calculated via the formula</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/biblio-krause-book.html">
+<div class="para" id="tax-introduction-2-7">Taxicab geometry, as introduced in <a href="references-section.html#biblio-krause-book" class="xref" data-knowl="./knowl/xref/biblio-krause-book.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1: Taxicab Geometry">[1]</a>, is exactly the same as coordinate geometry except in the way that distance is calculated. So, points are still the (infinitesimal) dots that make up the plane and they are still uniquely identified by their coordinates with respect to a set of rectangular axes. Lines are still those paths that can be drawn with a ruler and angle measures can still be determined using a protractor.</div>
+<div class="para logical" id="tax-introduction-2-8">
+<div class="para">Recall that in Euclidean geometry the distance between the two points <span class="process-math">\(A=(x_1,y_1) \)</span> and <span class="process-math">\(B=(x_2,y_2) \)</span> in the plane, which we will denote by <span class="process-math">\(d_E(A,B) \text{,}\)</span> is calculated via the formula</div>
+<div class="displaymath process-math">
 \begin{equation*}
-d_E(A,B)=\sqrt{(x_2-x_1)^2+(y_2-y_1)^}\text{.}
+d_E(A,B)=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\text{.}
 \end{equation*}
 </div>
-<div class="para">In taxicab geometry, the distance between the two points, which we will denote by <span class="process-math">\(d_T(A,B) \text{,}\)</span> is calculated via the formula</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/biblio-krause-book.html">
+<div class="para">In taxicab geometry, the distance between the two points, which we will denote by <span class="process-math">\(d_T(A,B) \text{,}\)</span> is now calculated via the formula</div>
+<div class="displaymath process-math">
 \begin{equation*}
-d_T(A,B)=\abs{(x_2-x_1)}+\abs{(y_2-y_1)}\text{.}
+d_T(A,B)=|x_2-x_1|+|y_2-y_1|\text{.}
 \end{equation*}
 </div>
+</div>
+<div class="para logical" id="tax-introduction-2-9">
+<div class="para">To get an intuitive idea of what this means imagine the points <span class="process-math">\(A=(-1,1) \)</span> and <span class="process-math">\(B=(2,4) \)</span> plotted on the plane, as shown in figure ? Then the Euclidean distance between the two points is measured along the straight line path that joins the two points, i.e. along the path that a crow would fly between the points. Thus</div>
+<div class="displaymath process-math">
+\begin{equation*}
+d_E(A,B)=\sqrt{(2-(-1))^2+(4-1)^2}=5\text{.}
+\end{equation*}
+</div>
+<div class="para">The taxicab distance, however, is measured along the shortest path that always stays parallel to either the <span class="process-math">\(x\)</span>-axis or the <span class="process-math">\(y \)</span>-axis, i.e. along the path that the (honest) taxicab driver would drive, given that the grid lines on the plane correspond to <em class="emphasis">streets</em>. Thus</div>
+<div class="displaymath process-math">
+\begin{equation*}
+d_T(A,B)=|2-(-1)|+|4-1|=7\text{.}
+\end{equation*}
+</div>
+<div class="para">You can see now why this geometry is called taxicab geometry. More importantly, if we call the path between the points <span class="process-math">\(A=(-1,1) \)</span> and <span class="process-math">\(B=(2,4) \)</span> that is used to determine the taxicab distance the <dfn class="terminology">taxicab path</dfn> then you can also see that the taxicab path between <span class="process-math">\(A=(-1,1) \)</span> and <span class="process-math">\(B=(2,4) \)</span> is not unique.</div>
 </div></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="taxicab.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="modules.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
