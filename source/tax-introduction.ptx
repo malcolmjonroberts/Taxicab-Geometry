@@ -54,7 +54,7 @@
       <me>
         d_T(A,B)=|2-(-2)|+|4-1|=7
       </me>.
-      You can see now why this geometry is called taxicab geometry. More importantly, if we call the path between the points <m> A=(-1,1) </m> and <m> B=(2,4) </m> that is used to determine the taxicab distance the <term> taxicab path </term> then you can also see that the taxicab path between <m> A=(-1,1) </m> and <m> B=(2,4) </m> is not unique.
+      You can see now why this geometry is called taxicab geometry. More importantly, if we call the path between the points <m> A </m> and <m> B </m> that is used to determine the taxicab distance the <term> taxicab path </term> then you can also see that the taxicab path between <m> A=(-1,1) </m> and <m> B=(2,4) </m> is not unique.
     </p>
 
     
