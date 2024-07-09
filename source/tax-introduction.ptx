@@ -46,7 +46,7 @@
     </p>
 
     <p>
-      To get an intuitive idea of what this means imagine the points <m> A=(-2,1) </m> and <m> B=(2,4) </m> plotted on the plane, as shown in figure ? Then the Euclidean distance between the two points is measured along the straight line path that joins the two points, <ie /> along the path that a crow would fly between the points. Thus
+      To get an intuitive idea of what this means imagine the points <m> A=(-2,1) </m> and <m> B=(2,4) </m> plotted on the plane, as shown in Figure<nbsp /><xref ref="figure-taxicab-path" />. Then the Euclidean distance between the two points is measured along the straight line path that joins the two points, <ie /> along the path that a crow would fly between the points. Thus
       <me>
         d_E(A,B)=\sqrt{(2-(-2))^2+(4-1)^2}=5
       </me>.
@@ -57,8 +57,22 @@
       It should be pretty clear now why this geometry came to be known as taxicab geometry.
     </p>
 
+    <figure xml:id="figure-taxicab-path">
+      <caption>Taxicab paths between two points</caption>
+      <interactive platform="geogebra" width="75%" aspect="1:1">
+        <slate surface="geogebra" material="cxvr8xma" aspect="1:1">
+          enableShiftDragZoom(false);
+        </slate>
+        <instructions>
+          <p>
+            Click the Draw button to create a taxicab path between <m> A </m> and <m> B </m>. Note that, in this diagram, the paths always follow the grid lines. You can also move the points around. Note that the points will always have integer co-ordinates.
+          </p>
+        </instructions>
+      </interactive>
+    </figure>
+
     <p>
-      Already we can see a difference between Euclidean geometry and taxicab geometry. In Euclidean geometry the path that is used to determine the distance between two points is along the line joining <m> A </m> and <m> B </m>. In taxicab geometry the path that is used to determine the distance between two points doesn't follow that line, as can be seen in figure ? So, let's call the path between two points <m> A </m> and <m> B </m> that is used to determine the taxicab distance between the points the <term> taxicab path </term>. As you can also see in figure ? the taxicab path between <m> A=(-1,1) </m> and <m> B=(2,4) </m> is not unique.
+      Already we can see a difference between Euclidean geometry and taxicab geometry. In Euclidean geometry the path that is used to determine the distance between two points is along the line joining <m> A </m> and <m> B </m>, and it is unique. In taxicab geometry the path that is used to determine the distance between two points isn't necessarily unique, as was seen in Figure<nbsp /><xref ref="figure-taxicab-path" />. So, let's call any path between two points <m> A </m> and <m> B </m> that is used to determine the taxicab distance between the points a <term> taxicab path </term>.  Further, let's call the set of all possible taxicab paths for the two points <m> A </m> and <m> B </m> the <term> taxicab path set </term> for the points <m> A </m> and <m> B </m>.
     </p>
     
   </section>
