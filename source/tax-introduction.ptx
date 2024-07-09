@@ -62,7 +62,6 @@
       <interactive platform="geogebra" width="75%" aspect="1:1">
         <slate surface="geogebra" material="cxvr8xma" aspect="1:1">
             setCoordSystem(-5, 5, -5, 5);
-            enableShiftDragZoom(false);
         </slate>
         <instructions>
           <p>
