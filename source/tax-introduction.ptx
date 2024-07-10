@@ -18,11 +18,11 @@
         </blockquote>
 
         <p>
-            The standard geometry taught in schools is plane Euclidean geometry. Intuitively, this geometry can be thought of as the geometry of a sheet of paper (the Euclidean plane). The points, then, are the (infinitesimal) dots that make up a plane. The lines are those paths that can be drawn with a ruler. Distances can be measured using a suitable ruler and angle measures can be determined using a protractor. We will use the symbol <m> \mathbb{R}^2 </m> to denote the Euclidean plane.
+            The standard geometry taught in schools is plane Euclidean geometry. Intuitively, this geometry can be thought of as the geometry of a sheet of paper (the Euclidean plane). The points, then, are the (infinitesimal) dots that make up a plane. The lines are those paths that can be drawn with a straight edge. Distances can be measured using a suitable ruler and angle measures can be determined using a protractor. We will use the symbol <m> \mathbb{R}^2 </m> to denote the Euclidean plane.
         </p>
 
         <p>
-            Further, if a rectangular coordinate system is drawn on the sheet of paper then the points on the plane can be uniquely identified by their coordinates with respect to this coordinate system, lines can be identified via a linear equation in two variables and distances can be calculated via Pythagoras' Theorem. Angle measures can also be calculated, rather than measured via a protractor say, but not quite so simply. 
+            Further, if a rectangular coordinate system is drawn on the sheet of paper then the points on the plane can be uniquely identified by their coordinates with respect to that coordinate system, lines can be identified via a linear equation in two variables and distances can be calculated via Pythagoras' Theorem. Angle measures can also be calculated, rather than measured via a protractor say, but not quite so simply. 
         </p>
 
         <p>
@@ -30,45 +30,54 @@
         </p>
 
         <p>
-            Taxicab geometry, as introduced in <xref ref="biblio-krause-book" />, is exactly the same as coordinate geometry except in the way that distance is calculated. So, points are still the (infinitesimal) dots that make up the plane and they are still uniquely identified by their coordinates with respect to a set of rectangular axes. Lines are still those paths that can be drawn with a ruler and angle measures can still be determined using a protractor.
+            Taxicab geometry, as introduced in <xref ref="biblio-krause-book" />, is exactly the same as coordinate geometry except in the way that distance is calculated. So, points are still the (infinitesimal) dots that make up the plane and they are still uniquely identified by their coordinates with respect to a set of rectangular axes. Lines are still those paths that can be drawn with a straight edge and angle measures can still be determined using a protractor.
         </p>
       
         <p>  
-            Recall that in Euclidean geometry the distance between the two points <m> A=(x_1,y_1) </m> and <m> B=(x_2,y_2) </m> in the plane, which we will denote by <m> d_E(A,B) </m>, is calculated via the formula
+            Recall that in coordinate geometry the distance between the two points <m> A=(x_1,y_1) </m> and <m> B=(x_2,y_2) </m> in the plane, which we will denote by the symbol <m> d_E(A,B) </m>, is calculated via the formula
             <me>
                 d_E(A,B)=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}
             </me>.
+            We will refer to this distance as the <term> Euclidean distance </term> between the points, (hence the subscript <m> E </m> in the symbol). 
+        </p>
+        <p>
             In taxicab geometry, the distance between the two points, which we will denote by <m> d_T(A,B) </m>, is now calculated via the formula
             <me>
                 d_T(A,B)=|x_2-x_1|+|y_2-y_1|
             </me>.
+            We will refer to this distance as the <term> taxicab distance </term> between the points.
         </p>
 
         <p>
-            To get an intuitive idea of what this means imagine the points <m> A=(-2,1) </m> and <m> B=(2,4) </m> plotted on the plane, as shown in <xref ref="figure-taxicab-path" />. Then the Euclidean distance between the two points is measured along the straight line path that joins the two points, <ie /> along the path that a crow would fly between the points. Thus
+            To get an intuitive idea of what this means look at <xref ref="figure-taxicab-path" />. This figure is a GeoGebra animation and initially just the points <m> A=(-2,1) </m> and <m> B=(2,4) </m> are shown. Now, the Euclidean distance between the two points <m> A </m> and <m> B </m> would be measured along the straight line path that joins the two points. Thus,
             <me>
                 d_E(A,B)=\sqrt{(2-(-2))^2+(4-1)^2}=5
             </me>.
-            The taxicab distance, however, is measured along the shortest path that always stays parallel to either the <m> x </m>-axis or the <m> y </m>-axis, <ie /> along the path that the (honest) taxicab driver would drive, given that the grid lines on the plane correspond to <em> streets </em>. Thus
+            The taxicab distance, however, is
             <me>
                 d_T(A,B)=|2-(-2)|+|4-1|=7
             </me>.
-            It should be pretty clear now why this geometry came to be known as taxicab geometry.
+            This distance is equivalent to measuring the distance along the shortest path from <m> A </m> to <m> B </m> that always stays parallel to either the <m> x </m>-axis or the <m> y </m>-axis. Note that this path is not necessarily unique as you will see if you click the <kbd>Draw a taxicab path</kbd> button in <xref ref="figure-taxicab-path" /> several times.
         </p>
 
         <figure xml:id="figure-taxicab-path">
             <caption>Taxicab paths between two points</caption>
             <interactive platform="geogebra" width="75%" aspect="1:1">
                 <slate surface="geogebra" material="cxvr8xma" aspect="1:1">
+                    setAxisSteps(2, 1, 1);
                     setCoordSystem(-5, 5, -5, 5);
                 </slate>
                 <instructions>
                     <p>
-                        Click the Draw button to create a taxicab path between <m> A </m> and <m> B </m>. Note that, in this diagram, the paths always follow the grid lines. You can also move the points around. Note that the points will always have integer co-ordinates.
+                        You can move the points <m> A </m> and <m> B </m> around but they are constrained to have integer co-ordinates.
                     </p>
                 </instructions>
             </interactive>
         </figure>
+
+        <p>
+            So, if we were to imagine that the grid lines in <xref ref="figure-taxicab-path" /> were the <em> streets </em> of some city then we could think of the Euclidean distance between the points <m> A </m> and <m> B </m> as the distance along the path that a crow would fly between the points and we could think of the taxicab distance as the distance along the path that the (honest) taxicab driver would drive. So I guess it is now obvious why this geometry came to be (affectionately) known as taxicab geometry!
+        </p>
 
         <p>
             Already we can see a difference between Euclidean geometry and taxicab geometry. In Euclidean geometry the path that is used to determine the distance between two points is along the line joining <m> A </m> and <m> B </m>, and it is unique. In taxicab geometry the path that is used to determine the distance between two points isn't necessarily unique, as was seen in <xref ref="figure-taxicab-path" />. So, let's call any path between two points <m> A </m> and <m> B </m> that is used to determine the taxicab distance between the points a <term> taxicab path </term>.  Further, let's call the set of all possible taxicab paths for the two points <m> A </m> and <m> B </m> the <term> taxicab path set </term> for the points <m> A </m> and <m> B </m>.
