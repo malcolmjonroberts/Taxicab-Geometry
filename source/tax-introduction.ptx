@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="tax-introduction" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Introduction</title>
+  <title>Introduction To Taxicab Geometry</title>
 
   <section> <title> What Is Taxicab Geometry </title>
         <p>
@@ -45,7 +45,10 @@
             <me>
                 d_T(A,B)=|x_2-x_1|+|y_2-y_1|
             </me>.
-            We will refer to this distance as the <term> taxicab distance </term> between the points.
+            We will refer to this distance as the <term> taxicab distance </term> between the points
+            <fn>
+                Both of these formulas are examples of what is known as a <em>metric</em>. Once again I am going to happily skip over this.
+            </fn>.
         </p>
 
         <p>
@@ -62,9 +65,9 @@
 
         <figure xml:id="figure-taxicab-path">
             <caption>Taxicab paths between two points</caption>
-            <interactive platform="geogebra" width="75%" aspect="1:1">
+            <interactive platform="geogebra" width="85%" aspect="1:1">
                 <slate surface="geogebra" material="cxvr8xma" aspect="1:1">
-                    setAxisSteps(2, 1, 1);
+                    setAxisSteps(2, 1, 1, 0);
                     setCoordSystem(-5, 5, -5, 5);
                 </slate>
                 <instructions>
@@ -76,13 +79,25 @@
         </figure>
 
         <p>
-            So, if we were to imagine that the grid lines in <xref ref="figure-taxicab-path" /> were the <em> streets </em> of some city then we could think of the Euclidean distance between the points <m> A </m> and <m> B </m> as the distance along the path that a crow would fly between the points and we could think of the taxicab distance as the distance along the path that the (honest) taxicab driver would drive. So I guess it is now obvious why this geometry came to be (affectionately) known as taxicab geometry!
+            So, if we were to imagine that the grid lines in <xref ref="figure-taxicab-path" /> were the <em> streets </em> of some city then we could think of the Euclidean distance between the points <m> A </m> and <m> B </m> as the distance along the path that a crow would fly between the points and we could think of the taxicab distance as the distance along the path that the (honest) taxicab driver would drive. So we guess that it seems reasonable that this geometry came to be (affectionately) known as taxicab geometry.
         </p>
 
         <p>
-            Already we can see a difference between Euclidean geometry and taxicab geometry. In Euclidean geometry the path that is used to determine the distance between two points is along the line joining <m> A </m> and <m> B </m>, and it is unique. In taxicab geometry the path that is used to determine the distance between two points isn't necessarily unique, as was seen in <xref ref="figure-taxicab-path" />. So, let's call any path between two points <m> A </m> and <m> B </m> that is used to determine the taxicab distance between the points a <term> taxicab path </term>.  Further, let's call the set of all possible taxicab paths for the two points <m> A </m> and <m> B </m> the <term> taxicab path set </term> for the points <m> A </m> and <m> B </m>.
+            Already we can see a difference between Euclidean geometry and taxicab geometry. In Euclidean geometry the path that is used to determine the distance between two points is along the line joining <m> A </m> and <m> B </m>, and it is unique. In taxicab geometry the path that is used to determine the distance between two points isn't necessarily unique, as was seen in <xref ref="figure-taxicab-path" />. So, let's call any path between two points <m> A </m> and <m> B </m> that is used to determine the taxicab distance between the points a <term> taxicab path <idx>taxicab path</idx></term>.  Further, let's call the set of all possible taxicab paths for the two points <m> A </m> and <m> B </m> the <term> taxicab set </term> for the points <m> A </m> and <m> B </m>.
         </p>
     
+        <p>
+            Note that in <xref ref="figure-taxicab-path" /> the points <m> A </m> and <m> B </m> were constrained to have integer co-ordinates and the taxicab path between the points were constrained to only go along the grid lines. This doesn't have to be the case, the points can be anywhere in the plane and taxicab paths are constrained only to always stay parallel to either the <m> x </m>-axis or the <m> y </m>-axis. We made the additional constraints in the figure simply to make the connection to taxicabs seem a little more plausible! 
+        </p>
+
+        <p>
+            So in taxicab geometry then, you should be able to convince yourself that the taxicab set for two points <m> A </m> and <m> B </m> will be a either a rectangle with <m> A </m> and <m> B </m> at opposite vertices or an interval joining <m> A </m> and <m> B </m>. Further, when the taxicab set is an interval the taxicab path is unique.
+        </p>
+
+        <p>
+            In closing our first discussion of taxicab geometry it is worth point out explicitly that when discussing taxicab geometry we will often resort to using the language and the tools of (our familiar) Euclidean co-ordinate geometry. This is only natural, we will use what we know to explore what we don't know. Of course, in places it will be easy to confuse whether we are talking about taxicab geometry results or Euclidean geometry results (or maybe both). Hopefully, care with language, terminology, symbols and other details will minimise such confusion.
+        </p>
+
   </section>
 
 </chapter>
