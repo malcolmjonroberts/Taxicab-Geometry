@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="tax-introduction" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Introduction To Taxicab Geometry</title>
+    <title>Introduction To Taxicab Geometry</title>
 
-  <section> <title> What Is Taxicab Geometry </title>
+    <section> <title> What Is Taxicab Geometry </title>
         <p>
             A standard reference on taxicab geometry for those new to the subject is <xref ref="biblio-krause-book" />. Krause begins his treatise by saying:
         </p>
@@ -45,7 +45,7 @@
             <me>
                 d_T(A,B)=|x_2-x_1|+|y_2-y_1|
             </me>.
-            We will refer to this distance as the <term> taxicab distance </term> between the points
+            We will refer to this distance as the <term> taxicab distance </term> <idx>taxicab distance</idx> between the points
             <fn>
                 Both of these formulas are examples of what is known as a <em>metric</em>. Once again I am going to happily skip over this.
             </fn>.
@@ -83,7 +83,7 @@
         </p>
 
         <p>
-            Already we can see a difference between Euclidean geometry and taxicab geometry. In Euclidean geometry the path that is used to determine the distance between two points is along the line joining <m> A </m> and <m> B </m>, and it is unique. In taxicab geometry the path that is used to determine the distance between two points isn't necessarily unique, as was seen in <xref ref="figure-taxicab-path" />. So, let's call any path between two points <m> A </m> and <m> B </m> that is used to determine the taxicab distance between the points a <term> taxicab path <idx>taxicab path</idx></term>.  Further, let's call the set of all possible taxicab paths for the two points <m> A </m> and <m> B </m> the <term> taxicab set </term> for the points <m> A </m> and <m> B </m>.
+            Already we can see a difference between Euclidean geometry and taxicab geometry. In Euclidean geometry the path that is used to determine the distance between two points is along the line joining <m> A </m> and <m> B </m>, and it is unique. In taxicab geometry the path that is used to determine the distance between two points isn't necessarily unique, as you might have seen in <xref ref="figure-taxicab-path" />. So, let's call any path between two points <m> A </m> and <m> B </m> that is used to determine the taxicab distance between the points a <term> taxicab path </term>. <idx>taxicab path</idx> Further, let's call the set of all possible taxicab paths for the two points <m> A </m> and <m> B </m> the <term> taxicab set </term> <idx>taxicab set</idx> for the points <m> A </m> and <m> B </m>.
         </p>
     
         <p>
@@ -95,9 +95,29 @@
         </p>
 
         <p>
-            In closing our first discussion of taxicab geometry it is worth point out explicitly that when discussing taxicab geometry we will often resort to using the language and the tools of (our familiar) Euclidean co-ordinate geometry. This is only natural, we will use what we know to explore what we don't know. Of course, in places it will be easy to confuse whether we are talking about taxicab geometry results or Euclidean geometry results (or maybe both). Hopefully, care with language, terminology, symbols and other details will minimise such confusion.
+            In closing our first discussion of taxicab geometry it is worth pointing out explicitly that when discussing taxicab geometry we will often resort to using the language and the tools of (our familiar) Euclidean co-ordinate geometry. This is only natural, we will use what we know to explore what we don't know. Of course, in places it will be easy to confuse whether we are talking about taxicab geometry results or Euclidean geometry results (or maybe both). Hopefully, care with language, terminology, symbols and other details will minimise such confusion.
         </p>
 
-  </section>
+    </section>
+
+    <section> <title> Taxicab Circles </title>
+        <p>
+            The Wikipedia article on the <url href="https://en.wikipedia.org/wiki/Circle"> circle </url> defines the circle as follows:
+        </p>
+
+        <blockquote>
+            <p>
+                A circle is a shape consisting of all points in a plane that are at a given <em> distance </em> from a given point, the centre. The distance between any point of the circle and the centre is called the radius.
+            </p>
+        </blockquote>
+
+        <p>
+            The emphasis in the above quote is ours <ellpisis /> we are highlighting that this definition is in terms of distance. Of course, the distance that the article is referring to is the Euclidean distance. So, let the given point, (<ie /> the centre), be <m> C=(a,b) </m> and let the given distance, (<ie /> the radius),be <m> r </m>. Then, if <m> P=(x,y) </m> is some point on the circle then using ??? we have
+            <me>
+                \sqrt{(x-a)^2+(y-b)^2}=r
+            </me>
+        </p>
+
+    </section>
 
 </chapter>
