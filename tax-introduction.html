@@ -229,19 +229,19 @@ window.MathJax = {
 <div class="para" id="tax-introduction-2-7">Taxicab geometry, as introduced in <a href="references-section.html#biblio-krause-book" class="xref" data-knowl="./knowl/xref/biblio-krause-book.html" data-reveal-label="Reveal" data-close-label="Close" title="Bibliographic Entry 1: Taxicab Geometry">[1]</a>, is exactly the same as Euclidean coordinate geometry except in the way that distance is calculated. So, points are still the (infinitesimal) dots that make up the plane and they are still uniquely identified by their coordinates with respect to a set of rectangular axes. Lines are still those paths that can be drawn with a straight edge and angle measures can still be determined using a protractor.</div>
 <div class="para logical" id="tax-introduction-2-8">
 <div class="para">Recall that in co-ordinate geometry the distance between the two points <span class="process-math">\(A=(x_1,y_1) \)</span> and <span class="process-math">\(B=(x_2,y_2) \)</span> in the plane, which we will denote by the symbol <span class="process-math">\(d_E(A,B) \text{,}\)</span> is calculated via the formula</div>
-<div class="displaymath process-math">
-\begin{equation*}
-d_E(A,B)=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\text{.}
-\end{equation*}
+<div class="displaymath process-math" id="equation-euclidean-distance">
+\begin{equation}
+d_E(A,B)=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\text{.}\tag{1.1}
+\end{equation}
 </div>
 <div class="para">We will refer to this distance as the <dfn class="terminology">Euclidean distance</dfn> between the points, (hence the subscript <span class="process-math">\(E \)</span> in the symbol).</div>
 </div>
 <div class="para logical" id="tax-introduction-2-9">
 <div class="para">In taxicab geometry, the distance between the two points, which we will denote by <span class="process-math">\(d_T(A,B) \text{,}\)</span> is now calculated via the formula</div>
-<div class="displaymath process-math">
-\begin{equation*}
-d_T(A,B)=|x_2-x_1|+|y_2-y_1|\text{.}
-\end{equation*}
+<div class="displaymath process-math" id="equation-taxicab-distance">
+\begin{equation}
+d_T(A,B)=|x_2-x_1|+|y_2-y_1|\text{.}\tag{1.2}
+\end{equation}
 </div>
 <div class="para">We will refer to this distance as the <dfn class="terminology">taxicab distance</dfn>  between the points <details class="ptx-footnote" aria-live="polite" id="tax-introduction-2-9-5"><summary class="ptx-footnote__number" title="Footnote 1.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="tax-introduction-2-9-5">Both of these formulas are examples of what is known as a <em class="emphasis">metric</em>. Once again I am going to happily skip over this.</div></details>.</div>
 </div>
@@ -272,7 +272,7 @@ d_T(A,B)=|2-(-2)|+|4-1|=7\text{.}
 <div class="para" id="tax-introduction-3-2">The Wikipedia article on the <a class="external" href="https://en.wikipedia.org/wiki/Circle" target="_blank">circle</a><details class="ptx-footnote" aria-live="polite" id="tax-introduction-3-2-2"><summary class="ptx-footnote__number" title="Footnote 1.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="tax-introduction-3-2-2"><code class="code-inline tex2jax_ignore">en.wikipedia.org/wiki/Circle</code></div></details> defines the circle as follows:</div>
 <blockquote class="blockquote" id="tax-introduction-3-3"><div class="para" id="tax-introduction-3-3-1">A circle is a shape consisting of all points in a plane that are at a given <em class="emphasis">distance</em> from a given point, the centre. The distance between any point of the circle and the centre is called the radius.</div></blockquote>
 <div class="para logical" id="tax-introduction-3-4">
-<div class="para">The emphasis in the above quote is ours … we are highlighting that this definition is in terms of distance. Of course, the distance that the article is referring to is the Euclidean distance. So, let the given point, (i.e. the centre), be <span class="process-math">\(C=(a,b) \)</span> and let the given distance, (i.e. the radius),be <span class="process-math">\(r \text{.}\)</span> Then, if <span class="process-math">\(P=(x,y) \)</span> is some point on the circle then using <a href="tax-introduction.html#equation-taxicab-distance" class="internal" title="Equation">Equation </a> we have</div>
+<div class="para">The emphasis in the above quote is ours … we are highlighting that this definition is in terms of distance. Of course, the distance that the article is referring to is the Euclidean distance. So, let the given point, (i.e. the centre), be <span class="process-math">\(C=(a,b) \)</span> and let the given distance, (i.e. the radius),be <span class="process-math">\(r \text{.}\)</span> Then, if <span class="process-math">\(P=(x,y) \)</span> is some point on the circle then using <a href="tax-introduction.html#equation-taxicab-distance" class="xref" data-knowl="./knowl/xref/equation-taxicab-distance.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.2">(1.2)</a> we have</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/equation-taxicab-distance.html">
 \begin{equation*}
 \sqrt{(x-a)^2+(y-b)^2}=r
