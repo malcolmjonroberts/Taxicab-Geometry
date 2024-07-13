@@ -35,16 +35,16 @@
       
         <p>  
             Recall that in co-ordinate geometry the distance between the two points <m> A=(x_1,y_1) </m> and <m> B=(x_2,y_2) </m> in the plane, which we will denote by the symbol <m> d_E(A,B) </m>, is calculated via the formula
-            <me xml:id="equation-euclidean-distance">
+            <men xml:id="equation-euclidean-distance">
                 d_E(A,B)=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}
-            </me>.
+            </men>.
             We will refer to this distance as the <term> Euclidean distance </term> between the points, (hence the subscript <m> E </m> in the symbol). 
         </p>
         <p>
             In taxicab geometry, the distance between the two points, which we will denote by <m> d_T(A,B) </m>, is now calculated via the formula
-            <me xml:id="equation-taxicab-distance">
+            <men xml:id="equation-taxicab-distance">
                 d_T(A,B)=|x_2-x_1|+|y_2-y_1|
-            </me>.
+            </men>.
             We will refer to this distance as the <term> taxicab distance </term> <idx>taxicab distance</idx> between the points
             <fn>
                 Both of these formulas are examples of what is known as a <em>metric</em>. Once again I am going to happily skip over this.
