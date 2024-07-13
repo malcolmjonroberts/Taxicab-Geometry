@@ -26,16 +26,16 @@
         </p>
 
         <p>
-            We will refer to the study of the geometry of the Euclidean plane via the use of a rectangular coordinate system as <term> coordinate geometry </term> (but it is also known as <term> analytic geometry </term> or <term> Cartesian geometry </term>). Co-ordinate geometry, then, is the starting place for our journey into taxicab geometry.
+            We will refer to the study of the geometry of the Euclidean plane via the use of a rectangular coordinate system as <term> Euclidean coordinate geometry </term> or either just Euclidean geometry or co-ordinate gemometry. (You will also see it referred to as <em> analytic geometry </em> or <em> Cartesian geometry </em>). Euclidean co-ordinate geometry, then, is the starting place for our journey into taxicab geometry.
         </p>
 
         <p>
-            Taxicab geometry, as introduced in <xref ref="biblio-krause-book" />, is exactly the same as coordinate geometry except in the way that distance is calculated. So, points are still the (infinitesimal) dots that make up the plane and they are still uniquely identified by their coordinates with respect to a set of rectangular axes. Lines are still those paths that can be drawn with a straight edge and angle measures can still be determined using a protractor.
+            Taxicab geometry, as introduced in <xref ref="biblio-krause-book" />, is exactly the same as Euclidean coordinate geometry except in the way that distance is calculated. So, points are still the (infinitesimal) dots that make up the plane and they are still uniquely identified by their coordinates with respect to a set of rectangular axes. Lines are still those paths that can be drawn with a straight edge and angle measures can still be determined using a protractor.
         </p>
       
         <p>  
-            Recall that in coordinate geometry the distance between the two points <m> A=(x_1,y_1) </m> and <m> B=(x_2,y_2) </m> in the plane, which we will denote by the symbol <m> d_E(A,B) </m>, is calculated via the formula
-            <me>
+            Recall that in co-ordinate geometry the distance between the two points <m> A=(x_1,y_1) </m> and <m> B=(x_2,y_2) </m> in the plane, which we will denote by the symbol <m> d_E(A,B) </m>, is calculated via the formula
+            <me xml:id="euclidean-distance-formula">
                 d_E(A,B)=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}
             </me>.
             We will refer to this distance as the <term> Euclidean distance </term> between the points, (hence the subscript <m> E </m> in the symbol). 
