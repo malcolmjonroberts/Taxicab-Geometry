@@ -112,7 +112,7 @@
         </blockquote>
 
         <p>
-            The emphasis in the above quote is ours <ellipsis /> we are highlighting that this definition is in terms of distance. Of course, the distance that the article is referring to is the Euclidean distance. So, let the given point, (<ie /> the centre), be <m> C=(a,b) </m> and let the given distance, (<ie /> the radius),be <m> r </m>. Then, if <m> P=(x,y) </m> is some point on the circle then using <xref="equation-taxicab-distance"> we have
+            The emphasis in the above quote is ours <ellipsis /> we are highlighting that this definition is in terms of distance. Of course, the distance that the article is referring to is the Euclidean distance. So, let the given point, (<ie /> the centre), be <m> C=(a,b) </m> and let the given distance, (<ie /> the radius),be <m> r </m>. Then, if <m> P=(x,y) </m> is some point on the circle then using <xref="equation-taxicab-distance" /> we have
             <me>
                 \sqrt{(x-a)^2+(y-b)^2}=r
             </me>
