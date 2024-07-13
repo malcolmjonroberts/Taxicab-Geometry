@@ -26,7 +26,7 @@
         </p>
 
         <p>
-            We will refer to the study of the geometry of the Euclidean plane via the use of a rectangular coordinate system as <term> Euclidean coordinate geometry </term> or either just Euclidean geometry or co-ordinate gemometry. (You will also see it referred to as <em> analytic geometry </em> or <em> Cartesian geometry </em>). Euclidean co-ordinate geometry, then, is the starting place for our journey into taxicab geometry.
+            We will refer to the study of the geometry of the Euclidean plane via the use of a rectangular coordinate system as <term> Euclidean coordinate geometry </term> or either just <em> Euclidean geometry </em> or <em>co-ordinate geometry</em>. (You will also see it referred to as <em> analytic geometry </em> or <em> Cartesian geometry </em>). Euclidean co-ordinate geometry, then, is the starting place for our journey into taxicab geometry.
         </p>
 
         <p>
@@ -35,14 +35,14 @@
       
         <p>  
             Recall that in co-ordinate geometry the distance between the two points <m> A=(x_1,y_1) </m> and <m> B=(x_2,y_2) </m> in the plane, which we will denote by the symbol <m> d_E(A,B) </m>, is calculated via the formula
-            <me xml:id="euclidean-distance-formula">
+            <me xml:id="equation-euclidean-distance">
                 d_E(A,B)=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}
             </me>.
             We will refer to this distance as the <term> Euclidean distance </term> between the points, (hence the subscript <m> E </m> in the symbol). 
         </p>
         <p>
             In taxicab geometry, the distance between the two points, which we will denote by <m> d_T(A,B) </m>, is now calculated via the formula
-            <me>
+            <me xml:id="equation-taxicab-distance">
                 d_T(A,B)=|x_2-x_1|+|y_2-y_1|
             </me>.
             We will refer to this distance as the <term> taxicab distance </term> <idx>taxicab distance</idx> between the points
@@ -112,7 +112,7 @@
         </blockquote>
 
         <p>
-            The emphasis in the above quote is ours <ellpisis /> we are highlighting that this definition is in terms of distance. Of course, the distance that the article is referring to is the Euclidean distance. So, let the given point, (<ie /> the centre), be <m> C=(a,b) </m> and let the given distance, (<ie /> the radius),be <m> r </m>. Then, if <m> P=(x,y) </m> is some point on the circle then using ??? we have
+            The emphasis in the above quote is ours <ellipsis /> we are highlighting that this definition is in terms of distance. Of course, the distance that the article is referring to is the Euclidean distance. So, let the given point, (<ie /> the centre), be <m> C=(a,b) </m> and let the given distance, (<ie /> the radius),be <m> r </m>. Then, if <m> P=(x,y) </m> is some point on the circle then using <xref="equation-taxicab-distance"> we have
             <me>
                 \sqrt{(x-a)^2+(y-b)^2}=r
             </me>
