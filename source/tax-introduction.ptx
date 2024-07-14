@@ -18,7 +18,7 @@
         </blockquote>
 
         <p>
-            The standard geometry taught in schools is plane Euclidean geometry. Intuitively, this geometry can be thought of as the geometry of a sheet of paper (the Euclidean plane). The points, then, are the (infinitesimal) dots that make up a plane. The lines are those paths that can be drawn with a straight edge. Distances can be measured using a suitable ruler and angle measures can be determined using a protractor. We will use the symbol <m> \mathbb{R}^2 </m> to denote the Euclidean plane.
+            The standard geometry taught in schools is plane Euclidean geometry. Intuitively, this geometry can be thought of as the geometry of a sheet of paper (the Euclidean plane). The points, then, are the (infinitesimal) dots that make up a plane. The lines are those paths that can be drawn with a straight edge. Distances can be measured using a suitable ruler and angle measures can be determined using a protractor. I will use the symbol <m> \mathbb{R}^2 </m> to denote the Euclidean plane.
         </p>
 
         <p>
@@ -26,7 +26,7 @@
         </p>
 
         <p>
-            We will refer to the study of the geometry of the Euclidean plane via the use of a rectangular coordinate system as <term> Euclidean coordinate geometry </term> or either just <em> Euclidean geometry </em> or <em>co-ordinate geometry</em>. (You will also see it referred to as <em> analytic geometry </em> or <em> Cartesian geometry </em>). Euclidean co-ordinate geometry, then, is the starting place for our journey into taxicab geometry.
+            I will refer to the study of the geometry of the Euclidean plane via the use of a rectangular coordinate system as <term> Euclidean coordinate geometry </term> or either just <em> Euclidean geometry </em> or <em>co-ordinate geometry</em>. (You will also see it referred to as <em> analytic geometry </em> or <em> Cartesian geometry </em>). Euclidean co-ordinate geometry, then, is the starting place for our journey into taxicab geometry.
         </p>
 
         <p>
@@ -38,14 +38,14 @@
             <men xml:id="equation-euclidean-distance">
                 d_E(A,B)=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}
             </men>.
-            We will refer to this distance as the <term> Euclidean distance </term> between the points, (hence the subscript <m> E </m> in the symbol). 
+            I will refer to this distance as the <term> Euclidean distance </term> between the points, (hence the subscript <m> E </m> in the symbol). 
         </p>
         <p>
-            In taxicab geometry, the distance between the two points, which we will denote by <m> d_T(A,B) </m>, is now calculated via the formula
+            In taxicab geometry, the distance between the two points, which I will denote by <m> d_T(A,B) </m>, is now calculated via the formula
             <men xml:id="equation-taxicab-distance">
                 d_T(A,B)=|x_2-x_1|+|y_2-y_1|
             </men>.
-            We will refer to this distance as the <term> taxicab distance </term> <idx>taxicab distance</idx> between the points
+            I will refer to this distance as the <term> taxicab distance </term> <idx>taxicab distance</idx> between the points
             <fn>
                 Both of these formulas are examples of what is known as a <em>metric</em>. Once again I am going to happily skip over this.
             </fn>.
@@ -79,7 +79,7 @@
         </figure>
 
         <p>
-            So, if we were to imagine that the grid lines in <xref ref="figure-taxicab-path" /> were the <em> streets </em> of some city then we could think of the Euclidean distance between the points <m> A </m> and <m> B </m> as the distance along the path that a crow would fly between the points and we could think of the taxicab distance as the distance along the path that the (honest) taxicab driver would drive. So we guess that it seems reasonable that this geometry came to be (affectionately) known as taxicab geometry.
+            So, if we were to imagine that the grid lines in <xref ref="figure-taxicab-path" /> were the <em> streets </em> of some city then we could think of the Euclidean distance between the points <m> A </m> and <m> B </m> as the distance along the path that a crow would fly between the points and we could think of the taxicab distance as the distance along the path that the (honest) taxicab driver would drive. So I guess that it seems reasonable that this geometry came to be (affectionately) known as taxicab geometry.
         </p>
 
         <p>
@@ -87,7 +87,7 @@
         </p>
     
         <p>
-            Note that in <xref ref="figure-taxicab-path" /> the points <m> A </m> and <m> B </m> were constrained to have integer co-ordinates and the taxicab path between the points were constrained to only go along the grid lines. This doesn't have to be the case, the points can be anywhere in the plane and taxicab paths are constrained only to always stay parallel to either the <m> x </m>-axis or the <m> y </m>-axis. We made the additional constraints in the figure simply to make the connection to taxicabs seem a little more plausible! 
+            Note that in <xref ref="figure-taxicab-path" /> the points <m> A </m> and <m> B </m> were constrained to have integer co-ordinates and the taxicab path between the points were constrained to only go along the grid lines. This doesn't have to be the case, the points can be anywhere in the plane and taxicab paths are constrained only to always stay parallel to either the <m> x </m>-axis or the <m> y </m>-axis. I made the additional constraints in the figure simply to make the connection to taxicabs seem a little more plausible! 
         </p>
 
         <p>
@@ -95,14 +95,14 @@
         </p>
 
         <p>
-            In closing our first discussion of taxicab geometry it is worth pointing out explicitly that when discussing taxicab geometry we will often resort to using the language and the tools of (our familiar) Euclidean co-ordinate geometry. This is only natural, we will use what we know to explore what we don't know. Of course, in places it will be easy to confuse whether we are talking about taxicab geometry results or Euclidean geometry results (or maybe both). Hopefully, care with language, terminology, symbols and other details will minimise such confusion.
+            In closing this first discussion of taxicab geometry it is worth pointing out explicitly that when discussing taxicab geometry we will often resort to using the language and the tools of (the familiar) Euclidean co-ordinate geometry. This is only natural, we will use what we know to explore what we don't know. Of course, in places it will be easy to confuse whether we are talking about taxicab geometry results or Euclidean geometry results (or maybe both). Hopefully, care with language, terminology, symbols and other details will minimise such confusion.
         </p>
 
     </section>
 
     <section> <title> Taxicab Circles </title>
         <p>
-            The Wikipedia article on the <url href="https://en.wikipedia.org/wiki/Circle"> Circle </url> defines the circle as follows:
+            The Wikipedia article on the <url href="https://en.wikipedia.org/wiki/Circle"> Circle </url> defines a circle as follows:
         </p>
 
         <blockquote>
@@ -112,11 +112,38 @@
         </blockquote>
 
         <p>
-            The emphasis in the above quote is ours <ellipsis /> we are highlighting that this definition is in terms of distance. Of course, the distance that the article is referring to is the Euclidean distance. So, let the given point, (<ie /> the centre), be <m> C=(a,b) </m> and let the given distance, (<ie /> the radius),be <m> r </m>. Then, if <m> P=(x,y) </m> is some point on the circle then using <xref ref="equation-taxicab-distance" /> we have
+            The emphasis in the above quote is mine <ellipsis /> I wanted to highlight that this definition is in terms of distance. Of course, the distance that the article is referring to is the Euclidean distance. So, let the given point, (<ie /> the centre), be <m> C=(a,b) </m> and let the given distance, (<ie /> the radius),be <m> r </m>. (So <m> a </m>, <m> b </m> and <m> r </m> are known quantities.) Then, if <m> P=(x,y) </m> is some point on the circle then using equation <xref ref="equation-taxicab-distance" /> we have
             <me>
                 \sqrt{(x-a)^2+(y-b)^2}=r
             </me>
+            which can be rearranged to give the equation of a (Euclidean) circle with centre <m> C=(a,b) </m> and radius <m> r </m>, that is:
+            <me>
+                (x-a)^2+(y-b)^2=r^2
+            </me>.
         </p>
+
+        <p>
+            Repeating this process but using taxicab distance formula instead of the Euclidean distance formula gives the equation of a <term> taxicab circle </term>, <idx>taxicab path</idx> namely
+            <me>
+                |x-a|+|y-b|=r
+            </me>.
+            <xref ref="figure-taxicab-circle" /> shows a plot of the taxicab circle with centre with centre <m> C=(1,2) </m> and radius <m> r=2 </m>. As you can see it is somewhat different to the Euclidean circle with the same centre and radius.
+        </p>
+
+        <figure xml:id="figure-taxicab-circle">
+            <caption>Taxicab circle with centre C and radius r</caption>
+            <interactive platform="geogebra" width="85%" aspect="1:1">
+                <slate surface="geogebra" material="cxvr8xma" aspect="1:1">
+                    setAxisSteps(2, 1, 1, 0);
+                    setCoordSystem(-5, 5, -5, 5);
+                </slate>
+                <instructions>
+                    <p>
+                        You can move the centre point <m> C </m> or change the radius <m> r </m> via the slider.
+                    </p>
+                </instructions>
+            </interactive>
+        </figure>
 
     </section>
 
