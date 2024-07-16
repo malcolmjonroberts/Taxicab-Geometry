@@ -127,13 +127,13 @@
             <me>
                 |x-a|+|y-b|=r
             </me>.
-            <xref ref="figure-taxicab-circle" /> shows a plot of the taxicab circle with centre with centre <m> C=(1,2) </m> and radius <m> r=2 </m>. As you can see it is somewhat different to the Euclidean circle with the same centre and radius.
+            <xref ref="figure-taxicab-circle" /> uses GeoGebra to show a plot of the taxicab circle with centre with centre <m> C=(1,2) </m> and radius <m> r=2 </m>. As you can see it is somewhat different to the Euclidean circle with the same centre and radius.
         </p>
 
         <figure xml:id="figure-taxicab-circle">
             <caption>Taxicab circle with centre C and radius r</caption>
             <interactive platform="geogebra" width="85%" aspect="1:1">
-                <slate surface="geogebra" material="cxvr8xma" aspect="1:1">
+                <slate surface="geogebra" material="dn3haag95t" aspect="1:1">
                     setAxisSteps(2, 1, 1, 0);
                     setCoordSystem(-5, 5, -5, 5);
                 </slate>
@@ -144,6 +144,20 @@
                 </instructions>
             </interactive>
         </figure>
+
+        <p>
+            If you were to plot the graph of the taxicab circle with centre with centre <m> C=(1,2) </m> and radius <m> r=2 </m> by hand you would have to plot the graph of the equation
+            <me>
+                |x-1|+|y-2|=2
+            </me>.
+            The graph of this equation is probably easier seen if the equation is rewritten as
+            <md>
+                <mrow> y\amp=5-x \amp \text{when } \amp x \ge 1, y\ge 2</mrow>
+                <mrow> y\amp=x-1 \amp \text{when } \amp x \ge 1, y\lt 2</mrow>
+                <mrow> y\amp=x+3 \amp \text{when } \amp x \lt 1, y\ge 2</mrow>
+                <mrow> y\amp=1-x \amp \text{when } \amp x \lt 1, y\lt 2</mrow>
+            </md>
+        </p>
 
     </section>
 
