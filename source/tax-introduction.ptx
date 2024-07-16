@@ -156,7 +156,11 @@
                 <mrow> y\amp=x-1 \amp \text{when } \amp x \ge 1, y\lt 2</mrow>
                 <mrow> y\amp=x+3 \amp \text{when } \amp x \lt 1, y\ge 2</mrow>
                 <mrow> y\amp=1-x \amp \text{when } \amp x \lt 1, y\lt 2</mrow>
-            </md>
+            </md>.
+        </p>
+
+        <p>
+            We will explore properties of the taxicab circle further in ???? but I can't resist talking about <m> \pi </m> now.
         </p>
 
     </section>
