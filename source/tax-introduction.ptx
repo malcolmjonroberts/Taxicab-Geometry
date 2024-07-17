@@ -102,6 +102,9 @@
 
     <section> <title> Taxicab Circles </title>
         <p>
+            To get an insight into the nature of taxicab geometry, this section introduces the idea of circles in taxicab geometry. The plan of attack is to begin by looking at how circles arise in Euclidean geometry and then to use that to guide the development of the idea in taxicab geometry. Note that this will be the plan of attack for all that we use for all of the topics that we will explore in taxicab geometry. However, as you will see, along the way we will come across places where we will have to make decisions on how to proceed with the development of some ideas in taxicab geometry. Because taxicab geometry isn't widely used there are many such places where there is no weight of evidence or thought pointing to what would be the most advantageous way to proceed. In such cases, we are free to make to whatever decision seems sensible at the time. It could be that later on we realise that our decision wasn't a good one for whatever reason. In which case we can go back, change it, (with the benifit of some insight), and see what happens. I have to say doing this turns out to be rather fun (and, dare I say it, <em> creative </em>)!
+        </p>
+        <p>
             The Wikipedia article on the <url href="https://en.wikipedia.org/wiki/Circle"> Circle </url> defines a circle as follows:
         </p>
 
@@ -112,7 +115,7 @@
         </blockquote>
 
         <p>
-            The emphasis in the above quote is mine <ellipsis /> I wanted to highlight that this definition is in terms of distance. Of course, the distance that the article is referring to is the Euclidean distance. So, let the given point, (<ie /> the centre), be <m> C=(a,b) </m> and let the given distance, (<ie /> the radius),be <m> r </m>. (So <m> a </m>, <m> b </m> and <m> r </m> are known quantities.) Then, if <m> P=(x,y) </m> is some point on the circle then using equation <xref ref="equation-taxicab-distance" /> we have
+            The emphasis in the above quote is mine <ellipsis /> I wanted to highlight that this definition is in terms of distance. Of course, the distance that the article is referring to is the Euclidean distance. So, let the given point, (<ie /> the centre), be <m> C=(a,b) </m> and let the given distance, (<ie /> the radius),be <m> r </m>. (So <m> a </m>, <m> b </m> and <m> r </m> are known quantities.) Then, if <m> P=(x,y) </m> is some point on the circle then using Equation <xref ref="equation-taxicab-distance" /> we have
             <me>
                 \sqrt{(x-a)^2+(y-b)^2}=r
             </me>
@@ -123,7 +126,7 @@
         </p>
 
         <p>
-            Repeating this process but using taxicab distance formula instead of the Euclidean distance formula gives the equation of a <term> taxicab circle </term>, <idx>taxicab path</idx> namely
+            Repeating this process but using taxicab distance formula instead of the Euclidean distance formula gives the equation of a <term> taxicab circle </term>, <idx>taxicab circle</idx> namely
             <me>
                 |x-a|+|y-b|=r
             </me>.
@@ -160,7 +163,7 @@
         </p>
 
         <p>
-            We will explore properties of the taxicab circle further in ???? but I can't resist talking about <m> \pi </m> now.
+            We will explore properties of taxicab circles further in ???? but I can't resist talking about <m> \pi </m> now. In Euclidean geometry <m> \pi </m> is defined as the ratio of the circumference to the diameter of a circle. So, let's try to use that definition for taxicab circles.
         </p>
 
     </section>
