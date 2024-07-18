@@ -130,7 +130,7 @@
             <me>
                 |x-a|+|y-b|=r
             </me>.
-            <xref ref="figure-taxicab-circle" /> uses GeoGebra to show a plot of the taxicab circle with centre with centre <m> C=(1,2) </m> and radius <m> r=2 </m>. As you can see it is somewhat different to the Euclidean circle with the same centre and radius.
+            <xref ref="figure-taxicab-circle" /> uses GeoGebra to show a plot of the taxicab circle with centre with centre <m> C=(1,2) </m> and radius <m> r=2 </m>. As you can see it is somewhat different to the Euclidean circle with the same centre and radius. You should take the time to check that the points on the taxicab circle are indeed a taxicab distance of 2 away from <m> C </m> and that there are no other points that are a taxicab distance of 2 away from <m> C </m>.
         </p>
 
         <figure xml:id="figure-taxicab-circle">
@@ -165,6 +165,17 @@
         <p>
             We will explore properties of taxicab circles further in ???? but I can't resist talking about <m> \pi </m> now. In Euclidean geometry <m> \pi </m> is defined as the ratio of the circumference to the diameter of a circle. So, let's try to use that definition for taxicab circles.
         </p>
+
+        <figure xml:id="figure-taxicab-pi">
+            <caption>A taxicab circle and a diameter</caption>
+            <image width="50%" source="assets/Taxicab Pi Diagram.jpg">
+                <shortdescription>
+                    <p>
+                        To determine we need to determine the ratio of the circumference to the diameter of the circle.
+                    </p>
+                </shortdescription>
+            </image>
+        </figure>
 
     </section>
 
