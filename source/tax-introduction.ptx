@@ -171,7 +171,7 @@
             <image width="75%" source="assets/taxicab-pi-diagram.jpg">
                 <shortdescription>
                     <p>
-                        To determine we need to determine the ratio of the circumference to the diameter of the circle.
+                        To determine <m> \pi </m> we need to determine the ratio of the circumference to the diameter of the circle.
                     </p>
                 </shortdescription>
             </image>
@@ -195,7 +195,7 @@
         </definition>
 
         <p>
-            With this definition, we can now determine that the length of <q>side</q> <m> DE </m> is <m> 2r </m>. This is because the taxicab distance between <m> D </m> and <m> E </m> is <m> 2r </m>, (which you can see by using the taxicab path <m> DC </m>, <m> DC </m>). Thus the circumference of the taxicab circle is
+            With this definition, we can now determine that the length of <q>side</q> <m> DE </m> is <m> 2r </m>. This is because the taxicab distance between <m> D </m> and <m> E </m> is <m> 2r </m>, (which you can see by using the taxicab path <m> DC </m>, <m> CE </m>). Since the taxicab circle consists of four <q> sides </q> the circumference of the circle is
             <me>
                 \text{circumference}=4*(2r)=8r
             </me>.
@@ -205,7 +205,7 @@
         <claim>
             <statement>
                 <p>
-                    In txicab geometry
+                    In taxicab geometry
                     <me>
                         \pi = \frac{8r}{2r}=4
                     </me>.
