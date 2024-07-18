@@ -269,10 +269,11 @@ d_T(A,B)=|2-(-2)|+|4-1|=7\text{.}
 <div class="para" id="tax-introduction-2-16">In closing this first discussion of taxicab geometry it is worth pointing out explicitly that when discussing taxicab geometry we will often resort to using the language and the tools of (the familiar) Euclidean co-ordinate geometry. This is only natural, we will use what we know to explore what we don’t know. Of course, in places it will be easy to confuse whether we are talking about taxicab geometry results or Euclidean geometry results (or maybe both). Hopefully, care with language, terminology, symbols and other details will minimise such confusion.</div></section><section class="section" id="tax-introduction-3"><h3 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">1.2</span><span class="space"> </span><span class="title">Taxicab Circles</span>
 </h3>
-<div class="para" id="tax-introduction-3-2">The Wikipedia article on the <a class="external" href="https://en.wikipedia.org/wiki/Circle" target="_blank">Circle</a><details class="ptx-footnote" aria-live="polite" id="tax-introduction-3-2-2"><summary class="ptx-footnote__number" title="Footnote 1.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="tax-introduction-3-2-2"><code class="code-inline tex2jax_ignore">en.wikipedia.org/wiki/Circle</code></div></details> defines a circle as follows:</div>
-<blockquote class="blockquote" id="tax-introduction-3-3"><div class="para" id="tax-introduction-3-3-1">A circle is a shape consisting of all points in a plane that are at a given <em class="emphasis">distance</em> from a given point, the centre. The distance between any point of the circle and the centre is called the radius.</div></blockquote>
-<div class="para logical" id="tax-introduction-3-4">
-<div class="para">The emphasis in the above quote is mine … I wanted to highlight that this definition is in terms of distance. Of course, the distance that the article is referring to is the Euclidean distance. So, let the given point, (i.e. the centre), be <span class="process-math">\(C=(a,b) \)</span> and let the given distance, (i.e. the radius),be <span class="process-math">\(r \text{.}\)</span> (So <span class="process-math">\(a \text{,}\)</span> <span class="process-math">\(b \)</span> and <span class="process-math">\(r \)</span> are known quantities.) Then, if <span class="process-math">\(P=(x,y) \)</span> is some point on the circle then using equation <a href="tax-introduction.html#equation-taxicab-distance" class="xref" data-knowl="./knowl/xref/equation-taxicab-distance.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.2">(1.2)</a> we have</div>
+<div class="para" id="tax-introduction-3-2">To get an insight into the nature of taxicab geometry, this section introduces the idea of circles in taxicab geometry. The plan of attack is to begin by looking at how circles arise in Euclidean geometry and then to use that to guide the development of the idea in taxicab geometry. Note that this will be the plan of attack for all that we use for all of the topics that we will explore in taxicab geometry. However, as you will see, along the way we will come across places where we will have to make decisions on how to proceed with the development of some ideas in taxicab geometry. Because taxicab geometry isn’t widely used there are many such places where there is no weight of evidence or thought pointing to what would be the most advantageous way to proceed. In such cases, we are free to make to whatever decision seems sensible at the time. It could be that later on we realise that our decision wasn’t a good one for whatever reason. In which case we can go back, change it, (with the benifit of some insight), and see what happens. I have to say doing this turns out to be rather fun (and, dare I say it, <em class="emphasis">creative</em>)!</div>
+<div class="para" id="tax-introduction-3-3">The Wikipedia article on the <a class="external" href="https://en.wikipedia.org/wiki/Circle" target="_blank">Circle</a><details class="ptx-footnote" aria-live="polite" id="tax-introduction-3-3-2"><summary class="ptx-footnote__number" title="Footnote 1.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="tax-introduction-3-3-2"><code class="code-inline tex2jax_ignore">en.wikipedia.org/wiki/Circle</code></div></details> defines a circle as follows:</div>
+<blockquote class="blockquote" id="tax-introduction-3-4"><div class="para" id="tax-introduction-3-4-1">A circle is a shape consisting of all points in a plane that are at a given <em class="emphasis">distance</em> from a given point, the centre. The distance between any point of the circle and the centre is called the radius.</div></blockquote>
+<div class="para logical" id="tax-introduction-3-5">
+<div class="para">The emphasis in the above quote is mine … I wanted to highlight that this definition is in terms of distance. Of course, the distance that the article is referring to is the Euclidean distance. So, let the given point, (i.e. the centre), be <span class="process-math">\(C=(a,b) \)</span> and let the given distance, (i.e. the radius),be <span class="process-math">\(r \text{.}\)</span> (So <span class="process-math">\(a \text{,}\)</span> <span class="process-math">\(b \)</span> and <span class="process-math">\(r \)</span> are known quantities.) Then, if <span class="process-math">\(P=(x,y) \)</span> is some point on the circle then using Equation <a href="tax-introduction.html#equation-taxicab-distance" class="xref" data-knowl="./knowl/xref/equation-taxicab-distance.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.2">(1.2)</a> we have</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/equation-taxicab-distance.html">
 \begin{equation*}
 \sqrt{(x-a)^2+(y-b)^2}=r
@@ -285,7 +286,7 @@ d_T(A,B)=|2-(-2)|+|4-1|=7\text{.}
 \end{equation*}
 </div>
 </div>
-<div class="para logical" id="tax-introduction-3-5">
+<div class="para logical" id="tax-introduction-3-6">
 <div class="para">Repeating this process but using taxicab distance formula instead of the Euclidean distance formula gives the equation of a <dfn class="terminology">taxicab circle</dfn>,  namely</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/figure-taxicab-circle.html">
 \begin{equation*}
@@ -293,10 +294,11 @@ d_T(A,B)=|2-(-2)|+|4-1|=7\text{.}
 \end{equation*}
 </div>
 <div class="para">
-<a href="tax-introduction.html#figure-taxicab-circle" class="xref" data-knowl="./knowl/xref/figure-taxicab-circle.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.2">Figure 1.2</a> uses GeoGebra to show a plot of the taxicab circle with centre with centre <span class="process-math">\(C=(1,2) \)</span> and radius <span class="process-math">\(r=2 \text{.}\)</span> As you can see it is somewhat different to the Euclidean circle with the same centre and radius.</div>
+<a href="tax-introduction.html#figure-taxicab-circle" class="xref" data-knowl="./knowl/xref/figure-taxicab-circle.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.2">Figure 1.2</a> uses GeoGebra to show a plot of the taxicab circle with centre with centre <span class="process-math">\(C=(1,2) \)</span> and radius <span class="process-math">\(r=2 \text{.}\)</span> As you can see it is somewhat different to the Euclidean circle with the same centre and radius. You should take the time to check that the points on the taxicab circle are indeed a taxicab distance of 2 away from <span class="process-math">\(C \)</span> and that there are no other points that are a taxicab distance of 2 away from <span class="process-math">\(C \text{.}\)</span>
+</div>
 </div>
 <figure class="figure figure-like" id="figure-taxicab-circle"><iframe id="figure-taxicab-circle-2" width="510" height="510" src="figure-taxicab-circle-2-if.html"></iframe><div class="instructions"><details id="figure-taxicab-circle-2-2" class="solution-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Instructions<span class="period">.</span></span></h4></summary><div class="solution-like knowl__content"><div class="para" id="figure-taxicab-circle-2-2-1">You can move the centre point <span class="process-math">\(C \)</span> or change the radius <span class="process-math">\(r \)</span> via the slider.</div></div></details></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2<span class="period">.</span></span><span class="space"> </span>Taxicab circle with centre C and radius r</figcaption></figure><div class="para logical" id="tax-introduction-3-7">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.2<span class="period">.</span></span><span class="space"> </span>Taxicab circle with centre C and radius r</figcaption></figure><div class="para logical" id="tax-introduction-3-8">
 <div class="para">If you were to plot the graph of the taxicab circle with centre with centre <span class="process-math">\(C=(1,2) \)</span> and radius <span class="process-math">\(r=2 \)</span> by hand you would have to plot the graph of the equation</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -304,15 +306,43 @@ d_T(A,B)=|2-(-2)|+|4-1|=7\text{.}
 \end{equation*}
 </div>
 <div class="para">The graph of this equation is probably easier seen if the equation is rewritten as</div>
-<div class="displaymath process-math" id="tax-introduction-3-7-4">
+<div class="displaymath process-math" id="tax-introduction-3-8-4">
 \begin{align*}
 y\amp=5-x \amp \text{when } \amp x \ge 1, y\ge 2\\
 y\amp=x-1 \amp \text{when } \amp x \ge 1, y\lt 2\\
 y\amp=x+3 \amp \text{when } \amp x \lt 1, y\ge 2\\
-y\amp=1-x \amp \text{when } \amp x \lt 1, y\lt 2
+y\amp=1-x \amp \text{when } \amp x \lt 1, y\lt 2\text{.}
 \end{align*}
 </div>
-</div></section></section></div>
+</div>
+<div class="para" id="tax-introduction-3-9">We will explore properties of taxicab circles further in ???? but I can’t resist talking about <span class="process-math">\(\pi \)</span> now. In Euclidean geometry <span class="process-math">\(\pi \)</span> is defined as the ratio of the circumference to the diameter of a circle. So, let’s try to use that definition for taxicab circles. <a href="tax-introduction.html#figure-taxicab-pi" class="xref" data-knowl="./knowl/xref/figure-taxicab-pi.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.3">Figure 1.3</a> shows a taxicab circle with centre <span class="process-math">\(C \)</span> and radius <span class="process-math">\(r \text{,}\)</span> say, as well as a straight line passing through <span class="process-math">\(C \text{.}\)</span>
+</div>
+<figure class="figure figure-like" id="figure-taxicab-pi"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/assets/taxicab-pi-diagram.jpg" class="contained" alt="To determine we need to determine the ratio of the circumference to the diameter of the circle."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.3<span class="period">.</span></span><span class="space"> </span>A taxicab circle and a diameter</figcaption></figure><div class="para" id="tax-introduction-3-11">To determine the circumference of the circle we need to first determine the length of one of the “sides” of the circle, for example the interval <span class="process-math">\(DE \text{.}\)</span> Now, we can use the taxicab distance formula <a href="tax-introduction.html#equation-taxicab-distance" class="xref" data-knowl="./knowl/xref/equation-taxicab-distance.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 1.2">(1.2)</a> to determine the taxicab distance between the points <span class="process-math">\(D \)</span> and <span class="process-math">\(E \)</span> but we have the problem that the path used to determine this distance doesn’t coincide with the side <span class="process-math">\(DE \text{.}\)</span> For the moment then, let’s make the following decision. <details class="ptx-footnote" aria-live="polite" id="tax-introduction-3-11-7"><summary class="ptx-footnote__number" title="Footnote 1.4"><sup> 4 </sup></summary><div class="ptx-footnote__contents" id="tax-introduction-3-11-7">We will look at the idea of the length of an interval in more detail in ????</div></details>
+</div>
+<article class="definition definition-like" id="definition-interval-length"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.4</span><span class="period">.</span>
+</h4> <div class="para" id="definition-interval-length-3-1">The length of the interval joining the points <span class="process-math">\(D \)</span> and <span class="process-math">\(E \)</span> is given by the taxicab distance between the endpoints of the interval, i.e. <span class="process-math">\(D \)</span> and <span class="process-math">\(E \text{.}\)</span>
+</div></article><div class="para logical" id="tax-introduction-3-13">
+<div class="para">With this definition, we can now determine that the length of “side” <span class="process-math">\(DE \)</span> is <span class="process-math">\(2r \text{.}\)</span> This is because the taxicab distance between <span class="process-math">\(D \)</span> and <span class="process-math">\(E \)</span> is <span class="process-math">\(2r \text{,}\)</span> (which you can see by using the taxicab path <span class="process-math">\(DC \text{,}\)</span> <span class="process-math">\(DC \)</span>). Thus the circumference of the taxicab circle is</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/definition-interval-length.html ./knowl/xref/definition-interval-length.html">
+\begin{equation*}
+\text{circumference}=4*(2r)=8r\text{.}
+\end{equation*}
+</div>
+<div class="para">Similarly the diameter of the circle will be the length of the interval <span class="process-math">\(AB \)</span> which is, using <a href="tax-introduction.html#definition-interval-length" class="xref" data-knowl="./knowl/xref/definition-interval-length.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 1.4">Definition 1.4</a>, <span class="process-math">\(2r \text{.}\)</span> Thus, so long as we are happy with <a href="tax-introduction.html#definition-interval-length" class="xref" data-knowl="./knowl/xref/definition-interval-length.html" data-reveal-label="Reveal" data-close-label="Close" title="Definition 1.4">Definition 1.4</a>, we have:</div>
+</div>
+<article class="claim theorem-like" id="tax-introduction-3-14"><h4 class="heading">
+<span class="type">Claim</span><span class="space"> </span><span class="codenumber">1.5</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="tax-introduction-3-14-1-1">
+<div class="para">In txicab geometry</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\pi = \frac{8r}{2r}=4\text{.}
+\end{equation*}
+</div>
+</div></article></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="taxicab.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="modules.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
