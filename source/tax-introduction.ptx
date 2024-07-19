@@ -168,7 +168,7 @@
 
         <figure xml:id="figure-taxicab-pi">
             <caption>A taxicab circle and a diameter</caption>
-            <image width="75%" source="assets/taxicab-pi-diagram.jpg">
+            <image width="75%" source="/assets/taxicab-pi-diagram.jpg">
                 <shortdescription>
                     <p>
                         To determine <m> \pi </m> we need to determine the ratio of the circumference to the diameter of the circle.
