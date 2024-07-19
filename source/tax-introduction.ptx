@@ -186,7 +186,6 @@
 
         <definition xml:id="definition-interval-length">
             <idx>length of an interval</idx>
-            <idx><h>integral</h><h>indefinite integral</h></idx>
             <statement>
                 <p>
                     The length of the interval joining the points <m> D </m> and <m> E </m> is given by the taxicab distance between the endpoints of the interval, <ie /> <m> D </m> and <m> E </m>.
@@ -213,6 +212,30 @@
             </statement>
         </claim>
 
+    </section>
+
+    <section> <title> Taxicab Angles </title>
+        <p>
+            As mentioned earlier, the taxicab geometry considered by Kraus was the same as Euclidean co-ordinate geometry except for the way that distance is calculated. However the taxicab geometry that I am going to explore has one other distinction from Euclidean co-ordinate geometry, the way that angles are determined. As we have done already, we will be guided by ideas from Euclidean geometry.
+        </p>
+
+        <p>
+            In Euclidean geometry, the radian is an often used measure of an angle. We can define one radian, (denoted by <m> 1^c </m>), as the measure of the angle subtended at the centre of the unit circle by an arc of the circle of length 1. See figure ????. 
+        </p>
+
+        <p>
+            Of course the unit circle used in defining the radian is the Euclidean circle. So, let's define the taxicab radian, which I will call the tradian, in a similar fashion but using the taxicab circle.
+        </p>
+
+        <definition xml:id="definition-tradian">
+            <idx>tradian</idx>
+            <statement>
+                <p>
+                    One <term> tradian </term>, (denoted by <m> 1^t </m>), is defined to be the taxicab measure of the angle subtended at the centre of the unit taxicab circle by an arc of the circle of length 1.
+              </p>
+            </statement>
+        </definition>
+    
     </section>
 
 </chapter>
