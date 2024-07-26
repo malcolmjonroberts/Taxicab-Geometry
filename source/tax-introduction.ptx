@@ -168,10 +168,10 @@
 
         <figure xml:id="figure-taxicab-pi">
             <caption>A taxicab circle and a diameter</caption>
-            <image width="85%" source="./workspaces/Taxicab-Geometry/assets/taxicab-pi-diagram.jpg">
+            <image width="85%" source="Taxicab-Geometry/assets/taxicab-pi-diagram.jpg">
                 <shortdescription>
                     <p>
-                        To determine <m> \pi </m> we need to determine the ratio of the circumference to the diameter of the circle.
+                        To determine pi we need to determine the ratio of the circumference to the diameter of the circle.
                     </p>
                 </shortdescription>
             </image>
@@ -236,6 +236,21 @@
             </statement>
         </definition>
     
+        <figure xml:id="figure-tradian">
+            <caption>Arc of length 1 on the Unit taxicab circle</caption>
+            <interactive platform="geogebra" width="85%" aspect="1:1">
+                <slate surface="geogebra" material="vtfjsw2" aspect="1:1">
+                    setAxisSteps(2, 1, 1, 0);
+                    setCoordSystem(-1.5, 1.5, -1.5, 1.5);
+                </slate>
+                <instructions>
+                    <p>
+                        You can move the point <m> P </m>. It is constrained, however, to stay on the unit circle.
+                    </p>
+                </instructions>
+            </interactive>
+        </figure>
+
     </section>
 
 </chapter>
