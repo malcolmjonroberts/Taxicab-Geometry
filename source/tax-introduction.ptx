@@ -216,7 +216,7 @@
 
     <section> <title> Taxicab Angles </title>
         <p>
-            As mentioned earlier, the taxicab geometry considered by Kraus was the same as Euclidean co-ordinate geometry except for the way that distance is calculated. However the taxicab geometry that I am going to explore has one other distinction from Euclidean co-ordinate geometry, the way that angles are determined. As we have done already, we will be guided by ideas from Euclidean geometry.
+            As mentioned earlier, the taxicab geometry considered by Kraus is the same as Euclidean co-ordinate geometry except for the way that distance is calculated. However the taxicab geometry that I am going to explore has one other distinction from Euclidean co-ordinate geometry, the way that angles are determined. As we have done already, we will be guided by ideas from Euclidean geometry.
         </p>
 
         <p>
@@ -235,8 +235,23 @@
               </p>
             </statement>
         </definition>
+
+        <p>
+            A comprehensive discussion of Definition <xref ref="definition-tradian" /> can be found in <xref ref="biblio-thompson-dray-article" />. However, to get a feel for it, look at <xref ref="figure-tradian-measure" />. So, to determine the taxicab measure of some angle <m> \angle ABC </m> in the plane you would first draw a taxicab circle of radius 1 with it's centre on the vertex <m> B </m> of the angle. You would then extend, if necessary, the arms, <m> BA </m> and <m> BC </m> of the angle so that they intercepted the circle. Then the taxicab measure of the angle would be the number of tradians needed to cover the angle.
+        </p>
+
+        <figure xml:id="figure-tradian-measure">
+            <caption>The taxicab measure of an angle</caption>
+            <image width="85%" source="Taxicab-Geometry/assets/taxicab-pi-diagram.jpg">
+                <shortdescription>
+                    <p>
+                        To determine pi we need to determine the ratio of the circumference to the diameter of the circle.
+                    </p>
+                </shortdescription>
+            </image>
+        </figure>
     
-        <figure xml:id="figure-tradian">
+        <figure xml:id="figure-tradian-rotation">
             <caption>Arc of length 1 on the Unit taxicab circle</caption>
             <interactive platform="geogebra" width="85%" aspect="1:1">
                 <slate surface="geogebra" material="vtfjsw2" aspect="1:1">
