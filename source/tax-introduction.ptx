@@ -216,41 +216,39 @@
 
     <section> <title> Taxicab Angles </title>
         <p>
-            As mentioned earlier, the taxicab geometry considered by Kraus is the same as Euclidean co-ordinate geometry except for the way that distance is calculated. However the taxicab geometry that I am going to explore has one other distinction from Euclidean co-ordinate geometry, the way that angles are determined. As we have done already, we will be guided by ideas from Euclidean geometry.
+            As mentioned earlier, the taxicab geometry considered by Kraus is the same as Euclidean co-ordinate geometry except for the way that distance is calculated. However <xref ref="biblio-thompson-dray-article"> Thompson and Dray </xref> explore a variation of taxicab geometry which has another distinction from Euclidean co-ordinate geometry, that being the way in which angles are determined. As is often the way in developing taxicab geometry ideas, Thompson and Dray's approach is guided by ideas from Euclidean geometry.
         </p>
 
         <p>
-            In Euclidean geometry, the radian is an often used measure of an angle. We can define one radian, (denoted by <m> 1^c </m>), as the measure of the angle subtended at the centre of the unit circle by an arc of the circle of length 1. For an equivalent definition accompanied by a dynamic figure see the Wikipedia article on the <url href="https://en.wikipedia.org/wiki/Radian"> Radian </url>. 
+            In Euclidean geometry, the radian is an often used measure of an angle. Following the Wikipedia article on the <url href="https://en.wikipedia.org/wiki/Radian"> Radian </url> we can define one radian as follows:
         </p>
 
+        <definition xml:id="definition-radian">
+            <idx>radian</idx>
+            <statement>
+                <p>
+                    One <term> radian </term>, (denoted by <m> 1^c </m>), is defined to be the measure of the angle subtended at the centre of a circle which intercepts an arc equal in length to the radius of the circle.
+              </p>
+            </statement>
+        </definition>
+
         <p>
-            Of course the unit circle used in defining the radian is the Euclidean circle. So, let's define the taxicab radian, which I will call the tradian, in a similar fashion but using the taxicab circle.
+            See the Wikipedia article for a dynamic diagram illustrating this definition. Of course the circle used in defining the radian is the Euclidean circle. So, to define the taxicab radian it seems reasonable to make a similar definition but using a taxicab circle instead.
         </p>
 
         <definition xml:id="definition-tradian">
             <idx>tradian</idx>
             <statement>
                 <p>
-                    One <term> tradian </term>, (denoted by <m> 1^t </m>), is defined to be the taxicab measure of the angle subtended at the centre of the unit taxicab circle by an arc of the circle of length 1.
+                    One taxicab radian, which we will call a <term> tradian </term>, (denoted by <m> 1^t </m>), is defined to be the taxicab measure of the angle subtended at the centre of a taxicab circle which intercepts an arc equal in (taxicab) length to the radius of the circle 1.
               </p>
             </statement>
         </definition>
 
         <p>
-            A comprehensive discussion of Definition <xref ref="definition-tradian" /> can be found in <xref ref="biblio-thompson-dray-article" />. However, to get a feel for it, look at <xref ref="figure-tradian-measure" />. So, to determine the taxicab measure of some angle <m> \angle ABC </m> in the plane you would first draw a taxicab circle of radius 1 with it's centre on the vertex <m> B </m> of the angle. You would then extend, if necessary, the arms, <m> BA </m> and <m> BC </m> of the angle so that they intercepted the circle. Then the taxicab measure of the angle would be the number of tradians needed to cover the angle.
+            Note that in both Euclidean geometry and taxicab geometry, if the circle used to determine the measure of an angle is a circle of radius 1 (<ie /> a unit circle), then the measure of the angle is numerically the same as the length of the arc of the circle that the angle intercepts. Using this observation, Figure <xref ref="figure-tradian-rotation" /> shows an angle whose measure is 1 tradian.
         </p>
-
-        <figure xml:id="figure-tradian-measure">
-            <caption>The taxicab measure of an angle</caption>
-            <image width="85%" source="Taxicab-Geometry/assets/taxicab-pi-diagram.jpg">
-                <shortdescription>
-                    <p>
-                        To determine pi we need to determine the ratio of the circumference to the diameter of the circle.
-                    </p>
-                </shortdescription>
-            </image>
-        </figure>
-    
+        
         <figure xml:id="figure-tradian-rotation">
             <caption>Arc of length 1 on the Unit taxicab circle</caption>
             <interactive platform="geogebra" width="85%" aspect="1:1">
@@ -265,6 +263,23 @@
                 </instructions>
             </interactive>
         </figure>
+
+        <p>
+            However, to get a feel for it, look at <xref ref="figure-tradian-measure" />. So, to determine the taxicab measure of some angle <m> \angle ABC </m> in the plane you would first draw a taxicab circle of radius 1 with it's centre on the vertex <m> B </m> of the angle. You would then extend, if necessary, the arms, <m> BA </m> and <m> BC </m> of the angle so that they intercepted the circle. Then the taxicab measure of the angle would be the number of tradians needed to cover the angle.
+        </p>
+
+        <figure xml:id="figure-tradian-measure">
+            <caption>The taxicab measure of an angle</caption>
+            <image width="85%" source="Taxicab-Geometry/assets/taxicab-pi-diagram.jpg">
+                <shortdescription>
+                    <p>
+                        To determine pi we need to determine the ratio of the circumference to the diameter of the circle.
+                    </p>
+                </shortdescription>
+            </image>
+        </figure>
+    
+        
 
     </section>
 
