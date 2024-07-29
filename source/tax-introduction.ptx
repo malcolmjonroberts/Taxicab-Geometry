@@ -240,7 +240,7 @@
             <idx>tradian</idx>
             <statement>
                 <p>
-                    One taxicab radian, which we will call a <term> tradian </term>, (denoted by <m> 1^t </m>), is defined to be the taxicab measure of the angle subtended at the centre of a taxicab circle which intercepts an arc equal in (taxicab) length to the radius of the circle 1.
+                    One taxicab radian, which we will call a <term> tradian </term>, (denoted by <m> 1^t </m>), is defined to be the taxicab measure of the angle subtended at the centre of a taxicab circle which intercepts an arc equal in (taxicab) length to the radius of the circle.
               </p>
             </statement>
         </definition>
@@ -265,7 +265,11 @@
         </figure>
 
         <p>
-            However, to get a feel for it, look at <xref ref="figure-tradian-measure" />. So, to determine the taxicab measure of some angle <m> \angle ABC </m> in the plane you would first draw a taxicab circle of radius 1 with it's centre on the vertex <m> B </m> of the angle. You would then extend, if necessary, the arms, <m> BA </m> and <m> BC </m> of the angle so that they intercepted the circle. Then the taxicab measure of the angle would be the number of tradians needed to cover the angle.
+            If you click on the checkbox in Figure <xref ref="figure-tradian-rotation" /> to view the Euclidean measure of the angle whose taxicab measure is 1 tradian then you will notice a perturbing feature of the tradian. For an angle of a given taxicab measure, the Eucidean measure of that angle depends upon the orientation of the angle! Another way of saying this is to say that the taxicab measure of an angle is not invariant under a rotation. For this reason Thompson and Dray introduce the notion of the taxicab measure of an angle in standard position.
+        </p>
+
+        <p>
+            Despite this unsettling property of tradians we can still work with the idea. Firstly to determine the taxicab measure of some angle <m> \angle ABC </m> in the plane you would first draw a taxicab circle of radius 1 with it's centre on the vertex <m> B </m> of the angle. You would then extend, if necessary, the arms, <m> BA </m> and <m> BC </m> of the angle so that they intercepted the circle. Then the taxicab measure of the angle would be given by the taxicab length of the arc subtended by the angle. 
         </p>
 
         <figure xml:id="figure-tradian-measure">
@@ -273,13 +277,19 @@
             <image width="85%" source="Taxicab-Geometry/assets/taxicab-pi-diagram.jpg">
                 <shortdescription>
                     <p>
-                        To determine pi we need to determine the ratio of the circumference to the diameter of the circle.
+                        Determining the taxicab measure of an angle.
                     </p>
                 </shortdescription>
             </image>
         </figure>
     
-        
+        <p>
+            Full turn has taxicab measure of 8 tradians, half turn (in standard position?) has a taxicab measure of 4 tradians and a quarter turn (in standard position?) has a taxicab measure of 2 tradians. 
+        </p>
+
+        <p>
+            The angle sum of a triangle will be 4 tradians.
+        </p>
 
     </section>
 
