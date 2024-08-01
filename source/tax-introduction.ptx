@@ -246,11 +246,11 @@
         </definition>
 
         <p>
-            Note that in both Euclidean geometry and taxicab geometry, if the circle used to determine the measure of an angle is a circle of radius 1 (<ie /> a unit circle), then the measure of the angle is numerically the same as the length of the arc of the circle that the angle intercepts. Using this observation, Figure <xref ref="figure-tradian-rotation" /> shows an angle whose measure is 1 tradian.
+            Note that in both Euclidean geometry and taxicab geometry, if the circle used to determine the measure of an angle is a circle of radius 1 (<ie /> a unit circle), then the measure of the angle is numerically the same as the length of the arc of the circle that the angle intercepts. Using this observation, Figure <xref ref="diagram-one-tradian" /> shows an angle whose measure is 1 tradian.
         </p>
         
-        <figure xml:id="figure-tradian-rotation">
-            <caption>Arc of length 1 on the Unit taxicab circle</caption>
+        <figure xml:id="diagram-one-tradian">
+            <caption>Arc of length 1 on the unit taxicab circle</caption>
             <interactive platform="geogebra" width="85%" aspect="1:1">
                 <slate surface="geogebra" material="vtfjsw2" aspect="1:1">
                     setAxisSteps(2, 1, 1, 0);
@@ -265,22 +265,26 @@
         </figure>
 
         <p>
-            If you click on the checkbox in Figure <xref ref="figure-tradian-rotation" /> to view the Euclidean measure of the angle whose taxicab measure is 1 tradian then you will notice a perturbing feature of the tradian. For an angle of a given taxicab measure, the Eucidean measure of that angle depends upon the orientation of the angle! Another way of saying this is to say that the taxicab measure of an angle is not invariant under a rotation. For this reason Thompson and Dray introduce the notion of the taxicab measure of an angle in standard position.
+            If you click on the checkbox in Figure <xref ref="diagram-one-tradian" /> to view the Euclidean measure of the angle whose taxicab measure is 1 tradian then you will notice an <q> interesting </q> feature of the tradian. For an angle of a given taxicab measure, the Eucidean measure of that angle depends upon the orientation of the angle! Another way of saying this is to say that, for an angle of a given taxicab measure, the fraction of a full turn that you would make to go from facing one arm of the angle to the other arm of the angle depends on the orientation of the angle. For this reason Thompson and Dray introduce the notion of the taxicab measure of an angle in standard position. An angle is said to be in <term> standard position </term> if one of the arms of the angle is parallel to the <m> x </m>-axis. 
         </p>
 
         <p>
-            Despite this unsettling property of tradians we can still work with the idea. Firstly to determine the taxicab measure of some angle <m> \angle ABC </m> in the plane you would first draw a taxicab circle of radius 1 with it's centre on the vertex <m> B </m> of the angle. You would then extend, if necessary, the arms, <m> BA </m> and <m> BC </m> of the angle so that they intercepted the circle. Then the taxicab measure of the angle would be given by the taxicab length of the arc subtended by the angle. 
+            Despite the fact that the taxicab measure of an angle depends on the orientation of the angle we can still work with the idea of tradians. Firstly, to determine the taxicab measure of some angle <m> \angle ABC </m> in the plane you would first draw a taxicab circle of radius 1 with it's centre on the vertex <m> B </m> of the angle. You would then extend, if necessary, the arms, <m> BA </m> and <m> BC </m> of the angle so that they intercepted the circle. Then the taxicab measure of the angle would be given by the taxicab length of the arc subtended by the angle. For an example see <xref ref="diagram-taxicab-angle-measure" />.
         </p>
 
-        <figure xml:id="figure-tradian-measure">
-            <caption>The taxicab measure of an angle</caption>
-            <image width="85%" source="Taxicab-Geometry/assets/taxicab-pi-diagram.jpg">
-                <shortdescription>
+        <figure xml:id="diagram-taxicab-angle-measure">
+            <caption>Arc of length 1 on the Unit taxicab circle</caption>
+            <interactive platform="geogebra" width="85%" aspect="1:1">
+                <slate surface="geogebra" material="z5nv7ybh" aspect="1:1">
+                    setAxisSteps(2, 1, 1, 0);
+                    setCoordSystem(0, 4.5, 0, 4.5);
+                </slate>
+                <instructions>
                     <p>
-                        Determining the taxicab measure of an angle.
+                        You can move the point <m> A </m>. It is constrained, however, to make sure that the arc subtended by the angle stays on the <q> one side </q> of the circle.
                     </p>
-                </shortdescription>
-            </image>
+                </instructions>
+            </interactive>
         </figure>
     
         <p>
@@ -289,6 +293,10 @@
 
         <p>
             The angle sum of a triangle will be 4 tradians.
+        </p>
+
+        <p>
+            The taxicab plane <m> \mathbb{T}^2 </m>.
         </p>
 
     </section>
