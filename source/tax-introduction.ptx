@@ -252,7 +252,7 @@
         <figure xml:id="diagram-one-tradian">
             <caption>Arc of length 1 on the unit taxicab circle</caption>
             <interactive platform="geogebra" width="85%" aspect="1:1">
-                <slate surface="geogebra" material="vtfjsw2" aspect="1:1">
+                <slate surface="geogebra" material="dzqwghtp" aspect="1:1">
                     setAxisSteps(2, 1, 1, 0);
                     setCoordSystem(-1.5, 1.5, -1.5, 1.5);
                 </slate>
@@ -265,7 +265,7 @@
         </figure>
 
         <p>
-            If you click on the checkbox in Figure <xref ref="diagram-one-tradian" /> to view the Euclidean measure of the angle whose taxicab measure is 1 tradian then you will notice an <q> interesting </q> feature of the tradian. For an angle of a given taxicab measure, the Eucidean measure of that angle depends upon the orientation of the angle! Another way of saying this is to say that, for an angle of a given taxicab measure, the fraction of a full turn that you would make to go from facing one arm of the angle to the other arm of the angle depends on the orientation of the angle. For this reason Thompson and Dray introduce the notion of the taxicab measure of an angle in standard position. An angle is said to be in <term> standard position </term> if one of the arms of the angle is parallel to the <m> x </m>-axis. 
+            If you click on the checkbox in <xref ref="diagram-one-tradian" /> to view the Euclidean measure of the angle whose taxicab measure is 1 tradian then you will notice an <q> interesting </q> feature of the tradian. For an angle of a given taxicab measure, the Eucidean measure of that angle depends upon the orientation of the angle! Another way of saying this is to say that, for an angle of a given taxicab measure, the fraction of a full turn that you would make to go from facing one arm of the angle to the other arm of the angle depends on the orientation of the angle. For this reason Thompson and Dray introduce the notion of the taxicab measure of an angle in standard position. An angle is said to be in <term> standard position </term> if one of the arms of the angle is parallel to the <m> x </m>-axis. 
         </p>
 
         <p>
@@ -275,7 +275,7 @@
         <figure xml:id="diagram-taxicab-angle-measure">
             <caption>Arc of length 1 on the Unit taxicab circle</caption>
             <interactive platform="geogebra" width="85%" aspect="1:1">
-                <slate surface="geogebra" material="z5nv7ybh" aspect="1:1">
+                <slate surface="geogebra" material="dzqwghtp" aspect="1:1">
                     setAxisSteps(2, 1, 1, 0);
                     setCoordSystem(0, 4.5, 0, 4.5);
                 </slate>
