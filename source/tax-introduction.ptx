@@ -273,9 +273,9 @@
         </p>
 
         <figure xml:id="diagram-taxicab-angle-measure">
-            <caption>Arc of length 1 on the Unit taxicab circle</caption>
+            <caption>Determining the taxicab measure of <m> \angle ABC </m> </caption>
             <interactive platform="geogebra" width="85%" aspect="1:1">
-                <slate surface="geogebra" material="dzqwghtp" aspect="1:1">
+                <slate surface="geogebra" material="z5nv7ybh" aspect="1:1">
                     setAxisSteps(2, 1, 1, 0);
                     setCoordSystem(0, 4.5, 0, 4.5);
                 </slate>
